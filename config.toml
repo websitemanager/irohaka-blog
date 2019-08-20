@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+title = "New Hugo Supernormal Site"
+languageCode = "ja-jp"
+disablePathToLower = true
+hasCJKLanguage = true
+pluralizeListTitles = false
+pygmentsUseClasses = true
+pygmentsCodefences = true
+theme = "Supernormal"
+paginate = 3
+
+[Params]
+    author = "Hoge"
+    profile_image = "images/profile.jpg"
+    featured_image = "images/cover.svg"
+    
+
+[blackfriday]
+    hrefTargetBlank = true
+    nofollowLinks = true
+    extensionsmask = ["autolink"]

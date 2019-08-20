@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+  background: #19191a;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ccc;
+  text-align: left;
+  font-feature-settings: "palt" 1;
+  text-size-adjust: 100%;
+  justify-content: space-between;
+}
+
+
+a {
+  text-decoration: none;
+  color:#327ee0;
+}
+a:hover{
+  text-decoration: none;
+  color:#3ba5fc;
+}
+
+li {
+  list-style: none;
+}
+li.title{
+  font-size:1.5rem;
+  line-height: 2.5rem;
+}
+header,
+main,
+footer {
+  width: 80%;
+  max-width:1080px;
+  margin: 0 auto;
+}
+ 
+header {
+  padding-top: 16px;
+}
+ 
+
+main,
+nav,
+footer {
+  margin-top: 40px;
+}
+ 
+li {
+  margin-bottom: 16px;
+}
+ 
+li span {
+  margin-right: 16px;
+}
+ 
+nav,
+footer {
+  text-align: center;
+}
+ 
+ 
+.entry-content {
+  margin-top: 40px;
+}
+
+p.Summary{
+  margin-bottom: 3rem;
+}
+img{max-width:100%;
+ height:auto;
+}

@@ -1,0 +1,15 @@
+
+{{ define "main" }}
+        <article>
+                <ul>
+                    {{ range .Pages }}
+                        <li class="title">
+                            <a href="{{.Permalink}}">{{.Title}} | {{.Date.Format "2006-Jan-02"}}  </a>
+                            {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
+                        </li>
+                        {{.Params.featured_images}}
+                        <p class="Summary">{{ substr .Summary 0 200 }}</p>
+                    {{ end }}
+                    </ul>
+            </article>
+{{ end }}
