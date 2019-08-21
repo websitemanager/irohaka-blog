@@ -5,6 +5,8 @@
       <h1 id="title">{{ .Title }}</h1>
       <p class="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
   </div>
+ 
+<!-- pending tag issue...
   <div>
       {{ with .Params.topics }}
       <ul id="topics">
@@ -23,6 +25,7 @@
       </ul>
       {{ end }}
       </div>
+-->
       {{ if .Params.featured_image }}
       <figure>
         <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
