@@ -1,15 +1,21 @@
 
 {{ define "main" }}
-        <article>
-                <ul>
-                    {{ range .Pages }}
-                        <li class="title">
-                            <a href="{{.Permalink}}">{{.Title}} | {{.Date.Format "2006-Jan-02"}}  </a>
-                            {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
-                        </li>
-                        {{.Params.featured_images}}
-                        <p class="Summary">{{ substr .Summary 0 200 }}</p>
-                    {{ end }}
-                    </ul>
-            </article>
+        {{ range (.Paginator 5).Pages }}
+        <article class="toplist">
+        <div>
+         <div class="list-title">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><time>{{.Date.Format "2006-Jan-02"}}</time></div>
+            {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
+            {{ .Summary }}
+        </div>
+            {{ if .Truncated }}
+            <div>
+            <a href="{{ .RelPermalink }}">Read More…</a>
+            </div>
+            {{ end }}
+        </article>
+        {{ end }}
+        <section>
+         {{ template "_internal/pagination.html" . }}
+        </section>
 {{ end }}

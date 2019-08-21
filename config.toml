@@ -1,13 +1,9 @@
 baseURL = "http://example.org/"
 title = "New Hugo Supernormal Site"
 languageCode = "ja-jp"
-disablePathToLower = true
 hasCJKLanguage = true
-pluralizeListTitles = false
-pygmentsUseClasses = true
-pygmentsCodefences = true
 theme = "Supernormal"
-paginate = 3
+
 
 [Params]
     author = "Hoge"
