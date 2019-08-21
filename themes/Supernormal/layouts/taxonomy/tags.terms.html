@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1">
+       {{ template "_internal/opengraph.html" . }}
+       {{ template "_internal/twitter_cards.html" . }}
+       {{ template "_internal/schema.html" . }}
+       <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/style.css"> 
+       <title>{{ .Title }} Cloud -- {{ .Site.Title }}</title>
+       <style>
+        ul.cloud {
+            list-style: none;
+            padding: 0
+        }
+        ul.cloud > li {
+            display: inline-block;
+            margin: 0 0.5rem;
+        }
+        </style>
+    </head>
+    <body>
+<header>
+  <h1><a href="{{ .Site.BaseURL }}">{{.Site.Title}}</a></h1>
+</header>
+<body>
+<main>
+
+    <section id="main">
+        <div>
+           <h1 id="title">{{ .Title }}</h1>
+           <div class="tags_list">
+           {{ range $key, $value := .Data.Terms }}
+               <div class="tags_item">
+                   <a href="{{ $key | urlize }}">{{ $key }} <span class="tags_number">{{ len $value }}</span></a>
+               </div>
+           {{ end }}
+           </div>
+         </div>
+       </section>
+    {{ partial "footer.html" . }}
+    </body>
+    <html>
+

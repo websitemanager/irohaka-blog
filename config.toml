@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
-title = "New Hugo Supernormal Site"
+title = "イロハカの自転車日記"
 languageCode = "ja-jp"
 hasCJKLanguage = true
 theme = "Supernormal"
@@ -14,3 +14,7 @@ theme = "Supernormal"
     hrefTargetBlank = true
     nofollowLinks = true
     extensionsmask = ["autolink"]
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
