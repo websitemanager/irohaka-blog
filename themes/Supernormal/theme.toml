@@ -3,20 +3,13 @@
 
 name = "Supernormal"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
-features = []
+licenselink = "https://github.com/irohaka/Supernormal/master/LICENSE"
+description = "blog theme for hugo"
+tags = "blog"
 min_version = "0.41"
 
 
 [author]
-  name = ""
-  homepage = ""
+  name = "irohaka"
+  homepage = "https://irohaka.com"
 
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
