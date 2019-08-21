@@ -13,7 +13,6 @@ paginate = 3
     author = "Hoge"
     profile_image = "images/profile.jpg"
     featured_image = "images/cover.svg"
-    
 
 [blackfriday]
     hrefTargetBlank = true
