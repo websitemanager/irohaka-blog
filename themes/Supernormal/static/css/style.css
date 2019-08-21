@@ -200,3 +200,16 @@ hr{
   margin-top:12px;
   margin-bottom: 12px;
 }
+
+/*   media queries   */
+@media screen and (max-width: 896px) { 
+h1#title{
+  font-size:4vw;
+}
+body{
+  max-width:98%;
+  background: #222;
+  margin:auto;
+}
+
+}
