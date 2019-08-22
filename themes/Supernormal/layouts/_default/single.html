@@ -1,5 +1,6 @@
 
 {{ define "main" }}
+<main>
 <section id="main">
   <div class="title_line">
       <h1 id="title">{{ .Title }}</h1>
@@ -10,26 +11,13 @@
         <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
       </figure>
       {{ end}}
-  <div>
-        <article id="content">
+    <article id="content">
            {{ .Content }}
-        </article>
-  </div>
+     </article>
+     {{ partial "prev-next" . }}
 </section>
-<div class="next">
-  {{ with .PrevInSection }}
-    <a class="previous" href="{{ .Permalink }}"> 前の記事｜「{{ .Title }}」</a>
-    {{ else }}
-     &nbsp;
-    {{ end }}
-
-  {{ with .NextInSection }}
-    <a class="next" href="{{ .Permalink }}"> 次の記事｜「{{ .Title }}」</a>
-    {{ else }}
-     &nbsp;
-    {{ end }}
-</div>
 <div>
 {{ template "_internal/disqus.html" . }}
-</div>  
+</div>
+</main>  
 {{ end }}
