@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "{{ .Site.BaseURL }}"
 title = "イロハカの自転車日記"
 languageCode = "ja-jp"
 hasCJKLanguage = true
