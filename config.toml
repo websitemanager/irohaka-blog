@@ -4,6 +4,7 @@ languageCode = "ja-jp"
 hasCJKLanguage = true
 theme = "Supernormal"
 
+disqusShortname = "irohaka"
 
 [Params]
     author = "Hoge"
