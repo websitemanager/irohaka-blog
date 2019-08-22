@@ -151,7 +151,31 @@ li {
 li span {
   margin-right: 16px;
 }
- 
+
+/* 前ページ、次ページへのリンク */
+div.prevnextink {
+  margin-top:30px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size:0.7rem;
+  line-height:2rem;
+}
+.prevlink {
+  text-align: right;
+  align-items: right;
+  padding:10px;
+}
+.nextlink {
+  text-align: left;
+  align-items: left;
+  padding:10px;
+}
+
+
 nav,
 footer {
   text-align: center;
@@ -223,26 +247,3 @@ body{
 
 }
 
-/* 前ページ、次ページへのリンク */
-.xPrevNextLink::after {
-  /* float による回り込みの解除 */
-  display: block;
-  content: "";
-  clear: both;
-}
-.xPrevNextLink_prev {
-  display: block;
-  float: left;
-}
-.xPrevNextLink_prev::before {
-  content: "≪";
-}
-.xPrevNextLink_next {
-  display: block;
-  float: right;
-  text-align: right;
-
-}
-.xPrevNextLink_next::after {
-  content: "≫";
-}

@@ -1,12 +1,12 @@
-<div class="xPrevNextLink">
-  {{ with .PrevInSection }}
-    <div class="xPrevNextLink_prev">
-      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+<div class="prevnextlink">
+  {{ if .Next }}
+    <div class="nextlink">
+      <a href="{{ .Next.Permalink }}">👈　新しい記事「{{ .Next.Title }}」を読む</a>
     </div>
   {{ end }}
-  {{ with .NextInSection }}
-    <div class="xPrevNextLink_next">
-      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+  {{ if .Prev }}
+    <div class="prevlink">
+      <a href="{{ .Prev.Permalink }}">古い記事「{{ .Prev.Title }}」を読む　👉</a>
     </div>
   {{ end }}
 </div>
