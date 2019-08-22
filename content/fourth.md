@@ -4,12 +4,13 @@ date: 2019-08-20T14:47:35+09:00
 draft: false
 featured_image: "/images/cover.svg"
 ---
-Hugo 0.57.0 had some well-intended breaking changes. And while they made a lot of sense, one of them made a little too much noise.
+Lorem ipsum dolor sit amet, ut vel velit choro efficiendi, quaerendum contentiones ei nam. Illum minim singulis per eu, mei at reque dicat perpetua, dolorum intellegat ne nam. Ut sea rebum veritus. Simul labores meliore id vix, ex agam appareat pri. Verterem neglegentur delicatissimi in has, et sea magna dicant offendit. Mei ut reque assum invidunt.<!--more-->
 
-This release reverts the behavior for .Pages on the home page to how it behaved in 0.56, but adds a WARNING telling you what to do to prepare for Hugo 0.58.
+Sit nisl fugit cu. Te pri eripuit delectus gubergren. Probatus suavitate ad mei. Eu his dicit democritum, ad reque nostro dicunt duo. An eum recusabo conclusionemque, vis in insolens quaestio, ei dicta dicant ius.
 
-In short, .Page home will from 0.58 only return its immediate children (sections and regular pages).
+Ad sed doctus invidunt, eam te quis clita, et nibh reque diceret vis. Vim munere epicuri ex, no cum vide accusata iracundia, appetere constituto sea an. Pri et vidit persius, has eu prima platonem constituto. Erant commune suavitate mel cu, esse legendos delicatissimi sed ex.
 
-In this release it returns .Site.RegularPages. So to prepare for Hugo 0.58 you can either use .Site.RegularPages in your home template, or if you have a general list.html or RSS template, you can do something like this:
+Gloriatur efficiendi cum ea. Antiopam dignissim efficiantur eam ei, dicat copiosae reprehendunt quo in. Id urbanitas instructior sed. Fastidii efficiendi voluptatibus mel ex. Ex erroribus concludaturque nam, pri ad ignota scriptorem voluptatibus.
 
+No mea ceteros voluptatibus delicatissimi, nec eu brute fabellas efficiantur. Ipsum delicata cu eum. At sea velit scaevola quaestio. Vis euismod neglegentur te, ne eam nobis labore voluptua.
 
