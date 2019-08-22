@@ -17,16 +17,17 @@
   </div>
 </section>
 <div class="next">
-  {{ if .PrevInSection }}
   {{ with .PrevInSection }}
-    <a class="previous" href="{{ .Permalink }}"> 前の記事｜「{{ .LinkTitle }}」</a>
-  {{ end }}
-  {{ end }}
-  {{ if .NextInSection }}
+    <a class="previous" href="{{ .Permalink }}"> 前の記事｜「{{ .Title }}」</a>
+    {{ else }}
+     &nbsp;
+    {{ end }}
+
   {{ with .NextInSection }}
-    <a class="next" href="{{ .Permalink }}"> 次の記事｜「{{ .LinkTitle }}」</a>
-  {{ end }}
-  {{ end }}
+    <a class="next" href="{{ .Permalink }}"> 次の記事｜「{{ .Title }}」</a>
+    {{ else }}
+     &nbsp;
+    {{ end }}
 </div>
 <div>
 {{ template "_internal/disqus.html" . }}
