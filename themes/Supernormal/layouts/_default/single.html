@@ -5,31 +5,6 @@
       <h1 id="title">{{ .Title }}</h1>
       <p class="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
   </div>
-  <div>
-      {{ with .Params.topics }}
-      <ul id="topics">
-        <li class="tags">Topics:&nbsp;</li>
-        {{ range . }}
-          <li class="tags"><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
-        {{ end }}
-      </ul>
-      {{ end }}
-      <ul id="tags">
-        {{ range .Params.tags }}
-          <li><a href="tags/{{ . | urlize }}">{{ . }}</a> </li>
-        {{ end }}
-      </ul>
- <!--   
-      {{ with .Params.tags }}
-      <ul id="tags">
-        <li class="tags">Tags:&nbsp;</li>
-        {{ range . }}
-        <li class="tags"> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
-        {{ end }}
-      </ul>
-      {{ end }}
-    -->
-      </div>
       {{ if .Params.featured_image }}
       <figure>
         <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
@@ -40,17 +15,16 @@
            {{ .Content }}
         </article>
   </div>
-</section>
-<aside id="meta">
-    
-    <div class="next">
-        {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> 前の記事｜「{{.Title}}」</a>
-        {{ end }}
-        {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> 次の記事｜「{{.Title}}」</a>
-        {{ end }}
-    </div>
-    {{ template "_internal/disqus.html" . }}
-</aside>
+  <div class="next">
+    {{ with .PrevInSection }}
+      <a class="previous" href="{{.Permalink}}"> 前の記事｜「{{.Title}}」</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a class="next" href="{{.Permalink}}"> 次の記事｜「{{.Title}}」</a>
+    {{ end }}
+</div>
+<div>
+  {{ template "_internal/disqus.html" . }}
+</div>
+</section>  
 {{ end }}

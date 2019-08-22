@@ -5,8 +5,6 @@ author: irohaka
 date: 2019-05-08T12:21:44+00:00
 images: ["/images/2019grx.jpg"]
 featured_image: "/images/2019grx.jpg"
-tags: ["グラベル", "コンポーネント"] 
-
 ---
 シマノからいよいよグラベルバイク向けのコンポーネント「GRX」が登場しました。
   

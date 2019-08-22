@@ -15,6 +15,3 @@ theme = "Supernormal"
     nofollowLinks = true
     extensionsmask = ["autolink"]
 
-[taxonomies]
-    tag = "tags"
-    category = "categories"
