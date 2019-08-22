@@ -16,11 +16,15 @@
         </article>
   </div>
   <div class="next">
+    {{ if .PrevInSection }}
     {{ with .PrevInSection }}
       <a class="previous" href="{{ .Permalink }}"> 前の記事｜「{{ .LinkTitle }}」</a>
     {{ end }}
+    {{ end }}
+    {{ if .NextInSection }}
     {{ with .NextInSection }}
       <a class="next" href="{{ .Permalink }}"> 次の記事｜「{{ .LinkTitle }}」</a>
+    {{ end }}
     {{ end }}
 </div>
 <div>
