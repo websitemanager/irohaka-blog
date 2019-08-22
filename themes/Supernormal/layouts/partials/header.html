@@ -7,10 +7,11 @@
        {{ template "_internal/twitter_cards.html" . }}
        {{ template "_internal/schema.html" . }}
        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/style.css"> 
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     </head>
     <body>
 <header>
-  <h1><a href="{{ .Site.BaseURL }}">{{.Site.Title}}</a></h1>
+  <a href="{{ .Site.BaseURL }}"　><img class="blogtitle" src="/img/blogtitle.svg" alt="{{ .Site.Title }}" ></a>
 </header>
 <body>
 <main>

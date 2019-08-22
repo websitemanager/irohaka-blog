@@ -75,42 +75,58 @@ ul.pagination li{
   padding:5px;
 }
 
-body{
+
+main{
+  max-width:86%;
+  margin:auto;
+}
+ body{
   max-width:90%;
   background: #222;
   margin:auto;
 }
 
-header,
-main,
+header{
+  width: 85%;
+  max-width:1080px;
+  margin: 0 auto;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.blogtitle{
+  max-width:500px;
+ margin-top:30px;
+ margin-bottom: 20px;
+  padding:0;
+}
+
+
 footer {
   width: 80%;
   max-width:1080px;
   margin: 0 auto;
 }
  
-header {
-  padding-top: 16px;
-}
 
 article.toplist{
   margin-top:15px;
   margin-bottom: 50px;
 }
 
-article#content{
- margin-top:10px;
- margin-bottom: 10px;
+
+div#content{
+  margin:auto;
+  padding:0;
 }
 
 h1{
-  font-size:1.8rem;
+  font-size:1.7rem;
   font-weight:600;
   padding:5px;
 }
 
 h2{
-  font-size:1.7rem;
+  font-size:1.6rem;
   font-weight:600;
   padding:5px;
   margin-right:10px;
@@ -140,7 +156,7 @@ div.list-title{
 }
 main,
 nav,
-footer {
+{
   margin-top: 40px;
 }
  
@@ -148,9 +164,7 @@ li {
   margin-bottom: 16px;
 }
  
-li span {
-  margin-right: 16px;
-}
+
 
 /* 前ページ、次ページへのリンク */
 div.prevnextlink {
@@ -160,7 +174,7 @@ div.prevnextlink {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  font-size:1.2rem;
+  font-size:16px;
   line-height:2rem;
 }
 div.prevlink {
@@ -233,16 +247,68 @@ hr{
   margin-bottom: 12px;
 }
 
+footer{
+  text-align: center;
+  font-size:0.7rem;
+  line-height:2rem;
+  color:#555;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.back-to-top{
+ background: #ccc;
+ color:#333;
+ font-size:0.9rem;
+ padding:15px;
+ text-decoration: #333;
+ font-weight: bold;
+ text-align: center;
+}
+
 /*   media queries   */
 @media screen and (max-width: 896px) { 
 h1#title{
-  font-size:4vw;
+  font-size:18px;
 }
+.title_line{
+  flex-direction: column;
+}
+header{
+  max-width: 90%;
+  padding-top:16px;
+  padding-bottom: 16px;
+}
+
 body{
-  max-width:98%;
-  background: #333;
+  max-width:99%;
   margin:auto;
 }
+main{
+  max-width:90%;
+  margin:auto;
+}
+div.prevnextlink {
+  margin-top:30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size:14px;
+  line-height:1.4rem;
+  div.prevlink {
+    text-align: right;
+    align-items: right;
+    padding-bottom:5px;
+    padding-top:5px;
+  }
+  div.nextlink {
+    text-align: left;
+    align-items: left;
+    padding-bottom:5px;
+    padding-top:5px;
+  }
 
 }
 
