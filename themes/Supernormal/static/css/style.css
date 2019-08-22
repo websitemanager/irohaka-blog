@@ -153,23 +153,22 @@ li span {
 }
 
 /* 前ページ、次ページへのリンク */
-div.prevnextink {
+div.prevnextlink {
   margin-top:30px;
   margin-bottom: 30px;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  font-size:0.7rem;
+  font-size:1.2rem;
   line-height:2rem;
 }
-.prevlink {
+div.prevlink {
   text-align: right;
   align-items: right;
   padding:10px;
 }
-.nextlink {
+div.nextlink {
   text-align: left;
   align-items: left;
   padding:10px;
