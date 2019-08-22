@@ -1,9 +1,15 @@
 {{ partial "header.html" . }}
-<h1>{{ .Title }}</h1>
-<ul>
-  {{- $plural := .Data.Plural }}
-  {{- range $index, $term := .Data.Terms.Alphabetical }}
-    <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> ({{ $term.Count }})
-  {{- end }}
-</ul>
+
+{{ define "main" }}
+  <ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+      <li>
+        <a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural | urlize }}/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+        {{ $value.Count }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+
 {{ partial "footer.html" . }}

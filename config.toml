@@ -7,12 +7,13 @@ theme = "Supernormal"
 disqusShortname = "irohaka"
 
 [Params]
-    author = "Hoge"
-    profile_image = "images/profile.jpg"
-    featured_image = "images/cover.svg"
+    author = "IROHAKA"
+    featured_image = "img/eyecatch.jpg"
 
 [blackfriday]
     hrefTargetBlank = true
     nofollowLinks = true
     extensionsmask = ["autolink"]
 
+[taxonomies]
+    tag = "tags"
