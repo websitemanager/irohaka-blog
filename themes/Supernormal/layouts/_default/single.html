@@ -17,10 +17,10 @@
   </div>
   <div class="next">
     {{ with .PrevInSection }}
-      <a class="previous" href="{{ .Permalink }}"> 前の記事｜「{{ .Title }}」</a>
+      <a class="previous" href="{{ .Permalink }}"> 前の記事｜「{{ .LinkTitle }}」</a>
     {{ end }}
     {{ with .NextInSection }}
-      <a class="next" href="{{ .Permalink }}"> 次の記事｜「{{ .Title }}」</a>
+      <a class="next" href="{{ .Permalink }}"> 次の記事｜「{{ .LinkTitle }}」</a>
     {{ end }}
 </div>
 <div>
