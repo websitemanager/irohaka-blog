@@ -8,7 +8,7 @@ disqusShortname = "irohaka"
 
 [Params]
     author = "IROHAKA"
-    featured_image = "img/eyecatch.jpg"
+    images = ["img/eyecatch.jpg"]
 
 [blackfriday]
     hrefTargetBlank = true

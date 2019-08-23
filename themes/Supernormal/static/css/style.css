@@ -368,5 +368,12 @@ div.nextlink {
     padding-top:5px;
   }
 
+div.list-title{
+  flex-direction: column
+}
+time{
+  font-size:13px;
+  line-height: 1.2;
+}
 }
 
