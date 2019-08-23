@@ -57,15 +57,29 @@ li.summary{
   line-height: 2.5rem;
 }
 
+p.tagpage{
+  font-size:20px;
+  line-height: 2;
+}
+
 ul#taglist{
-  display:flex;
-  flex:row wrap;
+  display:inline;
+}
+
+div.meta{
+  padding-left:20px;
+}
+
+ul#tag_pickup{
+  display: flex;
+  flex-direction: row;
 }
 
 li.tags{
   font-size:18px;
   list-style: none;
-  display:inline;
+  display:flex;
+  flex-direction: row;
   margin-right:10px;
 }
 ul.pagination{

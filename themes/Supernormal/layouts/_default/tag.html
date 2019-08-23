@@ -1,8 +1,15 @@
 {{ partial "header.html" . }}
 {{ range .Data.Pages }}
-<li>
-<a href="{{ .Permalink }}">{{ .Title }}</a>
-<div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-</li>
+        <div id="content">
+        <main>
+        <p class="tagpage">----- タグが同じ記事一覧 -----</p>
+        <ul id="taglist">    
+        <li class="tags">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    </li>
+    </ul>
+    </main>
+</div>
 {{ end }}
 {{ partial "footer.html" . }}

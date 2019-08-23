@@ -3,8 +3,8 @@
 {{ define "main" }}
 <main>
 <div id="#content">
-<h2>タグが同じ記事</h2>
   <ul>
+      <p>----- タグが同じ記事一覧 -----</p>
     {{ $data := .Data }}
     {{ range $key, $value := .Data.Terms.Alphabetical }}
       <li>
