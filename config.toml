@@ -1,5 +1,6 @@
 baseURL = "https://irohaka.netlify.com/"
 title = "イロハカの自転車日記"
+
 languageCode = "ja-jp"
 hasCJKLanguage = true
 theme = "Supernormal"
@@ -9,7 +10,8 @@ disqusShortname = "irohaka"
 [Params]
     author = "IROHAKA"
     images = ["img/eyecatch.jpg"]
-    addThis = "ra-5d5fad14f7600d5b"
+    description ="イロハカの自転車と旅行と趣味のはなし"
+    
 
 [blackfriday]
     hrefTargetBlank = true
