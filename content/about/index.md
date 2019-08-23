@@ -1,5 +1,7 @@
 ---
 title: "About Me"
+author: irohaka
+type: post
 date: 2015-08-01T12:43:03+09:00
 images: ["images/2019aboutme-eye.jpg"]
 featured_image: "images/2019aboutme-eye.jpg"

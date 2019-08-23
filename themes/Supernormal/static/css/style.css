@@ -195,6 +195,15 @@ div.list-title{
   line-height: 1;
 }
 
+ul.topmenu{
+  text-align: center;
+}
+
+li.menu_line{
+    display:inline;
+    text-align: center;
+    padding:20px;
+    }
  
 li {
   margin-bottom: 16px;

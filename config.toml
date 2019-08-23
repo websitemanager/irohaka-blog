@@ -17,3 +17,13 @@ disqusShortname = "irohaka"
 
 [taxonomies]
     tag = "tags"
+
+[[menu.main]]
+  name = "TOPページ"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
