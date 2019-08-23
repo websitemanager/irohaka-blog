@@ -16,9 +16,6 @@
   </ul>
   {{ end }}
   </div>
-  <div class="addThis">
-  {{ partial "addthis" . }}
-</div>
       {{ if .Params.featured_image }}
       <figure>
         <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
@@ -27,12 +24,10 @@
     <article id="content">
            {{ .Content }}
      </article>
+     {{ partial "sharebutton" . }}
+                 <hr>
      {{ partial "prev-next" . }}
 </section>
-<section class="share">
-  {{ partial "addthis-script" . }}
-</section>
-
 <div id="disqus_thread"></div>
   <script>
   
