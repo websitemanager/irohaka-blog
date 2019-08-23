@@ -9,6 +9,12 @@
         <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
     </li>
     </ul>
+    <ul>
+            {{- $plural := .Data.Plural }}
+            {{- range $index, $term := .Data.Terms.Alphabetical }}
+              <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> ({{ $term.Count }})
+            {{- end }}
+          </ul>
     </main>
 </div>
 {{ end }}
