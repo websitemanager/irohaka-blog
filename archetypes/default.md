@@ -4,7 +4,7 @@ author: irohaka
 type: post
 date: {{ .Date }}
 url: /
-images: ["image/"]
-featured_image: "/image/"
+images: ["images/"]
+featured_image: "/images/"
 tags: [""]
 ---
