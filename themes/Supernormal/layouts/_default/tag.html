@@ -1,23 +1,28 @@
 {{ partial "header.html" . }}
+<div id="content">
+  <main>
+  <h3 class="tagpage">-----タグが同じ記事一覧 -----</h3>
 {{ range .Data.Pages }}
-        <div id="content">
-        <main>
-        <p class="tagpage">-----タグが同じ記事一覧 -----</p>
         <ul id="taglist">    
         <li class="tags">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
     </li>
     </ul>
-    <h3>タグ一覧</h3>
-<ul id="taglist">
-  {{- range $termName, $entries := .Site.Taxonomies.tags }}
-    <li class="tag-meta"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}</a> &nbsp;({{ $entries.Count }})</li>
-  {{- end }}
-</ul>
-    </main>
-</div>
 {{ end }}
+
+<hr>
+<div class="tag-index">
+    <h3>タグ一覧</h3>
+      <ul id="taglist">
+      {{- range $termName, $entries := .Site.Taxonomies.tags }}
+      <li class="tag-meta"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}</a> &nbsp;({{ $entries.Count }})</li>
+      {{- end }}
+    </ul>
+  </div>
+</main>
+</div>
+
 {{ partial "footer.html" . }}
 
 </body>
