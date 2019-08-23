@@ -57,13 +57,16 @@ li.summary{
   line-height: 2.5rem;
 }
 
-ul#tags{
-  display:inline;
+ul#taglist{
+  display:flex;
+  flex:row wrap;
 }
 
 li.tags{
+  font-size:18px;
   list-style: none;
   display:inline;
+  margin-right:10px;
 }
 ul.pagination{
   text-align: center;
@@ -159,11 +162,7 @@ div.list-title{
   align-items:baseline;
   line-height: 1;
 }
-main,
-nav,
-{
-  margin-top: 40px;
-}
+
  
 li {
   margin-bottom: 16px;
@@ -314,13 +313,14 @@ div.prevnextlink {
   justify-content: space-between;
   font-size:14px;
   line-height:1.4rem;
-  div.prevlink {
+}
+div.prevlink {
     text-align: right;
     align-items: right;
     padding-bottom:5px;
     padding-top:5px;
   }
-  div.nextlink {
+div.nextlink {
     text-align: left;
     align-items: left;
     padding-bottom:5px;

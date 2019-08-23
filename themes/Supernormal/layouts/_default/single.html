@@ -6,6 +6,16 @@
       <h1 id="title">{{ .Title }}</h1>
       <p class="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
   </div>
+  <div>
+      {{ with .Params.tags }}
+  <ul id="taglist">
+    <p>タグ：　</p>
+    {{- range . -}}
+      <li class="tags"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{- end -}}
+  </ul>
+  {{ end }}
+  </div>
       {{ if .Params.featured_image }}
       <figure>
         <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">

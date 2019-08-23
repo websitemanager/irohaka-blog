@@ -1,6 +1,9 @@
 {{ partial "header.html" . }}
 
 {{ define "main" }}
+<main>
+<div id="#content">
+<h2>タグが同じ記事</h2>
   <ul>
     {{ $data := .Data }}
     {{ range $key, $value := .Data.Terms.Alphabetical }}
@@ -11,5 +14,6 @@
     {{ end }}
   </ul>
 {{ end }}
-
+</div>
+</main>
 {{ partial "footer.html" . }}
