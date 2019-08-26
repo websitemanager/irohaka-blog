@@ -211,6 +211,7 @@ li {
 }
 li.related::before{
   font-family:"Font Awesome 5 Free";
+  color:#fa6aca;
   content:'\f138';
   position: relative;
   margin-right:10px;
