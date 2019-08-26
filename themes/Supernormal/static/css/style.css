@@ -12,7 +12,7 @@ html {
   line-height: 1.8;
   color: #ccc;
   text-align: left;
-  font-feature-settings: "palt" 1;
+  font-feature-settings: "pwid";
   text-size-adjust: 100%;
   justify-content: space-between;
 }
@@ -155,7 +155,6 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 5px;
   margin-right: 10px;
   line-height: 1.5;
 }
@@ -409,7 +408,8 @@ a.back-to-top {
 }
 /************* share button ***************/
 
-/*   media queries   */
+
+/* ********  media queries ********  */
 @media screen and (max-width: 896px) {
   h1#title {
     font-size: 1.6rem;
@@ -418,21 +418,21 @@ a.back-to-top {
     flex-direction: column;
   }
   header {
-    max-width: 90%;
+    max-width: 95%;
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
   body {
-    max-width: 99%;
+    max-width: 100%;
     margin: auto;
   }
   main {
-    max-width: 95%;
+    max-width: 99%;
     margin: auto;
   }
-  #content {
-    width: 100%;
+  div#content {
+    max-width: 100%;
   }
 
   div.prevnextlink {
