@@ -209,14 +209,19 @@ li.menu_line {
 li {
   margin-bottom: 16px;
 }
+li.related::before{
+  font-family:"Font Awesome 5 Free";
+  content:'\f138';
+  position: relative;
+  margin-right:10px;
+  font-weight: 900; 
+}
 
 li.related {
-  color: black;
-  border-left: solid 10px #3877aa; /*左側の線*/
-  border-bottom: solid 1px #777; /*背景色*/
+  text-decoration: none;
+  list-style: none;
   margin-bottom: 7px; /*下のバーとの余白*/
   line-height: 1.5;
-  list-style: none;
   margin-left: 20px;
   margin-top: 10px;
   padding: 5px;
