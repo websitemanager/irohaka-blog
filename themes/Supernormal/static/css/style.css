@@ -4,7 +4,7 @@
 }
 html {
   max-width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, Kosugi, Hiragino Kaku Gothic ProN,
+  font-family: -apple-system, BlinkMacSystemFont, 'M PLUS 1p', Hiragino Kaku Gothic ProN,
     ヒラギノ角ゴ ProN W3, メイリオ, Meiryo, sans-serif;
   background: #19191a;
   font-size: 17px;
@@ -38,6 +38,13 @@ a.next {
 
 a.title {
   font-size: 20px;
+}
+
+a.readmore{
+  display:inline-block;
+  border: solid 1px #db8ec1;
+  padding-right:10px;
+  padding-left:10px;
 }
 
 div.next {
@@ -140,14 +147,14 @@ div#content {
 
 h1 {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 5px;
   line-height: 1.7;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 5px;
   margin-right: 10px;
   line-height: 1.5;
@@ -267,7 +274,7 @@ p.Summary {
 img {
   max-width: 100%;
   height: auto;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
   margin-bottom: 0px;
 }
 figcaption {
