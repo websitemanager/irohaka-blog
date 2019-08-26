@@ -1,66 +1,66 @@
-
 {{ define "main" }}
 <main>
-<section id="main">
-  <div class="title_line">
+  <section id="main">
+    <div class="title_line">
       <h1 id="title">{{ .Title }}</h1>
       <p class="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
-  </div>
-  <div>
+    </div>
+    <div>
       {{ with .Params.tags }}
-  <ul id="tag_pickup">
-    <p>タグ：　</p>
-    {{- range . -}}
-      <li class="tags"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-    {{- end -}}
-  </ul>
-  {{ end }}
-  </div>
-      {{ if .Params.featured_image }}
-      <figure>
-        <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
-      </figure>
-      {{ end}}
+      <ul id="tag_pickup">
+        <p>タグ：　</p>
+        {{- range . -}}
+        <li class="tags"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+          {{- end -}}
+      </ul>
+      {{ end }}
+    </div>
+    {{ if .Params.featured_image }}
+    <figure>
+      <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
+    </figure>
+    {{ end}}
     <article id="content">
-           {{ .Content }}
-     </article>
-     {{ with $.Site.RegularPages.Related . | first 5 }}
-     <article class="contentfooter">
-     <h3>- あわせて読みたい記事 -</h3>
-    <ul>
-    {{ range . }}
-      <li class="related"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-    </ul>
-    {{ end }}
-     </article>
-     <article class="contentfooter">
-     {{ partial "sharebutton" . }}
-    <hr class="dark">
-     {{ partial "prev-next" . }}
-     <hr class="dark">
-  </article>
-</section>
-<div id="disqus_thread"></div>
+      {{ .Content }}
+    </article>
+    {{ with $.Site.RegularPages.Related . | first 5 }}
+    <article class="contentfooter">
+      <h3>- あわせて読みたい記事 -</h3>
+      <ul>
+        {{ range . }}
+        <li class="related"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </article>
+    <article class="contentfooter">
+      {{ partial "sharebutton" . }}
+      <hr class="dark">
+      {{ partial "prev-next" . }}
+      <hr class="dark">
+    </article>
+  </section>
+  <div id="disqus_thread"></div>
   <script>
-  
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = 'https://irohaka-netlify-com.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-</main>  
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://irohaka-netlify-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+
+</main>
 {{ end }}

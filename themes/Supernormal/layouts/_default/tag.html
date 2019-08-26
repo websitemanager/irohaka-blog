@@ -1,32 +1,34 @@
 {{ partial "header.html" . }}
 <div id="content">
   <main>
-  <h3 class="tagpage">-----タグが同じ記事一覧 -----</h3>
-{{ range .Data.Pages }}
-        <ul id="taglist">    
-        <li class="tags">
+    <h3 class="tagpage">-----タグが同じ記事一覧 -----</h3>
+    {{ range .Data.Pages }}
+    <ul id="taglist">
+      <li class="tags">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-    </li>
+      </li>
     </ul>
-{{ end }}
+    {{ end }}
 
-<hr>
-<div class="tag-index">
-    <h3>タグ一覧</h3>
+    <hr>
+    <div class="tag-index">
+      <h3>タグ一覧</h3>
       <ul id="taglist">
-      {{- range $termName, $entries := .Site.Taxonomies.tags }}
-      <li class="tag-meta"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}</a> &nbsp;({{ $entries.Count }})</li>
-      {{- end }}
-    </ul>
-  </div>
-</main>
+        {{- range $termName, $entries := .Site.Taxonomies.tags }}
+        <li class="tag-meta"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}</a>
+          &nbsp;({{ $entries.Count }})</li>
+        {{- end }}
+      </ul>
+    </div>
+  </main>
 </div>
 
 {{ partial "footer.html" . }}
 
 </body>
 <div class="to-top">
-    <a class="back-to-top"  href="#">TOPへ戻る</a>
+  <a class="back-to-top" href="#">TOPへ戻る</a>
 </div>
+
 </html>
