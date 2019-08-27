@@ -23,7 +23,6 @@
     <article id="content">
       {{ .Content }}
     </article>
-    {{ with $.Site.RegularPages.Related . | first 5 }}
     <article class="contentfooter">
       {{ $related := .Site.RegularPages.Related . }}
     </article>
@@ -55,6 +54,6 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
       Disqus.</a></noscript>
-
+      
 </main>
 {{ end }}
