@@ -25,13 +25,7 @@
     </article>
     {{ with $.Site.RegularPages.Related . | first 5 }}
     <article class="contentfooter">
-      <h3>- あわせて読みたい記事 -</h3>
-      <ul>
-        {{ range . }}
-        <li class="related"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-      </ul>
-      {{ end }}
+      {{ $related := .Site.RegularPages.Related . }}
     </article>
     <article class="contentfooter">
       {{ partial "sharebutton" . }}
