@@ -24,7 +24,7 @@
       {{ .Content }}
     </article>
     <article class="contentfooter">
-      {{ $related := .Site.RegularPages.Related . }}
+      {{ partial "related.html" .  }}
     </article>
     <article class="contentfooter">
       {{ partial "sharebutton" . }}
