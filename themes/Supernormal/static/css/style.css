@@ -149,7 +149,7 @@ div#content {
 h1 {
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 5px;
+  padding: 5px 5px 5px 0px;
   line-height: 1.7;
 }
 
@@ -190,7 +190,7 @@ div.title_line {
 
 div.list-title {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   flex-direction: row;
   align-items: baseline;
   line-height: 1;
@@ -376,6 +376,11 @@ table td {
   padding: 5px;
   border: solid 1px #777;
 }
+time {
+  font-size: 16px;
+  margin-right: 5px;
+  line-height: 1.2;
+}
 
 .contentfooter {
   margin-top: 20px;
@@ -532,7 +537,7 @@ a.back-to-top {
     flex-direction: column;
   }
   time {
-    font-size: 13px;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.5;
   }
 }
