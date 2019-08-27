@@ -493,21 +493,21 @@ a.back-to-top {
     flex-direction: column;
   }
   header {
-    max-width: 95%;
+    max-width: 97%;
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
   body {
-    max-width: 96%;
+    max-width: 97%;
     margin: auto;
   }
   main {
-    max-width: 99%;
+    max-width: 98%;
     margin: auto;
   }
   div#content {
-    max-width: 100%;
+    max-width: 97%;
   }
 
   div.prevnextlink {
@@ -540,4 +540,34 @@ a.back-to-top {
     font-size: 14px;
     line-height: 1.5;
   }
+
+/*********ページネーター**************/
+i.fas{
+  font-family:"Font Awesome 5 Free";
+  font-weight: 900; 
+}
+.pagination {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+  margin: auto;
+  border-radius: 1px;
+}
+
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  padding: 1px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+
 }
