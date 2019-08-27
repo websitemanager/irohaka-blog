@@ -6,7 +6,7 @@ date: 2019-08-23T14:33:09+09:00
 url: /201908newserver
 images: ["images/20190822hikkoshi.png"]
 featured_image: "/images/20190822hikkoshi.png"
-tags: ["ブログ"]
+tags: [ "ブログ" ]
 ---
 
 ブログの更新もしていないのに引っ越しをするというのも変なのですが、今までブログの投稿に利用してきたWOEDPRESSがどうも使いにくく感じていたので思い切って静的サイトジェネレーターの「Hugo」を使ったサイト構築に挑戦してみました。　　
