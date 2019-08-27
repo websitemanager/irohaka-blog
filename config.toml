@@ -6,6 +6,7 @@ hasCJKLanguage = true
 theme = "Supernormal"
 dateFormat = "2006年01月02日"
 disqusShortname = "irohaka"
+googleAnalytics = "UA-58799-9"
 
 [Params]
     author = "IROHAKA"
