@@ -7,7 +7,7 @@ url: /taiwan_bags
 images: ["/images/2016tainanbag-eye.jpg"]
 featured_image: "/images/2016tainanbag-eye.jpg"
 tags: ["台湾"]
-------
+---
 
 台南に旅行へ行った時にぜひとも立ち寄りたいお店がありました。帆布製のかばんを作っている「永盛帆布行」です。
   
