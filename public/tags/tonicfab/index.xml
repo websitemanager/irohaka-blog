@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TonicFab on イロハカの自転車日記</title><link>https://irohaka.netlify.com/tags/tonicfab/</link><description>Recent content in TonicFab on イロハカの自転車日記</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 20 Feb 2017 12:39:59 +0000</lastBuildDate><atom:link href="https://irohaka.netlify.com/tags/tonicfab/index.xml" rel="self" type="application/rss+xml"/><item><title>オレゴンのハンドメイドバイク</title><link>https://irohaka.netlify.com/oregon_handmade_bikes/</link><pubDate>Mon, 20 Feb 2017 12:39:59 +0000</pubDate><guid>https://irohaka.netlify.com/oregon_handmade_bikes/</guid><description>もうここ何年かオレゴン州、とくにポートランドのカルチャーがフォーカスされていて興味があったのですが、興味を持ったら危なそうな魅力的なモノがい</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TonicFab on イロハカの自転車日記</title>
+    <link>https://irohaka.netlify.com/tags/tonicfab/</link>
+    <description>Recent content in TonicFab on イロハカの自転車日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 20 Feb 2017 12:39:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://irohaka.netlify.com/tags/tonicfab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>オレゴンのハンドメイドバイク</title>
+      <link>https://irohaka.netlify.com/oregon_handmade_bikes/</link>
+      <pubDate>Mon, 20 Feb 2017 12:39:59 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/oregon_handmade_bikes/</guid>
+      <description>もうここ何年かオレゴン州、とくにポートランドのカルチャーがフォーカスされていて興味があったのですが、興味を持ったら危なそうな魅力的なモノがい</description>
+    </item>
+    
+  </channel>
+</rss>
