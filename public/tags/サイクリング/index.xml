@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>サイクリング on イロハカの自転車日記</title>
+    <link>https://irohaka.netlify.com/tags/%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%B0/</link>
+    <description>Recent content in サイクリング on イロハカの自転車日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 07 Apr 2019 08:42:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://irohaka.netlify.com/tags/%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>豊川市桜めぐり2019</title>
+      <link>https://irohaka.netlify.com/toyokawa_sakura/</link>
+      <pubDate>Sun, 07 Apr 2019 08:42:54 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/toyokawa_sakura/</guid>
+      <description>自転車を出して市内の桜を見に出かけました。 東京や名古屋では桜はすでに満開でお花見の話題などをニュースで見かけるのですが、なぜか愛知県東部の桜</description>
+    </item>
+    
+    <item>
+      <title>有給を使ってサイクリング</title>
+      <link>https://irohaka.netlify.com/somasaka_cycling/</link>
+      <pubDate>Fri, 13 Apr 2018 10:03:51 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/somasaka_cycling/</guid>
+      <description>年末あたりからの疲労が蓄積されていたのは分かっていたのですが、先週末に起き上がれなくなるくらい寝込んでしまって流石にマズイと思い有給を取りま</description>
+    </item>
+    
+    <item>
+      <title>杣坂のさらに向こうへ</title>
+      <link>https://irohaka.netlify.com/beyond_somasaka/</link>
+      <pubDate>Sun, 19 Nov 2017 09:06:36 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/beyond_somasaka/</guid>
+      <description>ロードに乗るのは久しぶりで、前回乗ったのを少し思い出せないほどです。 せっかくなので杣坂に登ってみようと久しぶりに行ってみました。運動をするの</description>
+    </item>
+    
+  </channel>
+</rss>

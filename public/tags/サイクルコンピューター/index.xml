@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>サイクルコンピューター on イロハカの自転車日記</title>
+    <link>https://irohaka.netlify.com/tags/%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+    <description>Recent content in サイクルコンピューター on イロハカの自転車日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 08 Mar 2018 12:23:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://irohaka.netlify.com/tags/%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>サイクルコンピューター「Bryton Rider310」</title>
+      <link>https://irohaka.netlify.com/bryton-rider310/</link>
+      <pubDate>Thu, 08 Mar 2018 12:23:55 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/bryton-rider310/</guid>
+      <description>父が買ったロードバイク用に何かよいサイコンがないか考えていたところ、お店の方から最近ブライトンも人気があるらしいと聞き興味がでてきました。台</description>
+    </item>
+    
+    <item>
+      <title>最近のサイコンが凄くお値打ちです。（当社比）</title>
+      <link>https://irohaka.netlify.com/2017cyclecomp/</link>
+      <pubDate>Tue, 05 Sep 2017 04:50:16 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/2017cyclecomp/</guid>
+      <description>先日ジャイアントジャパンの販売店向け2018年モデル展示会があったそうで、色々なお店の方のブログを拝見している中でサイクルコンピューターに目</description>
+    </item>
+    
+  </channel>
+</rss>

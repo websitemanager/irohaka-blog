@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>赤塚山 on イロハカの自転車日記</title>
+    <link>https://irohaka.netlify.com/tags/%E8%B5%A4%E5%A1%9A%E5%B1%B1/</link>
+    <description>Recent content in 赤塚山 on イロハカの自転車日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 21 May 2016 09:04:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://irohaka.netlify.com/tags/%E8%B5%A4%E5%A1%9A%E5%B1%B1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>赤塚山公園を散歩</title>
+      <link>https://irohaka.netlify.com/akastuka-park/</link>
+      <pubDate>Sat, 21 May 2016 09:04:51 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/akastuka-park/</guid>
+      <description>今日は午後から自転車に乗るつもりでいたのですが、思いの外疲れていて寝込んでいました。 それでも少し元気になったので夕方になってから近所の赤塚山</description>
+    </item>
+    
+  </channel>
+</rss>

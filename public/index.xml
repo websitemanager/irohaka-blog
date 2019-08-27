@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>イロハカの自転車日記</title>
+    <link>https://irohaka.netlify.com/</link>
+    <description>Recent content on イロハカの自転車日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 23 Aug 2019 14:33:09 +0900</lastBuildDate>
+    
+	<atom:link href="https://irohaka.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ブログを引っ越しました。</title>
+      <link>https://irohaka.netlify.com/201908newserver/</link>
+      <pubDate>Fri, 23 Aug 2019 14:33:09 +0900</pubDate>
+      
+      <guid>https://irohaka.netlify.com/201908newserver/</guid>
+      <description>&lt;p&gt;ブログの更新もしていないのに引っ越しをするというのも変なのですが、今までブログの投稿に利用してきたWOEDPRESSがどうも使いにくく感じていたので思い切って静的サイトジェネレーターの「Hugo」を使ったサイト構築に挑戦してみました。　　&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>台湾に行ってきました。（今年2回目）</title>
+      <link>https://irohaka.netlify.com/201906taiwantrip/</link>
+      <pubDate>Sat, 29 Jun 2019 12:43:03 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/201906taiwantrip/</guid>
+      <description>&lt;p&gt;お休みをいただいて台湾へ遊びに行ってきました。このところ自転車にも乗る元気がないものの家で寝ているだけでは精神衛生上絶対に良くないと思っていたので、スタイフライヤーの特別運賃の広告を見かけて直ぐに予約を取りました。税金込みで25,000円というお値打ちな金額だったので助かりました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>グラベルバイク向けコンポーネント「GRX」登場</title>
+      <link>https://irohaka.netlify.com/shimano_grx/</link>
+      <pubDate>Wed, 08 May 2019 12:21:44 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/shimano_grx/</guid>
+      <description>&lt;p&gt;シマノからいよいよグラベルバイク向けのコンポーネント「GRX」が登場しました。&lt;/p&gt;
+
+&lt;p&gt;SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノはグラベル専用コンポーネントという新しいカテゴリー向けに特化した形で投入してきました。超個人的な感想ですがSRAMもロードとMTBの区別なく1つの代理店で売ってくれないかなぁ・・・とシマノの安定感溢れる販売体制と価格設定に軽い嫉妬を覚えました。個人的にはワイヤレスが超欲しい・・・。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>豊川市桜めぐり2019</title>
+      <link>https://irohaka.netlify.com/toyokawa_sakura/</link>
+      <pubDate>Sun, 07 Apr 2019 08:42:54 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/toyokawa_sakura/</guid>
+      <description>自転車を出して市内の桜を見に出かけました。 東京や名古屋では桜はすでに満開でお花見の話題などをニュースで見かけるのですが、なぜか愛知県東部の桜</description>
+    </item>
+    
+    <item>
+      <title>長篠の河津桜を見に行ってきました。</title>
+      <link>https://irohaka.netlify.com/nagashino-sakura/</link>
+      <pubDate>Fri, 08 Mar 2019 08:43:49 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/nagashino-sakura/</guid>
+      <description>去年の今頃も同じようなエントリをしたのですが、それから一年経ってしまいました。あっという間のようで結構長い。まだあれから一年しか経っていない</description>
+    </item>
+    
+    <item>
+      <title>SRAM AXS™ワイヤレス電動コンポーネント登場</title>
+      <link>https://irohaka.netlify.com/sram_axs/</link>
+      <pubDate>Sat, 09 Feb 2019 08:34:38 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/sram_axs/</guid>
+      <description>SRAMから先日チョイ見せされたRED eTapの12速バージョンが発表されたと思っていたのですが、これは全く考えを改めないといけないと思いま</description>
+    </item>
+    
+    <item>
+      <title>台湾に行ってきました。</title>
+      <link>https://irohaka.netlify.com/201901taiwan_travel/</link>
+      <pubDate>Wed, 23 Jan 2019 11:10:06 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/201901taiwan_travel/</guid>
+      <description>お休みをいただいて台湾に行ってきました。 今回は台中に宿を取り、そこから日帰りで烏山頭ダムと彰化の扇型車庫を見学するプランを考えてみました。 桃</description>
+    </item>
+    
+    <item>
+      <title>AppleWatchの心拍計をZwiftにリンクさせてみました。</title>
+      <link>https://irohaka.netlify.com/applewatchandzwift/</link>
+      <pubDate>Sun, 06 Jan 2019 13:29:09 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/applewatchandzwift/</guid>
+      <description>AppleWatchのリングを完成させるのが思ったより大変だなぁと思っていたところ、Zwiftの心拍計に使えると記事を読んだので試してみまし</description>
+    </item>
+    
+    <item>
+      <title>散歩用マウンテンバイク完成。</title>
+      <link>https://irohaka.netlify.com/custom_mtb/</link>
+      <pubDate>Sun, 21 Oct 2018 11:45:53 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/custom_mtb/</guid>
+      <description>夏になる前に中古のマウンテンバイクを買ったのですが、夏に部屋で作業をするのはとてもたいへんだ。 というより元気が出ませんでした。9月に何をやっ</description>
+    </item>
+    
+    <item>
+      <title>Cannondale TOPSTONE</title>
+      <link>https://irohaka.netlify.com/cannondale_topstone/</link>
+      <pubDate>Fri, 31 Aug 2018 14:39:20 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/cannondale_topstone/</guid>
+      <description>去年のように寝る前の時間を新モデルの記事がないか英語や中国語でチェックしていたのですが、今年は体調があまり良くなくて余裕がありませんでした。</description>
+    </item>
+    
+    <item>
+      <title>奥三河の夏休み</title>
+      <link>https://irohaka.netlify.com/okumikawa_summer2018/</link>
+      <pubDate>Sun, 26 Aug 2018 11:06:00 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/okumikawa_summer2018/</guid>
+      <description>今日も朝から気温はぐんぐんと上がっていって暑くて何もする気が起きなかったので、再び涼しい阿寺の紋屋へとランチを食べに行ってきました。新東名が</description>
+    </item>
+    
+    <item>
+      <title>紋屋へコーヒーを飲みに</title>
+      <link>https://irohaka.netlify.com/coffee_break_okumikawa/</link>
+      <pubDate>Sun, 05 Aug 2018 09:41:11 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/coffee_break_okumikawa/</guid>
+      <description>阿寺にある「紋屋」へ今日はじめて行ってきました。もともと家から近い場所に古民家を改築した喫茶を営んでらっしゃったのですが、阿寺に去年移転され</description>
+    </item>
+    
+    <item>
+      <title>シンシロクロスに参加してきました</title>
+      <link>https://irohaka.netlify.com/shinshiro_cross/</link>
+      <pubDate>Mon, 11 Jun 2018 12:41:21 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/shinshiro_cross/</guid>
+      <description>昔から新城市は文化やスポーツに力を入れている街だったのですが、ここ数年は全国的にも有名になるイベントが続々と開催されて旧鳳来高校の中を走る「</description>
+    </item>
+    
+    <item>
+      <title>安曇野をサイクリング</title>
+      <link>https://irohaka.netlify.com/azumino_cycling/</link>
+      <pubDate>Sat, 05 May 2018 07:18:26 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/azumino_cycling/</guid>
+      <description>連休を使って長野県の安曇野市へ遊びに行ってきました。天気予報では午後から雨となっていたのですが到着したら天気がなんとか持ちそうだったので軽く</description>
+    </item>
+    
+    <item>
+      <title>有給を使ってサイクリング</title>
+      <link>https://irohaka.netlify.com/somasaka_cycling/</link>
+      <pubDate>Fri, 13 Apr 2018 10:03:51 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/somasaka_cycling/</guid>
+      <description>年末あたりからの疲労が蓄積されていたのは分かっていたのですが、先週末に起き上がれなくなるくらい寝込んでしまって流石にマズイと思い有給を取りま</description>
+    </item>
+    
+    <item>
+      <title>サイクルコンピューター「Bryton Rider310」</title>
+      <link>https://irohaka.netlify.com/bryton-rider310/</link>
+      <pubDate>Thu, 08 Mar 2018 12:23:55 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/bryton-rider310/</guid>
+      <description>父が買ったロードバイク用に何かよいサイコンがないか考えていたところ、お店の方から最近ブライトンも人気があるらしいと聞き興味がでてきました。台</description>
+    </item>
+    
+    <item>
+      <title>Tacx Neo SmartでZwiftを始めました。</title>
+      <link>https://irohaka.netlify.com/tacxneosmart-zwift/</link>
+      <pubDate>Sat, 17 Feb 2018 14:55:54 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/tacxneosmart-zwift/</guid>
+      <description>スマートトレーナーでZwiftをプレイすると負荷が自然にかかって本格的に体験できるのは知っていました。しかし今ひとつ気乗りしなかったので今ま</description>
+    </item>
+    
+    <item>
+      <title>大和の大イチョウ</title>
+      <link>https://irohaka.netlify.com/yamato-ginko/</link>
+      <pubDate>Sun, 10 Dec 2017 01:38:12 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/yamato-ginko/</guid>
+      <description>昨日は名古屋へ出かけて大学時代のサークルの忘年会に参加してきました。20年ぶりや10年ぶりに懐かしい面々と再会できて本当に嬉しかったです。風</description>
+    </item>
+    
+    <item>
+      <title>杣坂のさらに向こうへ</title>
+      <link>https://irohaka.netlify.com/beyond_somasaka/</link>
+      <pubDate>Sun, 19 Nov 2017 09:06:36 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/beyond_somasaka/</guid>
+      <description>ロードに乗るのは久しぶりで、前回乗ったのを少し思い出せないほどです。 せっかくなので杣坂に登ってみようと久しぶりに行ってみました。運動をするの</description>
+    </item>
+    
+    <item>
+      <title>最近のサイコンが凄くお値打ちです。（当社比）</title>
+      <link>https://irohaka.netlify.com/2017cyclecomp/</link>
+      <pubDate>Tue, 05 Sep 2017 04:50:16 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/2017cyclecomp/</guid>
+      <description>先日ジャイアントジャパンの販売店向け2018年モデル展示会があったそうで、色々なお店の方のブログを拝見している中でサイクルコンピューターに目</description>
+    </item>
+    
+    <item>
+      <title>4年ぶりのフランス（後編）</title>
+      <link>https://irohaka.netlify.com/france-part2/</link>
+      <pubDate>Mon, 14 Aug 2017 17:11:48 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/france-part2/</guid>
+      <description>もう23年前のことです。20歳の時にフランスへ1年間留学させてもらって、その年の夏休みにパリで1か月滞在する機会を得ました。モンスーリ公園の</description>
+    </item>
+    
+    <item>
+      <title>4年ぶりのフランス（前編）</title>
+      <link>https://irohaka.netlify.com/france-part1/</link>
+      <pubDate>Sun, 13 Aug 2017 17:11:48 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/france-part1/</guid>
+      <description>4年ぶりにフランスにやってきました。 目的はオルレアン大学の同窓会を現地で開催するということで、6月終わりくらいにフランス人の友人から「やるか</description>
+    </item>
+    
+    <item>
+      <title>R8000系アルテグラは結局全部でお幾らするのですか？(2019.05.08追記)</title>
+      <link>https://irohaka.netlify.com/howmuchtotalyr8000/</link>
+      <pubDate>Fri, 09 Jun 2017 12:26:57 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/howmuchtotalyr8000/</guid>
+      <description>アルテグラR8000ついに発表です。 ついに新型アルテグラが出ましたね。現行デュラエースのデザインを踏襲した形ですが、9000系と6800系は</description>
+    </item>
+    
+    <item>
+      <title>失われた田口線を求めて〜設楽のほう</title>
+      <link>https://irohaka.netlify.com/rechercher_extaguchi/</link>
+      <pubDate>Thu, 04 May 2017 08:48:33 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/rechercher_extaguchi/</guid>
+      <description>いつか行こうと思っているうちに時間はあっという間に経ってしまい、去年から時間が空いてようやく田口線跡を走ることができました。 色々地図やらブロ</description>
+    </item>
+    
+    <item>
+      <title>再び愛大に通ってます。</title>
+      <link>https://irohaka.netlify.com/goingtoaichiuniv/</link>
+      <pubDate>Sun, 23 Apr 2017 12:21:37 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/goingtoaichiuniv/</guid>
+      <description>4月から再び愛知大学の孔子学院で中国語講座に通っています。毎日通勤で通う道と途中までほぼ同じなので、何だか土曜日も通勤している感覚になってし</description>
+    </item>
+    
+    <item>
+      <title>サイクリング楽しかった！</title>
+      <link>https://irohaka.netlify.com/201703cycling/</link>
+      <pubDate>Sun, 19 Mar 2017 10:02:32 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/201703cycling/</guid>
+      <description>今朝は朝5時半に起きて久しぶりにサイクリングジャージとビブショーツに着替えてロードバイクに乗って出かけたのですが、30分ほどで途中で気持ち悪</description>
+    </item>
+    
+    <item>
+      <title>オレゴンのハンドメイドバイク</title>
+      <link>https://irohaka.netlify.com/oregon_handmade_bikes/</link>
+      <pubDate>Mon, 20 Feb 2017 12:39:59 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/oregon_handmade_bikes/</guid>
+      <description>もうここ何年かオレゴン州、とくにポートランドのカルチャーがフォーカスされていて興味があったのですが、興味を持ったら危なそうな魅力的なモノがい</description>
+    </item>
+    
+    <item>
+      <title>台南はいいぞ</title>
+      <link>https://irohaka.netlify.com/tainan_travel/</link>
+      <pubDate>Fri, 06 Jan 2017 15:46:55 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/tainan_travel/</guid>
+      <description>去年一泊だけ滞在した台南の良さを知ってもらおうと、両親を引き連れて再び台南までやってきました。 鄭成功で有名な赤嵌楼や安平古堡、日本統治時代の</description>
+    </item>
+    
+    <item>
+      <title>Raphaおじさんになったわけ</title>
+      <link>https://irohaka.netlify.com/unclerapha/</link>
+      <pubDate>Fri, 16 Sep 2016 03:09:05 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/unclerapha/</guid>
+      <description>いまやサイクルアパレルブランドの代名詞と言っても良いかもしれないRaphaですが、僕も好きでよく買っています。この10年のあいだにジャージの</description>
+    </item>
+    
+    <item>
+      <title>失われた旧田口線を求めて</title>
+      <link>https://irohaka.netlify.com/rechercher_lechemin_taguchi/</link>
+      <pubDate>Sun, 14 Aug 2016 03:06:35 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/rechercher_lechemin_taguchi/</guid>
+      <description>今日は朝早く起きることができたので路面はそれほど濡れていないのを確認してロードバイクで新城へ行ってきました。予定では本長篠駅から三河大草駅跡</description>
+    </item>
+    
+    <item>
+      <title>愛知大学豊橋キャンパスへ行ってきた</title>
+      <link>https://irohaka.netlify.com/toeic_at_aichi_univ/</link>
+      <pubDate>Sun, 26 Jun 2016 08:35:51 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/toeic_at_aichi_univ/</guid>
+      <description>この一週間、訓練校が終わって帰宅して晩御飯を食べたらすぐ寝てしまう生活が続いてしまい、ブログの更新ができませんでした。今日は僕の母校である愛</description>
+    </item>
+    
+    <item>
+      <title>東三河地方の豊川市近辺ライド</title>
+      <link>https://irohaka.netlify.com/toyokawa-cycling-guide/</link>
+      <pubDate>Sat, 04 Jun 2016 08:51:12 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/toyokawa-cycling-guide/</guid>
+      <description>「東三河地方の豊川市近辺ライド」つまり、いつも走っているコースをゆっくり写真を撮りながら走っただけなんですが、すごい綺麗な自然や文化財がいっ</description>
+    </item>
+    
+    <item>
+      <title>赤塚山公園を散歩</title>
+      <link>https://irohaka.netlify.com/akastuka-park/</link>
+      <pubDate>Sat, 21 May 2016 09:04:51 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/akastuka-park/</guid>
+      <description>今日は午後から自転車に乗るつもりでいたのですが、思いの外疲れていて寝込んでいました。 それでも少し元気になったので夕方になってから近所の赤塚山</description>
+    </item>
+    
+    <item>
+      <title>永盛帆布行のかばん</title>
+      <link>https://irohaka.netlify.com/taiwan_bags/</link>
+      <pubDate>Wed, 18 May 2016 09:02:26 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/taiwan_bags/</guid>
+      <description>台南に旅行へ行った時にぜひとも立ち寄りたいお店がありました。帆布製のかばんを作っている「永盛帆布行」です。 場所は林百貨から歩いてスグ、文学館</description>
+    </item>
+    
+    <item>
+      <title>upstandでロードバイクを立たせてみる</title>
+      <link>https://irohaka.netlify.com/upstandforbicycle/</link>
+      <pubDate>Sat, 14 May 2016 08:47:35 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/upstandforbicycle/</guid>
+      <description>ロードバイクの写真を撮る際に「どうやってバイクを立たせるか」が命題になると思うのですが、僕の場合はいつも壁か電柱にもたれかかるようにバイクを</description>
+    </item>
+    
+    <item>
+      <title>妻籠宿に行ってきました。</title>
+      <link>https://irohaka.netlify.com/tsumago-travel/</link>
+      <pubDate>Wed, 11 May 2016 09:24:22 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/tsumago-travel/</guid>
+      <description>ゴールデンウィークは寝てばかりになるかなぁと思っていたのですが、思いの外体調が良かったので外出をよくしました。かなり昔に行ったので記憶にはな</description>
+    </item>
+    
+    <item>
+      <title>豊橋市美術博物館の描く！マンガ展に行くべし！</title>
+      <link>https://irohaka.netlify.com/mangaexpoat-toyohashi/</link>
+      <pubDate>Tue, 10 May 2016 14:27:18 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/mangaexpoat-toyohashi/</guid>
+      <description>豊橋美術博物館で4月29日〜6月5日まで開催されている「描く！マンガ展」にゴールデンウィークのお休みを使って行ってきました。手塚治虫をはじめ</description>
+    </item>
+    
+    <item>
+      <title>Specialized S-works Roubaix SL4</title>
+      <link>https://irohaka.netlify.com/specialized_roubaixsl4/</link>
+      <pubDate>Sun, 08 May 2016 04:53:08 +0000</pubDate>
+      
+      <guid>https://irohaka.netlify.com/specialized_roubaixsl4/</guid>
+      <description>いろいろと自分のロードバイクも変遷してきましたが、今のスペシャライズドのルーベで落ち着いた感じがします。 スペックは、 フレーム：Special</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://irohaka.netlify.com/about/</link>
+      <pubDate>Sat, 01 Aug 2015 12:43:03 +0900</pubDate>
+      
+      <guid>https://irohaka.netlify.com/about/</guid>
+      <description>ブログを見ていただきありがとうございます。イロハカです。 大学時代にフランスへ語学留学したことをきっかけに旅行会社に就職して、お客さんを接客し</description>
+    </item>
+    
+  </channel>
+</rss>
