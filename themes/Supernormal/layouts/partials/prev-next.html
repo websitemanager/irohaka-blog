@@ -1,12 +1,13 @@
 <div class="prevnextlink">
   {{ if .Prev }}
     <div class="prevlink">
-      <a href="{{ .Prev.Permalink }}"><i class="far fa-arrow-alt-circle-left"></i> 新しい記事「{{ .Prev.Title }}」を読む　</a>
+      <a href="{{ .Prev.Permalink }}"><i class="far fa-arrow-alt-circle-left"></i> 古い記事「{{ .Prev.Title }}」を読む</a>
     </div>
   {{ end }}
   {{ if .Next }}
   <div class="nextlink">
-    <a href="{{ .Next.Permalink }}">古い記事「{{ .Next.Title }}」を読む<i class="far fa-arrow-alt-circle-right"></i></a>
+    <a href="{{ .Next.Permalink }}"></i> 新しい記事「{{ .Next.Title }}」を読む <i class="far fa-arrow-alt-circle-right"></i></a>
   </div>
 {{ end }}
+
 </div>
