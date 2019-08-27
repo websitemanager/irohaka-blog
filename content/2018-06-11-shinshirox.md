@@ -6,7 +6,7 @@ date: 2018-06-11T12:41:21+00:00
 url: /shinshiro_cross
 images: ["/images/201806shinshirox01.jpg"]
 featured_image: "/images/201806shinshirox01.jpg"
-tags: ["奥三河","自転車のはなし"]
+tags: [ "奥三河","自転車のはなし" ]
 draft: false
 ---
 

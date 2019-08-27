@@ -6,7 +6,7 @@ date: 2016-06-04T08:51:12+00:00
 url: /toyokawa-cycling-guide
 images: ["/images/20160604toyokawa-eye.jpg"]
 featured_image: "/images/20160604toyokawa-eye.jpg"
-tags: ["杣坂","豊川"]
+tags: [ "杣坂","豊川" ]
 ---
 
 「東三河地方の豊川市近辺ライド」つまり、いつも走っているコースをゆっくり写真を撮りながら走っただけなんですが、すごい綺麗な自然や文化財がいっぱいで東三河ってなかなか良い場所だなぁと地元民ながら改めて思いましたので、まとめてみました。

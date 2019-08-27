@@ -6,7 +6,7 @@ date: 2019-03-08T08:43:49
 url: /nagashino-sakura
 images: ["/images/201903nagashino-eye.jpg"]
 featured_image: "/images/201903nagashino-eye.jpg"
-tags: ["奥三河","旧田口線"]
+tags: [ "奥三河","旧田口線" ]
 ---
 
 

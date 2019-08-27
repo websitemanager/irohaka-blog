@@ -6,7 +6,7 @@ date: 2017-09-05T04:50:16+00:00
 url: /2017cyclecomp
 images: ["/images/201709giant_neostrack.png"]
 featured_image: "/images/201709giant_neostrack.png"
-tags: ["サイクルコンピューター"]
+tags: [ "サイクルコンピューター" ]
 ---
 
 先日ジャイアントジャパンの販売店向け2018年モデル展示会があったそうで、色々なお店の方のブログを拝見している中でサイクルコンピューターに目が行きました。これは安いんじゃないか・・・。

@@ -6,7 +6,7 @@ date: 2016-05-08T04:53:08+00:00
 url: /Specialized_RoubaixSL4
 images: ["/images/s-sworksroubaixsl42016_eye.jpg"]
 featured_image: "/images/s-sworksroubaixsl42016_eye.jpg"
-tags: ["specialized","Roubaix"]
+tags: [ "specialized","Roubaix" ]
 ---
 
 いろいろと自分のロードバイクも変遷してきましたが、今のスペシャライズドのルーベで落ち着いた感じがします。

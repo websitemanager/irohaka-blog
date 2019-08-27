@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://irohaka.netlify.com/tags/blog/</loc>
+    <lastmod>2019-08-23T14:33:09+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://irohaka.netlify.com/tags/</loc>
     <lastmod>2019-08-23T14:33:09+09:00</lastmod>
   </url>
@@ -13,12 +18,12 @@
   </url>
   
   <url>
-    <loc>https://irohaka.netlify.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
+    <loc>https://irohaka.netlify.com/201908newserver/</loc>
     <lastmod>2019-08-23T14:33:09+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://irohaka.netlify.com/201908newserver/</loc>
+    <loc>https://irohaka.netlify.com/tags/%E5%8B%89%E5%BC%B7%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%97/</loc>
     <lastmod>2019-08-23T14:33:09+09:00</lastmod>
   </url>
   

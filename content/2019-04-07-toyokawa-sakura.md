@@ -5,7 +5,7 @@ date: 2019-04-07T08:42:54+00:00
 url: /toyokawa_sakura
 images: ["/images/201904toyokawa-eye.jpg"]
 featured_image: "/images/201904toyokawa-eye.jpg"
-tags: ["豊川","サイクリング"]
+tags: [ "豊川","サイクリング" ]
 ---
 
 自転車を出して市内の桜を見に出かけました。

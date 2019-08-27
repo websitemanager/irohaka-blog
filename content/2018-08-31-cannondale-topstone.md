@@ -6,7 +6,7 @@ date: 2018-08-31T14:39:20+00:00
 url: /Cannondale_TOPSTONE
 images: ["/images/201808cannondale-topstone-eye.jpg"]
 featured_image: "/images/201808cannondale-topstone-eye.jpg"
-tags: ["Cannondale","自転車のはなし"]
+tags: [ "Cannondale","自転車のはなし" ]
 ---
 
 　去年のように寝る前の時間を新モデルの記事がないか英語や中国語でチェックしていたのですが、今年は体調があまり良くなくて余裕がありませんでした。新年度モデルが正式に発表されても記事を読むのも段々疲れてしまって知らない間に2019年モデルがだいたい発表されてしまっていました。

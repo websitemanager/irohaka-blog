@@ -6,7 +6,7 @@ date: 2017-02-20T12:39:59+00:00
 url: /oregon_handmade_bikes
 images: ["/images/tonicfab-eye.jpg"]
 featured_image: "/images/tonicfab-eye.jpg"
-tags: ["TonicFab" ]
+tags: [ "TonicFab" ]
 ---
 
 もうここ何年かオレゴン州、とくにポートランドのカルチャーがフォーカスされていて興味があったのですが、興味を持ったら危なそうな魅力的なモノがいっぱいあって正直見て見ぬ振りをしてきました。
