@@ -1,28 +1,15 @@
-{{ $pageurl := .Page.Permalink }}
-{{ $siteurl := .Site.BaseURL }}
 
-<style>
-#share-buttons {display: flex; justify-content: center; vertical-align: baseline; }
-#share-buttons > div {
-flex-direction: column;
-justify-content:center; 
-text-align: center; 
-height: 40px;  
-text-align: center;
-margin-bottom:20px;
-}
-#share-buttons > div > svg {height: 20px; fill: #eee; margin-top: 10px;}
-#share-buttons > div:hover {cursor: pointer;}
-#share-buttons > div.facebook:hover > svg {fill: #fff;}
-#share-buttons > div.twitter:hover > svg {fill: #fff;}
-#share-buttons > div.facebook > svg {height: 32px; margin-top: 8px;margin-right:10px; border:solid 1px #777; background-color:#3B5998;padding:5px;border-radius: 5px;}
-#share-buttons > div.twitter > svg {height: 36px; margin-top: 8px; margin-right:10px; border:solid 1px #777; background-color:#55ACEE;padding:3.6px;border-radius: 5px;}
-#share-buttons > div.hatena{margin-top:8px; }
-</style>
-
-
-<div id="share-buttons">
-<div class="twitter" title="Share this on Twitter" onclick="window.open('{{ $pageurl }}');"><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
-<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u={{ $siteurl }}{{ $pageurl }}');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
-<div class="hatena"><a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="44" data-hatena-bookmark-height="44" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></div>
-</div>
+<!-- Sharingbutton Facebook -->
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Share on Facebook">
+    <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z"/></svg>
+      </div>Share on Facebook</div>
+  </a>
+  
+  <!-- Sharingbutton Twitter -->
+  <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text={{ .Title }};url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Share on Twitter">
+    <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg>
+      </div>Share on Twitter</div>
+  </a>
+  
