@@ -417,97 +417,10 @@ a.back-to-top {
   justify-content: center;
 }
 
-.resp-sharing-button__link,
-.resp-sharing-button__icon {
-  display: inline;
+img.socialicon{
+  max-width:80px;
+  padding:15px;
 }
-
-.resp-sharing-button__link {
-  text-decoration: none;
-  color: #fff;
-  margin: 0.5em;
-}
-.hatena{
-  max-height: 35px;
-  margin-left:6px;
-  align-self: center;
-}
-.resp-sharing-button {
-  margin-right:2px;
-  display: inline-block;
-  height: 20px;
-  border-radius: 4px;
-  transition: 25ms ease-out;
-  align-self: center;
-  padding:6px 15px 10px 10px;
-  align-items: center;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size:14px;
-}
-
-.resp-sharing-button__icon svg {
-  width: 17px;
-  height: 17px;
-  margin-bottom:-2px;
-  margin-right: 3px;
-}
-
-.resp-sharing-button--small svg {
-  margin: 0;
-  vertical-align: middle;
-}
-
-/* Non solid icons get a stroke */
-.resp-sharing-button__icon {
-  stroke: #fff;
-  fill: none;
-}
-
-/* Solid icons get a fill */
-.resp-sharing-button__icon--solid,
-.resp-sharing-button__icon--solidcircle {
-  fill: #fff;
-  stroke: none;
-}
-
-.resp-sharing-button--twitter {
-  background-color: #55acee;
-}
-
-.resp-sharing-button--twitter:hover {
-  background-color: #2795e9;
-}
-
-.resp-sharing-button--facebook {
-  background-color: #3b5998;
-}
-
-.resp-sharing-button--facebook:hover {
-  background-color: #2d4373;
-}
-
-.resp-sharing-button--facebook {
-  background-color: #3b5998;
-  border-color: #3b5998;
-}
-
-.resp-sharing-button--facebook:hover,
-.resp-sharing-button--facebook:active {
-  background-color: #2d4373;
-  border-color: #2d4373;
-}
-
-.resp-sharing-button--twitter {
-  background-color: #55acee;
-  border-color: #55acee;
-}
-
-.resp-sharing-button--twitter:hover,
-.resp-sharing-button--twitter:active {
-  background-color: #2795e9;
-  border-color: #2795e9;
-}
-
 /************* share button ***************/
 
 
