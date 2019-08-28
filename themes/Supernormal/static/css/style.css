@@ -419,7 +419,7 @@ a.back-to-top {
 
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
-  display: inline-block;
+  display: inline;
 }
 
 .resp-sharing-button__link {
@@ -427,21 +427,29 @@ a.back-to-top {
   color: #fff;
   margin: 0.5em;
 }
-
+.hatena{
+  max-height: 35px;
+  margin-left:6px;
+  align-self: center;
+}
 .resp-sharing-button {
-  height: 30px;
-  border-radius: 5px;
+  margin-right:2px;
+  display: inline-block;
+  height: 20px;
+  border-radius: 4px;
   transition: 25ms ease-out;
-  padding: 0.5em 0.75em;
+  align-self: center;
+  padding:6px 15px 10px 10px;
+  align-items: center;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size:14px;
 }
 
 .resp-sharing-button__icon svg {
   width: 17px;
   height: 17px;
   margin-bottom:-2px;
-  margin-right: 8px;
-  vertical-align: baseline;
+  margin-right: 3px;
 }
 
 .resp-sharing-button--small svg {
