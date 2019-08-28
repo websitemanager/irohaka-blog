@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2019-08-27T14:33:09+09:00
 url: /201908newserver
-images: ["images/20190822hikkoshi.png"]
-featured_image: "/images/20190822hikkoshi.png"
+images: ["images/20190822hikkoshi.jpg"]
+featured_image: "/images/20190822hikkoshi.jpg"
 tags: [ "blog","勉強のはなし" ]
 ---
 

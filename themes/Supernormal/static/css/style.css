@@ -547,7 +547,7 @@ i.fas{
   font-weight: 900; 
 }
 .pagination {
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -562,7 +562,7 @@ i.fas{
 .pagination > li > a,
 .pagination > li > span {
   position: relative;
-  padding: 1px;
+  padding: 5px;
   margin-left: -1px;
   line-height: 1.42857143;
   color: #337ab7;
