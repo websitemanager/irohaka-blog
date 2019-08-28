@@ -8,7 +8,6 @@ images: ["images/20190822hikkoshi.jpg"]
 featured_image: "/images/20190822hikkoshi.jpg"
 tags: [ "blog","勉強のはなし" ]
 ---
-
 ブログの更新もしていないのに引っ越しをするというのも変なのですが、今までブログの投稿に利用してきたWordPressがどうも使いにくく感じていたので思い切って静的サイトジェネレーターの「Hugo」を使ったサイト構築に挑戦してみました。　　
 <!--more-->
 <br>

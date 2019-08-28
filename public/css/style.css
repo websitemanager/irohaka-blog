@@ -4,7 +4,7 @@
 }
 html {
   max-width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'M PLUS 1p', Hiragino Kaku Gothic ProN,
+  font-family: -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic ProN,
     ヒラギノ角ゴ ProN W3, メイリオ, Meiryo, sans-serif;
   background: #19191a;
   font-size: 17px;
@@ -210,12 +210,9 @@ li {
   margin-bottom: 16px;
 }
 li.related::before{
-  font-family:"Font Awesome 5 Free";
-  color:#fa6aca;
-  content:'\f138';
+  content:"👉";
   position: relative;
-  margin-right:10px;
-  font-weight: 900; 
+  margin-right:10px; 
 }
 
 li.related {
@@ -237,13 +234,9 @@ section#pagination{
 }
 
 /*********ページネーター**************/
-i.fas{
-  font-family:"Font Awesome 5 Free";
-  font-weight: 900; 
-}
 .pagination {
   display: flex;
-  justify-content: center;
+  align-content: center;
   text-align: center;
   padding-left: 0;
   margin: auto;
@@ -251,6 +244,7 @@ i.fas{
 }
 
 .pagination > li {
+  justify-content: center;
   display: inline;
 }
 .pagination > li > a,
@@ -292,7 +286,6 @@ i.fas{
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   color: #777;
-  cursor: not-allowed;
 }
 /*********ページネーター**************/
 
@@ -317,12 +310,6 @@ div.nextlink {
   align-items: left;
   padding: 10px;
 }
-
-i.far{
-  font-family:"Font Awesome 5 Free";
-  font-weight: 900; 
-}
-
 nav,
 footer {
   text-align: center;
@@ -422,65 +409,49 @@ a.back-to-top {
 }
 
 /************* share button ***************/
-.sns_parent {
-  text-align: center;
+.shareList {
+	list-style:none;
+	display: flex;
+	flex-wrap:wrap;
+	width:100%;
+	margin:-5px 0 0 -5px;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
+.shareList__item {
+	height:30px;
+	line-height:30px;
+	width:30px;
+	margin:5px 0 0 5px;
+	text-align:center;
+}
+.shareList__link {
+	display:block;
+	color:#ffffff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.shareList__link::before{
+	font-size:16px;
+	display:block;
+	transition: ease-in-out .2s;
+	border-radius: 5px;
+}
+.shareList__link:hover::before{
+	background:#ffffff;
+	transform: scale(1.2);
+	box-shadow:1px 1px 4px 0px rgba(0,0,0,0.15);
+}
+ 
+.shareList__link.icon-twitter{background:#55acee;}
+.shareList__link.icon-twitter:hover::before{color:#55acee;}
+.shareList__link.icon-facebook{background:#3B5998;}
+.shareList__link.icon-facebook:hover::before{color:#3B5998;}
+.shareList__link.icon-hatebu{background:#008FDE;}
+.shareList__link.icon-hatebu:hover::before{color:#008FDE;}
+.shareList__link.icon-line{background:#1dcd00;}
+.shareList__link.icon-line:hover::before{color:#1dcd00;}
 
-.sns_section {
-  margin-top: 30px;
-  display: inline-block;
-  text-align: left;
-}
-.sns_button {
-  float: left;
-  box-shadow: inset 0 0 0 2px #bac5d4;
-  border-radius: 100%;
-  -moz-transition: all 280ms ease;
-  -o-transition: all 280ms ease;
-  -webkit-transition: all 280ms ease;
-  transition: all 280ms ease;
-}
-.sns_button a {
-  display: table-cell;
-  width: 44px;
-  height: 44px;
-  color: #99a3b1;
-  text-align: center;
-  vertical-align: middle;
-  -moz-transition: all 280ms ease;
-  -o-transition: all 280ms ease;
-  -webkit-transition: all 280ms ease;
-  transition: all 280ms ease;
-}
-.sns_button i {
-  font-size: 20px;
-  vertical-align: middle;
-}
-.sns_button:hover {
-  box-shadow: inset 0 0 0 22px #eaeaea;
-}
-
-.sns_button + .sns_button {
-  margin: 0 0 0 12px;
-}
-
-.twitter:hover a {
-  color: #1b95e0;
-}
-
-.facebook:hover a {
-  color: #3b5999;
-}
-
-.hatena:hover a {
-  color: #4ba3d9;
-}
-
-.fa-hatena:before {
-  content: "B!";
-  font-family: Verdana;
-  font-weight: bold;
-}
 /************* share button ***************/
 
 
@@ -493,21 +464,21 @@ a.back-to-top {
     flex-direction: column;
   }
   header {
-    max-width: 95%;
+    max-width: 97%;
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
   body {
-    max-width: 100%;
+    max-width: 97%;
     margin: auto;
   }
   main {
-    max-width: 99%;
+    max-width: 98%;
     margin: auto;
   }
   div#content {
-    max-width: 100%;
+    max-width: 97%;
   }
 
   div.prevnextlink {
@@ -540,4 +511,32 @@ a.back-to-top {
     font-size: 14px;
     line-height: 1.5;
   }
+
+/*********ページネーター**************/
+
+.pagination {
+  width:100%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+  margin: auto;
+  border-radius: 1px;
+}
+
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  padding: 2px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+
 }

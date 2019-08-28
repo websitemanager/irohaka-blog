@@ -20,12 +20,9 @@
       <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
     </figure>
     {{ end}}
-    <ul class="shareList">
-        <li class="shareList__item"><a class="shareList__link icon-twitter" href="#" target="_blank" title="Twitter"></a></li>
-        <li class="shareList__item"><a class="shareList__link icon-facebook" href="#" target="_blank" title="Facebook"></a></li>
-        <li class="shareList__item"><a class="shareList__link icon-hatebu" href="#" target="_blank" title="はてなブックマーク"></a></li>
-        <li class="shareList__item"><a class="shareList__link icon-line" href="#" target="_blank" title="LINE"></a></li>
-      </ul>
+    <div class="socialshare">
+        {{ partial "socialshare.html" . }}
+    </div>
     <article id="content">
       {{ .Content }}
     </article>
