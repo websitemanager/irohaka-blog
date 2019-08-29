@@ -127,6 +127,10 @@ header {
   padding: 0;
 }
 
+img >.blogtitle{
+  border:0;
+}
+
 footer {
   width: 80%;
   max-width: 1080px;
