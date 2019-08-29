@@ -141,7 +141,7 @@ article.toplist {
 }
 
 div#content {
-  width: 88%;
+  width: 89%;
   margin: auto;
   padding: 0;
 }
@@ -161,7 +161,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  padding-top: 30px;
+  padding-bottom:10px;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.7;
 }
@@ -409,48 +411,34 @@ a.back-to-top {
 }
 
 /************* share button ***************/
-.shareList {
-	list-style:none;
-	display: flex;
-	flex-wrap:wrap;
-	width:100%;
-	margin:-5px 0 0 -5px;
-  padding-top:20px;
-  padding-bottom: 20px;
+
+.socialshare{
+  max-width:98%;
+  padding:40px 0px 40px 0px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
-.shareList__item {
-	height:30px;
-	line-height:30px;
-	width:30px;
-	margin:5px 0 0 5px;
-	text-align:center;
+
+img.socialicon{
+  align-self: flex-start;
+  max-width:40px;
+  margin-left:8px;
+  padding-bottom:7px;
 }
-.shareList__link {
-	display:block;
-	color:#ffffff;
-	text-decoration: none;
-	border-radius: 5px;
+.hatena{
+  padding-left:8px;
+  align-self: center;
+  margin-bottom:-3px;
 }
-.shareList__link::before{
-	font-size:16px;
-	display:block;
-	transition: ease-in-out .2s;
-	border-radius: 5px;
+
+.line-it-button{
+  max-width: 40px;
+  align-self: center;
+  padding-left:8px;
+  margin-bottom:7px;
 }
-.shareList__link:hover::before{
-	background:#ffffff;
-	transform: scale(1.2);
-	box-shadow:1px 1px 4px 0px rgba(0,0,0,0.15);
-}
- 
-.shareList__link.icon-twitter{background:#55acee;}
-.shareList__link.icon-twitter:hover::before{color:#55acee;}
-.shareList__link.icon-facebook{background:#3B5998;}
-.shareList__link.icon-facebook:hover::before{color:#3B5998;}
-.shareList__link.icon-hatebu{background:#008FDE;}
-.shareList__link.icon-hatebu:hover::before{color:#008FDE;}
-.shareList__link.icon-line{background:#1dcd00;}
-.shareList__link.icon-line:hover::before{color:#1dcd00;}
 
 /************* share button ***************/
 

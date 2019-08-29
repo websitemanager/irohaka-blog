@@ -34,9 +34,11 @@ WordPressからのデータをエクスポートするプラグインがある�
 
 {{< figure src="../images/20190827hugo.jpg" title="Hugo公式サイト">}}  
 <br>
-参考にさせていただいたサイト  
+
+### 参考にさせていただいたサイト  
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/peaceiris/items/ef38cc2a4b5565d0dd7c" data-iframely-url="//cdn.iframe.ly/M3ZYC6x"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<br>
 👉　 [Hugo公式](https://gohugo.io/)  
-👉　 [Hugo で静的なサイト・ブログを構築しよう｜Qiita](https://qiita.com/peaceiris/items/ef38cc2a4b5565d0dd7c)  
 👉　 [まくまくHugo/Goノート](https://maku77.github.io/hugo/)  
 👉　 [tanaken.me](https://tanaken.me/posts/190217/)  
 👉　 [blog.unresolved.xyz](https://blog.unresolved.xyz/how-to-make-of-hugo-theme/)  

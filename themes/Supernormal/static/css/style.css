@@ -440,7 +440,31 @@ img.socialicon{
   margin-bottom:7px;
 }
 
-/************* share button ***************/
+/************* Amazon Affiliate link ***************/
+.amazonlink{
+  max-width:98%;
+  padding:0px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border:solid 0.5px #aaa;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.amazonimage{
+  padding:0;
+  margin:0;
+  border:none;
+  max-width:100%;
+  max-height:100%;
+}
+
+.amazontitle{
+ align-self: flex-start;
+ padding:10px;
+ margin-left:10px;
+}
+
 
 
 /* ********  media queries ********  */
