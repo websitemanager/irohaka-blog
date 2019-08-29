@@ -111,21 +111,19 @@ main {
 }
 body {
   max-width: 90%;
-  background: rgb(46, 46, 48);
+  background: #0f1725;
   margin: auto;
 }
 
 header {
   width: 85%;
   max-width: 1080px;
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin: auto;
+  padding-top: 50px;
 }
 .blogtitle {
   max-width: 500px;
   margin-top: 30px;
-  margin-bottom: 20px;
   padding: 0;
 }
 
@@ -199,13 +197,14 @@ div.list-title {
 }
 
 ul.topmenu {
+  padding-top:50px;
   text-align: center;
 }
 
 li.menu_line {
   display: inline;
   text-align: center;
-  padding: 20px;
+  padding:10px 20px 10px 20px;
 }
 
 li {
@@ -338,8 +337,9 @@ p.Summary {
 img {
   max-width: 100%;
   height: auto;
-  padding-top: 10px;
+  padding: 1px;
   margin-bottom: 0px;
+  border:solid 0.5px #777;
 }
 figcaption {
   margin-top: 0px;

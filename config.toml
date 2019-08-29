@@ -11,7 +11,7 @@ googleAnalytics = "UA-58799-9"
 [Params]
     author = "IROHAKA"
     images = ["img/eyecatch.jpg"]
-    description ="イロハカの自転車と旅行と趣味のはなし"
+    description ="イロハカの自転車と旅行と趣味のはなし。"
     amazonJpAffiliate = "irohaka-22"
 
 [blackfriday]

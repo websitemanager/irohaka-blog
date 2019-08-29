@@ -22,20 +22,18 @@
     gtag('js', new Date());
     gtag('config', 'UA-58799-9');
   </script>
-
 </head>
-
 <body>
   <header>
     <a href="{{ .Site.BaseURL }}" 　><img class="blogtitle" src="/img/blogtitle.svg" alt="{{ .Site.Title }}"></a>
     <ul class="topmenu">
-      {{ range .Site.Menus.main }}
-      <li class="menu_line">
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
+        {{ range .Site.Menus.main }}
+        <li class="menu_line">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
   </header>
-
+  
   <body>
     <main>
