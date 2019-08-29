@@ -127,8 +127,8 @@ header {
   padding: 0;
 }
 
-img >.blogtitle{
-  border:0;
+img.blogtitle{
+  border: none;
 }
 
 footer {
