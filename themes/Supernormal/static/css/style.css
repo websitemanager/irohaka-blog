@@ -430,19 +430,15 @@ img.socialicon{
   max-width:40px;
   margin-left:8px;
   padding-bottom:7px;
+  border:none;
 }
 .hatena{
   padding-left:8px;
-  align-self: center;
-  margin-bottom:-3px;
+  align-self: flex-start;
+  padding-top:1px;
 }
 
-.line-it-button{
-  max-width: 40px;
-  align-self: center;
-  padding-left:8px;
-  margin-bottom:7px;
-}
+
 
 /************* Amazon Affiliate link ***************/
 .amazonlink{
