@@ -162,6 +162,7 @@ h1 {
   line-height: 1.7;
 }
 
+
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -195,7 +196,7 @@ div.title_line {
   display: flex;
   justify-content: space-between;
   flex-direction: row wrap;
-  line-height: 1rem;
+  line-height: 1.5rem;
   align-items: baseline;
 }
 
@@ -205,6 +206,7 @@ div.list-title {
   flex-direction: row;
   align-items: baseline;
   line-height: 1;
+  padding-bottom: 7px;
 }
 
 ul.topmenu {
@@ -350,7 +352,7 @@ p.Summary {
 img {
   max-width: 100%;
   height: auto;
-  padding: 1px;
+  padding:0;
   margin-bottom: 0px;
   border:solid 0.5px #777;
 }
