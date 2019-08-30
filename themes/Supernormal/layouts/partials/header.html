@@ -25,15 +25,13 @@
 </head>
 <body>
   <header>
-    <a href="{{ .Site.BaseURL }}" 　><img class="blogtitle" src="/img/blogtitle.svg" alt="{{ .Site.Title }}"></a>
-    <ul class="topmenu">
-        {{ range .Site.Menus.main }}
-        <li class="menu_line">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-      </ul>
+    <p class="headerp" ><a href="{{ .Site.BaseURL }}" 　><img class="blogtitle" src="/img/blogtitle.svg" alt="{{ .Site.Title }}"></a></p>
   </header>
-  
-  <body>
+  <ul class="topmenu">
+    {{ range .Site.Menus.main }}
+    <li class="menu_line">
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
     <main>
