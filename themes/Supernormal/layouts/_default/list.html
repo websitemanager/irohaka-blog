@@ -1,18 +1,16 @@
 {{ define "main" }}
 {{ range (.Paginator 5).Pages }}
 <article class="toplist">
-    <div>
         <div class="list-title">
             <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><time>{{.Date.Format "2006年01月02日"}}</time>
         </div>
         {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
-        {{ .Summary }}
-    </div>
-    {{ if .Truncated }}
-    <div>
-        <a class="readmore" href="{{ .RelPermalink }}">続きを読む</a>
-    </div>
-    {{ end }}
+         <div class="readmore">
+         <p>{{ .Summary }}</p>    
+         {{ if .Truncated }}
+          <p>.....&nbsp;　<a class="readmore" href="{{ .RelPermalink }}">続きを読む</a></p>
+         </div>
+         {{ end }}
 </article>
 {{ end }}
 <section id="pagination">

@@ -41,6 +41,12 @@ a.title {
   font-size: 20px;
 }
 
+div.readmore p{
+  display:inline;
+}
+
+
+
 a.readmore{
   display:inline-block;
   border: solid 1px #db8ec1;
