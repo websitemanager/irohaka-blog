@@ -151,8 +151,8 @@ footer {
 }
 
 article.toplist {
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 div#content {
@@ -224,7 +224,7 @@ ul.topmenu {
 
 li.menu_line {
   flex:1;
-  border: solid 0.5px #db8ec1;
+  border: solid 0.8px #db8ec1;
   display: inline-block;
   text-align: center;
   padding:10px;
@@ -361,9 +361,9 @@ p.Summary {
 img {
   max-width: 100%;
   height: auto;
-  padding:0;
+  padding:0.1px;
   margin-bottom: 0px;
-  border:solid 0.5px #777;
+  border:solid 0.8px #777;
 }
 figcaption {
   margin-top: 0px;
@@ -494,6 +494,14 @@ img.amazonimage{
   .title_line {
     flex-direction: column;
   }
+  h3 {
+    padding-top: 30px;
+    padding-bottom:10px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
   header {
     max-width:97%;
     padding-top: 16px;
