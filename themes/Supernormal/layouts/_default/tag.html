@@ -1,12 +1,12 @@
 {{ partial "header.html" . }}
 <div id="content">
   <main>
-    <h3 class="tagpage">-----タグが同じ記事一覧 -----</h3>
+    <h3 class="tagpage">「{{ .Title }}」記事一覧</h3>
     {{ range .Data.Pages }}
     <ul id="taglist">
       <li class="tags">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+        <div class="meta">{{ .Date.Format " 2006年01月02日" }}</div>
       </li>
     </ul>
     {{ end }}
