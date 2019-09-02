@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2019-08-27T14:33:09+09:00
 url: /201908newserver
-images: ["images/20190822hikkoshi.jpg alt='Hugoでブログを作りました'"]
-featured_image: "/images/20190822hikkoshi.jpg　alt='Hugoでブログをつくりました'"
+images: ["images/20190822hikkoshi.jpg"]
+featured_image: "/images/20190822hikkoshi.jpg"
 tags: [ "blog","勉強のはなし" ]
 ---
 ブログの更新もしていないのに引っ越しをするというのも変なのですが、今までブログの投稿に利用してきたWordPressがどうも使いにくく感じていたので思い切って静的サイトジェネレーターの「Hugo」を使ったサイト構築に挑戦してみました。　　
