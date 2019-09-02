@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2019-03-08T08:43:49
 url: /nagashino-sakura
-images: ["/images/201903nagashino-eye.jpg"]
-featured_image: "/images/201903nagashino-eye.jpg"
+images: ["/images/201903nagashino-eye.jpg alt='長篠の川津桜'"]
+featured_image: "/images/201903nagashino-eye.jpg alt='長篠の川津桜'"
 tags: [ "奥三河","旧田口線" ]
 ---
 

@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2018-06-11T12:41:21+00:00
 url: /shinshiro_cross
-images: ["/images/201806shinshirox01.jpg"]
-featured_image: "/images/201806shinshirox01.jpg"
+images: ["/images/201806shinshirox01.jpg alt='シンシロクロス'"]
+featured_image: "/images/201806shinshirox01.jpg alt='シンシロクロス'"
 tags: [ "奥三河","自転車のはなし" ]
 draft: false
 ---

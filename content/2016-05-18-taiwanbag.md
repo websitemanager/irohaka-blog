@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2016-05-18T09:02:26+00:00
 url: /taiwan_bags
-images: ["/images/2016tainanbag-eye.jpg"]
-featured_image: "/images/2016tainanbag-eye.jpg"
+images: ["/images/2016tainanbag-eye.jpg alt='台南のかばん'"]
+featured_image: "/images/2016tainanbag-eye.jpg alt='台南のかばん'"
 tags: [ "台湾" ]
 ---
 

@@ -3,8 +3,8 @@ title: 豊川市桜めぐり2019
 author: irohaka
 date: 2019-04-07T08:42:54+00:00
 url: /toyokawa_sakura
-images: ["/images/201904toyokawa-eye.jpg"]
-featured_image: "/images/201904toyokawa-eye.jpg"
+images: ["/images/201904toyokawa-eye.jpg alt='豊川の桜'"]
+featured_image: "/images/201904toyokawa-eye.jpg alt='豊川の桜'"
 tags: [ "サイクリング" ]
 ---
 

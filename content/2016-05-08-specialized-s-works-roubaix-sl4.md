@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2016-05-08T04:53:08+00:00
 url: /Specialized_RoubaixSL4
-images: ["/images/s-sworksroubaixsl42016_eye.jpg"]
-featured_image: "/images/s-sworksroubaixsl42016_eye.jpg"
+images: ["/images/s-sworksroubaixsl42016_eye.jpg alt='Specialized Roubaix'"]
+featured_image: "/images/s-sworksroubaixsl42016_eye.jpg alt='Specialized Roubaix'"
 tags: [ "specialized","Roubaix" ]
 ---
 

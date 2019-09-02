@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2017-02-20T12:39:59+00:00
 url: /oregon_handmade_bikes
-images: ["/images/tonicfab-eye.jpg"]
-featured_image: "/images/tonicfab-eye.jpg"
+images: ["/images/tonicfab-eye.jpg alt='ハンドメイドバイク'"]
+featured_image: "/images/tonicfab-eye.jpg alt='ハンドメイドバイク'"
 tags: [ "TonicFab" ]
 ---
 

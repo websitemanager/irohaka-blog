@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2016-09-16T03:09:05+00:00
 url: /uncleRapha
-images: ["/images/201609rapha-eye.jpg"]
-featured_image: "/images/201609rapha-eye.jpg"
+images: ["/images/201609rapha-eye.jpg alt='Rapha'"]
+featured_image: "/images/201609rapha-eye.jpg alt='Rapha'"
 tags: [ "Rapha" ]
 ---
 

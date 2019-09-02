@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2019-01-06T13:29:09+00:00
 url: /AppleWatchandZwift
-images: ["/images/201901zwift-applewatch-eye.jpg"]
-featured_image: "/images/201901zwift-applewatch-eye.jpg"
+images: ["/images/201901zwift-applewatch-eye.jpg alt='STRAVA'"]
+featured_image: "/images/201901zwift-applewatch-eye.jpg alt='STRAVA'"
 tags: [ "Zwift","自転車のはなし" ]
 draft: false
 ---

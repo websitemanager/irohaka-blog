@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2017-11-19T09:06:36+00:00
 url: /beyond_somasaka
-images: ["/images/201711somasaka-eye.jpg"]
-featured_image: "/images/201711somasaka-eye.jpg"
+images: ["/images/201711somasaka-eye.jpg alt='杣坂'"]
+featured_image: "/images/201711somasaka-eye.jpg alt='杣坂'"
 tags: [ "杣坂","サイクリング" ]
 ---
 

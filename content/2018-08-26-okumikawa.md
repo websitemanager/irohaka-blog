@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2018-08-26T11:06:00+00:00
 url: /okumikawa_summer2018
-images: ["/images/201808okumikawa-eye.jpg"]
-featured_image: "/images/201808okumikawa-eye.jpg"
+images: ["/images/201808okumikawa-eye.jpg alt='奥三河'"]
+featured_image: "/images/201808okumikawa-eye.jpg alt='奥三河'"
 tags: [ "奥三河" ]
 ---
 

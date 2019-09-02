@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2018-08-31T14:39:20+00:00
 url: /Cannondale_TOPSTONE
-images: ["/images/201808cannondale-topstone-eye.jpg"]
-featured_image: "/images/201808cannondale-topstone-eye.jpg"
+images: ["/images/201808cannondale-topstone-eye.jpg alt='Cannondale Topstone'"]
+featured_image: "/images/201808cannondale-topstone-eye.jpg alt='Cannondale Topstone'"
 tags: [ "Cannondale","自転車のはなし" ]
 ---
 
