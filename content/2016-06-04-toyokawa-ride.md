@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2016-06-04T08:51:12+00:00
 url: /toyokawa-cycling-guide
-images: ["/images/20160604toyokawa-eye.jpg alt='豊川市'"]
-featured_image: "/images/20160604toyokawa-eye.jpg alt='豊川市'"
+images: ["/images/20160604toyokawa-eye.jpg"]
+featured_image: "/images/20160604toyokawa-eye.jpg"
 tags: [ "杣坂","豊川" ]
 ---
 

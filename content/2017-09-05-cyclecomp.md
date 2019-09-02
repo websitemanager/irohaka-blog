@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2017-09-05T04:50:16+00:00
 url: /2017cyclecomp
-images: ["/images/201709giant_neostrack.png alt='サイコン'"]
-featured_image: "/images/201709giant_neostrack.png alt='サイコン'"
+images: ["/images/201709giant_neostrack.png"]
+featured_image: "/images/201709giant_neostrack.png"
 tags: [ "サイクルコンピューター" ]
 ---
 

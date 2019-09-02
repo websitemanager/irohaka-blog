@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2017-12-10T01:38:12+00:00
 url: /yamato-ginko
-images: ["/images/201712yamato-eye.jpg alt='大和の大イチョウ'"]
-featured_image: "/images/201712yamato-eye.jpg alt='大和の大イチョウ'"
+images: ["/images/201712yamato-eye.jpg"]
+featured_image: "/images/201712yamato-eye.jpg"
 tags: [ "豊川","自転車のはなし" ]
 ---
 
