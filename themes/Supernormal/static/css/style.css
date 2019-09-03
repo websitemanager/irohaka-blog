@@ -410,6 +410,10 @@ hr.dark {
   background-color: #999;
 }
 
+.googleadsence{
+  max-width:100%;
+}
+
 footer {
   text-align: center;
   font-size: 0.9rem;
