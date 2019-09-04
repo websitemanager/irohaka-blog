@@ -14,8 +14,7 @@ html {
   text-align: left;
   font-feature-settings: "pwid";
   text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-  justify-content: space-between;
+  word-break: normal;
 }
 a {
   text-decoration: none;
