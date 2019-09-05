@@ -4,7 +4,7 @@
         <div class="list-title">
             <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><time>{{.Date.Format "2006年01月02日"}}</time>
         </div>
-        {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
+        {{ with .Params.featured_image }}<img src="{{ . }}" width="1080px" height="540px">{{ end }}
          <div class="readmore">
          <p>{{ .Summary }}</p>    
          {{ if .Truncated }}

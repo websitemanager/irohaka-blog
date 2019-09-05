@@ -1,0 +1,11 @@
+
+  {{- partial "header.amp.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.amp.html" . -}}
+    </body>
+    <div class="to-top">
+        <a class="back-to-top"  href="#">TOPへ戻る</a>
+    </div>
+</html>

@@ -32,7 +32,7 @@ WordPressからのデータをエクスポートするプラグインがある�
 これから少しずつ直しながら、読みやすいブログを作りながらWebサービスに関する知見をさらに得たいと思います。   
 <br> 
 
-{{< figure src="../images/20190827hugo.jpg" title="Hugo公式サイト">}}  
+{{< img src="../images/20190827hugo.jpg" alt="HugoOfficial" title="Hugo公式サイト">}}  
 <br>
 
 ### 参考にさせていただいたサイト  

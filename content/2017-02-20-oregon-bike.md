@@ -22,7 +22,7 @@ tags: [ "TonicFab" ]
 
 ダウンチューブのロゴがかっこよくて海外の記事を読んで気になっていたブランドです。ブルーの色合いが好きです。
 
-{{< figure src="../images/breadwinner.jpg" title="Breadwinnerのロングライド向け">}}
+{{< img src="../images/breadwinner.jpg" alt="Breadwinner" title="Breadwinnerのロングライド向け">}}
 
 ### English Cycles {#outline__2}
 
@@ -30,19 +30,19 @@ tags: [ "TonicFab" ]
   
 イギリスの国旗がややこしいけどオシャレでいいと思います。フレームからコンポーネントを組み合わせて組んでくれるというのがおもしろいです。（お金はかかるけど）
   
-{{< figure src="../images/englishk1.jpg" title="English Cycles">}}
+{{< img src="../images/englishk1.jpg" alt="English" title="English Cycles">}}
 
 
 ### Speedvagen {#outline__3}
 
 本物を何度かお見かけしましたが、かっこよくて震えました。日本代理店を通して買えます。昨年はフィッティングツアーで来日してましたよね。結構世界中でフィッティングツアーをやっているみたいで、人気の高さを知りました。
 
-{{< figure src="../images/svrdl1.jpg" title="Speedvagen Disc Road">}}
+{{< img src="../images/svrdl1.jpg" alt="Speedvagen" title="Speedvagen Disc Road">}}
 
 ### Tonic Fabrication {#outline__4}
 
 アメリカのフレームビルダーをはじめて知るきっかけになったブランドです。日本代理店TKC Productions代表で中年のアイドルのテースケ氏がCXチームで活躍していて常に注目の的になっていますね。最近velocultのイベントでディスクロードっぽいのが写真で見かけられたので、本命はこれかなぁ・・・お金貯めないといけないですが。最近新調されたテースケ氏のロードも凄くかっこいいです。
 
-{{< figure src="../images/tonicr1.jpg" title="シルバーのシンプルな色合いがかっこいい。">}}
+{{< img src="../images/tonicr1.jpg" alt="Tonic" title="シルバーのシンプルな色合いがかっこいい。">}}
 
 ディスクロードもオーダーできるそうです。うーん、欲しい！

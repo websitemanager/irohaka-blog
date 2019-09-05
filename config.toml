@@ -30,3 +30,6 @@ disqusShortname = "irohaka"
   name = "About"
   url = "/about/"
   weight = 2
+
+  [outputs]
+    page = [ "HTML" , "AMP"  ]
