@@ -4,7 +4,8 @@
 <amp-img src="{{ .Site.BaseURL | absLangURL }}{{$src}}"
     width="{{$config.Width}}"
     height="{{$config.Height}}"
+    layout=responsive
     alt="{{ .Get "alt" }}"
-    title="{{ .Get "title" }}">
+    title="{{ .Get "title" }}"></amp-img>
     <h4><figcaption>{{ .Get "title" }}</figcaption></h4>
 </figure>

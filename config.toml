@@ -13,6 +13,9 @@ disqusShortname = "irohaka"
     description ="イロハカの自転車と旅行と趣味のはなし。"
     amazonJpAffiliate = "irohaka-22"
 
+[outputs]
+    page = [ "HTML" , "AMP"  ]
+
 [blackfriday]
     hrefTargetBlank = true
     nofollowLinks = true
@@ -30,6 +33,3 @@ disqusShortname = "irohaka"
   name = "About"
   url = "/about/"
   weight = 2
-
-[outputs]
-    page = [ "HTML" , "AMP"  ]
