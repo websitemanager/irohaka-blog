@@ -31,5 +31,5 @@ disqusShortname = "irohaka"
   url = "/about/"
   weight = 2
 
-  [outputs]
+[outputs]
     page = [ "HTML" , "AMP"  ]
