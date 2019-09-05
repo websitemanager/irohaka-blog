@@ -13,8 +13,6 @@ disqusShortname = "irohaka"
     description ="イロハカの自転車と旅行と趣味のはなし。"
     amazonJpAffiliate = "irohaka-22"
 
-[outputs]
-    page = [ "HTML" , "AMP"  ]
 
 [blackfriday]
     hrefTargetBlank = true
