@@ -31,6 +31,6 @@ tags: [ "Cannondale","自転車のはなし" ]
 これは買ったら買い換えがちなタイヤとかサドルなどのアイテムが最初から搭載しているのはいいですね。Fabricは僕には合うようで、デザインも好きですがサドルの乗り心地も気に入っています。Topstoneにはもっと安いモデルもありますが、一番高いこのモデルが僕はオススメしたいと思いますよ。コスパとかあんまり考えないほうが豊かに趣味を楽しむことができると思いますが、そうはいっても予算には限りがあります。その予算で最大限楽しみたいならAPEX1かなぁと思っています。あくまでも個人の意見ですけどね。
 
 
-{{< img src="../images/2018TOPSTONE_APEX1_Cannondale.jpg" alt="Cannondale TOPSTONE" title="Cannondale TOPSTONE APEX1">}}
+{{< figure src="../images/2018TOPSTONE_APEX1_Cannondale.jpg" alt="Cannondale TOPSTONE" title="Cannondale TOPSTONE APEX1">}}
 <br>
 {{< youtube 0b0MQtOaoQI >}}
