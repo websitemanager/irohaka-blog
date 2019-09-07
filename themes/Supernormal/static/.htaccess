@@ -2,4 +2,4 @@ RewriteEngine On
 
 # www有りのドメイン名に統一
 RewriteCond %{HTTP_HOST} ^irohaka\.com
-RewriteRule ^(.*) http://www.irohaka.com/$1 [R=301,L]
+RewriteRule ^(.*) https://www.irohaka.com/$1 [R=301,L]
