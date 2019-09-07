@@ -19,8 +19,8 @@ tags: [ "奥三河" ]
 <br>
 なんだかんだで今日は一日外出して久しぶりに遊んだ感じがします。もう少し涼しくなったら紋屋へも自転車で遊びに行きたいと思っています。
 
-{{< figure src="../images/201808okumikawa01.jpg" alt="紋屋" title="部屋を吹き抜ける風が最高に気持ち良いです。">}}
+{{< figure src="/images/201808okumikawa01.jpg" alt="紋屋" title="部屋を吹き抜ける風が最高に気持ち良いです。">}}
 
-{{< figure src="../images/201808okumikawa02.jpg" alt="東照宮" title="東照宮の石垣は見事なつくり">}}
+{{< figure src="/images/201808okumikawa02.jpg" alt="東照宮" title="東照宮の石垣は見事なつくり">}}
 
-{{< figure src="../images/201808okumikawa03.jpg" alt="鳳来寺本堂" title="鳳来寺本堂">}}
+{{< figure src="/images/201808okumikawa03.jpg" alt="鳳来寺本堂" title="鳳来寺本堂">}}

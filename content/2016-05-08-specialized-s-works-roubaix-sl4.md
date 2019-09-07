@@ -24,8 +24,8 @@ S-works Roubaix SL4は長距離走っても身体が凄く疲れるという事�
 
 そんな訳で自慢の愛車となり、長く乗り続けていきたいと思っています。
 
-{{< figure src="../images/s-sworksroubaixsl4_2016.jpg" alt="ROVALホイール" title="ROVALホイール">}}
+{{< figure src="/images/s-sworksroubaixsl4_2016.jpg" alt="ROVALホイール" title="ROVALホイール">}}
 
-{{< figure src="../images/s-works-roubaix-sl4-mavic-r-sys_edited.jpg" alt="Mavic R-sys" title="Mavic R-sys">}}
+{{< figure src="/images/s-works-roubaix-sl4-mavic-r-sys_edited.jpg" alt="Mavic R-sys" title="Mavic R-sys">}}
 
 

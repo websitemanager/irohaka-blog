@@ -19,11 +19,11 @@ Zwiftを起動させ、心拍計を選択すると「検索中・・・」とな
 「Zwift Companion」をインストールしたら、画面下の「その他」から「設定」→「デバイスの接続」でAppleWatchに接続します。その際、ヘルスケアデータへのアクセスを要求するので許可します。ヘルスケアデータのアクセス許可の設定はiOSの「設定」→「プライバシー」→「ヘルスケア」からアクセスを要求したアプリ一覧を見ることができます。  
 いちどZwiftアプリを終了して、再起動すると心拍計一覧にApple Watchの表示が出るようになります。
 
-{{< figure src="../images/201901zwift-applewatch01.jpg" alt="Apple Watch" title="Zwift CompanionでApple Watchと接続します。(2019年1月現在)">}}
+{{< figure src="/images/201901zwift-applewatch01.jpg" alt="Apple Watch" title="Zwift CompanionでApple Watchと接続します。(2019年1月現在)">}}
 
-{{< figure src="../images/201901zwift-applewatch02.jpg" alt="Zwift" title="Zwift Companionで接続後、一度Zwiftを再起動すると認識しました。">}}
+{{< figure src="/images/201901zwift-applewatch02.jpg" alt="Zwift" title="Zwift Companionで接続後、一度Zwiftを再起動すると認識しました。">}}
 
-{{< figure src="../images/201901zwift-applewatch03.jpg" alt="Zwift" title="SFチックなコース">}}
+{{< figure src="/images/201901zwift-applewatch03.jpg" alt="Zwift" title="SFチックなコース">}}
 
 ### Zwiftの勾配がキツいコースは心拍がすごいことに
 まだZwiftのコース選択になれていないので傾斜がきついルートをつい選んでしまって止まりそうなスピードで坂道を登ることが多いです。かといって平坦だと飽きるんだろうなぁ・・・。トレーニングモードにはFTP計測や脂肪燃焼コースなど多種多様なトレーニングがありますが、初心者コースあたりがいいんでしょうかね。傾斜があってもいいんですが変速すると「カンカンカン！！」と部屋に響き渡りローラー台自体の稼働音が小さいのでビビりました。

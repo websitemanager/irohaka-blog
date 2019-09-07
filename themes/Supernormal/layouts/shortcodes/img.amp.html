@@ -1,8 +1,0 @@
-<figure>
-  <amp-img src="{{ .Get "src" | absURL }}" alt="{{ .Get "alt" }}"  title="{{ .Get "title" }}" width={{ .Get "w" }} height={{ .Get "h" }} layout="responsive"></amp-img>
-  {{ if .Get "title" }}
-  <figcaption>
-    <h4>{ .Get "caption" }}</h4>
-  </figcaption>
-  {{ end }}
-</figure>

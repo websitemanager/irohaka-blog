@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $config := imageConfig (printf "static/%s" $src) }}
+<img src="{{ .Site.BaseURL | absLangURL }}{{$src}}"
+    width="{{$config.Width}}"
+    height="{{$config.Height}}"
+    alt="{{ .Get "alt" }}"
+    title="{{ .Get "title" }}"
+    layout="responsive"/>
+    <figcaption><h4>{{ .Get "title"}}</h4></figcaption>

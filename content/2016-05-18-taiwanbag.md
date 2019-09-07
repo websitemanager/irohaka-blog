@@ -17,11 +17,11 @@ tags: [ "台湾" ]
   
 永盛帆布行には二日連続で立ち寄りましたが、まだ色々なかばんがあるみたいです。今度台南に行っても立ち寄りたいと思っています。
 
-{{< figure src="../images/2016tainan-bag01.jpg" alt="台南" title="台湾土地銀行（旧日本勧業銀行）のとなり">}}
+{{< figure src="/images/2016tainan-bag01.jpg" alt="台南" title="台湾土地銀行（旧日本勧業銀行）のとなり">}}
 
-{{< figure src="../images/2016tainan-bag02.jpg" alt="帆布" title="活気があってミシンがフル稼働してました。">}}
+{{< figure src="/images/2016tainan-bag02.jpg" alt="帆布" title="活気があってミシンがフル稼働してました。">}}
 
-{{< figure src="../images/2016tainan-bag03.jpg" alt="バッグ" title="永盛帆布行のトートバッグ">}}
+{{< figure src="/images/2016tainan-bag03.jpg" alt="バッグ" title="永盛帆布行のトートバッグ">}}
 
 ちなみに写真の左側に写っているDAKINE（ダカイン）のポーチも気に入って持ち歩いています。財布・スマホ・ハンカチを入れて、upstandもちょうど入るのでフラフラとロードに乗って写真を撮ってみたりしています。
   

@@ -15,7 +15,7 @@ tags: [ "サイクルコンピューター" ]
 
 少し前にUSサイトでは180ドルという価格でGPS機能・Di2のギア把握も可・ANT+・IPX7防水・33時間のバッテリーと宣伝してあったのですが、果たして日本で販売するのか気になってはいました。どうやら色んな日本のブログを見る限り、お値段は22,000円(税別)と凄くお値打ちで販売するようです。（心拍センサーは別売）すごい！奇しくも同じような画面サイズのガーミンを僕は持っているのですが、3倍以上高いかな・・・。ほら、まぁ僕のは液晶がカラーですしね。しくしく。
 
-{{< figure src="../images/201709giant_neostrack02.jpg" alt="GiantNeosTrack" title="ジャイアント NEOS TRACK">}}
+{{< figure src="/images/201709giant_neostrack02.jpg" alt="GiantNeosTrack" title="ジャイアント NEOS TRACK">}}
 
 [NEOS TRACK | GIANT Bicycles](https://www.giant.co.jp/giant19/acc_datail.php?p_id=A0002115)
 
@@ -33,11 +33,11 @@ tags: [ "サイクルコンピューター" ]
   
 Lezyneと言えば高級で品質の良いバイクツールがメインだと思っていたのですが、お値打ちなGPSサイコンもラインナップしていたのですね。最近登場したものはアップデートされて16,800円（税別）とこちらもお値打ちです。
 
-{{< figure src="../images/201709lezynesupergps.png" alt="Lezyne" title="レザインのSuper GPS">}}
+{{< figure src="/images/201709lezynesupergps.png" alt="Lezyne" title="レザインのSuper GPS">}}
 
 機能を割り切って考えればMacro GPSで十分じゃないかと。スマホと連携して大体のことはできちゃいます。
 
-{{< figure src="../images/201709lezyne_macrogps.png" alt="Lezyne" title="レザインのSuper GPS">}}
+{{< figure src="/images/201709lezyne_macrogps.png" alt="Lezyne" title="レザインのSuper GPS">}}
 
 やっぱり色々な選択肢が出てきたのは良い事だと思います。記事には高校生のような若者が気軽に買えるようにと書かれていましたが、高校生や若い人も良いものなら対価を支払っても欲しいものは買うことを留意しておいた方が良いと思います。単に安いのではなくて、魅力的な商品力と価格展開は若い人だけではなくて、僕みたいなオジさんにも十分訴求効果はあると思います。
   
