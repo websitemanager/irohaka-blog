@@ -17,6 +17,8 @@ disqusShortname = "irohaka"
   page = ["HTML", "AMP"]
   Home = ["HTML", "AMP"]
 
+disqusShortname = "irohaka-netlify-com"
+
 [blackfriday]
     hrefTargetBlank = true
     nofollowLinks = true
