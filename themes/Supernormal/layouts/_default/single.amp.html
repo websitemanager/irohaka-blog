@@ -17,11 +17,11 @@
     </div>
     {{ if .Params.featured_image }}
     <figure>
-      <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}"></img>
+      <amp-img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}" width="1020px" height="510px"></amp-img>
     </figure>
     {{ end}}
     <div class="socialshare">
-        {{ partial "socialshare.html" . }}
+        {{ partial "amp.socialshare.html" . }}
     </div>
     <article id="content">
       {{ .Content }}
