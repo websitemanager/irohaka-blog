@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>フランス on イロハカの自転車日記</title>
+    <link>https://irohaka.com/tags/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9/</link>
+    <description>Recent content in フランス on イロハカの自転車日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 14 Aug 2017 17:11:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://irohaka.com/tags/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4年ぶりのフランス（後編）</title>
+      <link>https://irohaka.com/france-part2/</link>
+      <pubDate>Mon, 14 Aug 2017 17:11:48 +0000</pubDate>
+      
+      <guid>https://irohaka.com/france-part2/</guid>
+      <description>もう23年前のことです。20歳の時にフランスへ1年間留学させてもらって、その年の夏休みにパリで1か月滞在する機会を得ました。モンスーリ公園の</description>
+    </item>
+    
+    <item>
+      <title>4年ぶりのフランス（前編）</title>
+      <link>https://irohaka.com/france-part1/</link>
+      <pubDate>Sun, 13 Aug 2017 17:11:48 +0000</pubDate>
+      
+      <guid>https://irohaka.com/france-part1/</guid>
+      <description>4年ぶりにフランスにやってきました。 目的はオルレアン大学の同窓会を現地で開催するということで、6月終わりくらいにフランス人の友人から「やるか</description>
+    </item>
+    
+  </channel>
+</rss>

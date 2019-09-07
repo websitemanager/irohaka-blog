@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html ⚡ lang="ja">
 <head>
-    {{ .Scratch.Set "output-format" "amp" }}
+	<meta name="generator" content="Hugo 0.57.0" />
+    
   <meta charset="UTF-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
   <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  {{ with .OutputFormats.Get "html" }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-  {{ end }}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <link rel="canonical" href="https://irohaka.com/" />
+  
+  
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <amp-analytics type="gtag" data-credentials="include">
   <script type="application/json">
@@ -32,13 +33,29 @@
   <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  <title>イロハカの自転車日記</title>
+  <meta name="description" content="イロハカの自転車と旅行と趣味のはなし。" />
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/schema.html" . }}
+  <meta property="og:title" content="イロハカの自転車日記" />
+<meta property="og:description" content="イロハカの自転車と旅行と趣味のはなし。" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://irohaka.com/amp/" />
+
+<meta property="og:image" content="https://irohaka.com/img/eyecatch.jpg" />
+
+<meta property="og:updated_time" content="2019-09-02T09:45:28+09:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://irohaka.com/img/eyecatch.jpg"/>
+
+<meta name="twitter:title" content="イロハカの自転車日記"/>
+<meta name="twitter:description" content="イロハカの自転車と旅行と趣味のはなし。"/>
+
+  <meta itemprop="name" content="イロハカの自転車日記">
+<meta itemprop="description" content="イロハカの自転車と旅行と趣味のはなし。">
+
+
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 <style amp-custom>
@@ -47,19 +64,204 @@
 </head>
 <body>
   <header>
-    <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
-          alt="{{ .Site.Title }}" width="500.19" height="127.8" layout="responsive"  ></amp-img></a></p>
+    <p class="headerp"><a href="https://irohaka.com/" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
+          alt="イロハカの自転車日記"></amp-img></a></p>
   </header>
   <ul class="topmenu">
-    {{ range .Site.Menus.main }}
+    
     <li class="menu_line">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="/">TOPページ</a>
     </li>
-    {{ end }}
+    
+    <li class="menu_line">
+      <a href="/about/">About</a>
+    </li>
+    
   </ul>
   <main>
         <div id="content">
-        {{- block "main" . }}{{- end }}
+
+<article class="toplist">
+        <div class="list-title">
+            <h2><a href="/amp/goingtoaichiuniv/">再び愛大に通ってます。</a></h2><time>2017年04月23日</time>
+        </div>
+        <amp-img src="/images/2017042203-eye.jpg" width="1280px" height="640px" layout="responsive"></amp-img>
+         <div class="readmore">
+         <p>4月から再び愛知大学の孔子学院で中国語講座に通っています。毎日通勤で通う道と途中までほぼ同じなので、何だか土曜日も通勤している感覚になってし</p>    
+         
+          <p>.....&nbsp;　<a class="readmore" href="/amp/goingtoaichiuniv/">続きを読む</a></p>
+         </div>
+         
+</article>
+
+<article class="toplist">
+        <div class="list-title">
+            <h2><a href="/amp/201703cycling/">サイクリング楽しかった！</a></h2><time>2017年03月19日</time>
+        </div>
+        <amp-img src="/images/20170319-eye.jpg" width="1280px" height="640px" layout="responsive"></amp-img>
+         <div class="readmore">
+         <p>今朝は朝5時半に起きて久しぶりにサイクリングジャージとビブショーツに着替えてロードバイクに乗って出かけたのですが、30分ほどで途中で気持ち悪</p>    
+         
+          <p>.....&nbsp;　<a class="readmore" href="/amp/201703cycling/">続きを読む</a></p>
+         </div>
+         
+</article>
+
+<article class="toplist">
+        <div class="list-title">
+            <h2><a href="/amp/oregon_handmade_bikes/">オレゴンのハンドメイドバイク</a></h2><time>2017年02月20日</time>
+        </div>
+        <amp-img src="/images/tonicfab-eye.jpg" width="1280px" height="640px" layout="responsive"></amp-img>
+         <div class="readmore">
+         <p>もうここ何年かオレゴン州、とくにポートランドのカルチャーがフォーカスされていて興味があったのですが、興味を持ったら危なそうな魅力的なモノがい</p>    
+         
+          <p>.....&nbsp;　<a class="readmore" href="/amp/oregon_handmade_bikes/">続きを読む</a></p>
+         </div>
+         
+</article>
+
+<article class="toplist">
+        <div class="list-title">
+            <h2><a href="/amp/tainan_travel/">台南はいいぞ</a></h2><time>2017年01月06日</time>
+        </div>
+        <amp-img src="/images/201701tainan-eye.jpg" width="1280px" height="640px" layout="responsive"></amp-img>
+         <div class="readmore">
+         <p>去年一泊だけ滞在した台南の良さを知ってもらおうと、両親を引き連れて再び台南までやってきました。 鄭成功で有名な赤嵌楼や安平古堡、日本統治時代の</p>    
+         
+          <p>.....&nbsp;　<a class="readmore" href="/amp/tainan_travel/">続きを読む</a></p>
+         </div>
+         
+</article>
+
+<article class="toplist">
+        <div class="list-title">
+            <h2><a href="/amp/unclerapha/">Raphaおじさんになったわけ</a></h2><time>2016年09月16日</time>
+        </div>
+        <amp-img src="/images/201609rapha-eye.jpg" width="1280px" height="640px" layout="responsive"></amp-img>
+         <div class="readmore">
+         <p>いまやサイクルアパレルブランドの代名詞と言っても良いかもしれないRaphaですが、僕も好きでよく買っています。この10年のあいだにジャージの</p>    
+         
+          <p>.....&nbsp;　<a class="readmore" href="/amp/unclerapha/">続きを読む</a></p>
+         </div>
+         
+</article>
+
+<section id="pagination">
+    
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/amp/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+    <a href="/amp/page/5/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/amp/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/amp/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/amp/page/3/">3</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item disabled"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/amp/page/5/">5</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/amp/page/6/">6</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/amp/page/7/">7</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/amp/page/8/">8</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/amp/page/7/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/amp/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+
+
+</section>
+
         </div>
     </main>
     <footer>

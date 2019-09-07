@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html ⚡ lang="ja">
 <head>
-    {{ .Scratch.Set "output-format" "amp" }}
+    
   <meta charset="UTF-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
   <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  {{ with .OutputFormats.Get "html" }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-  {{ end }}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <link rel="canonical" href="https://irohaka.com/azumino_cycling/" />
+  
+  
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <amp-analytics type="gtag" data-credentials="include">
   <script type="application/json">
@@ -32,13 +32,39 @@
   <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  <title>安曇野をサイクリング｜イロハカの自転車日記</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/schema.html" . }}
+  <meta property="og:title" content="安曇野をサイクリング" />
+<meta property="og:description" content="連休を使って長野県の安曇野市へ遊びに行ってきました。天気予報では午後から雨となっていたのですが到着したら天気がなんとか持ちそうだったので軽く走ることに。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://irohaka.com/amp/azumino_cycling/" />
+
+<meta property="og:image" content="https://irohaka.com/images/201805azumino-eye.jpg" />
+<meta property="article:published_time" content="2018-05-05T07:18:26+00:00" />
+<meta property="article:modified_time" content="2018-05-05T07:18:26+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://irohaka.com/images/201805azumino-eye.jpg"/>
+
+<meta name="twitter:title" content="安曇野をサイクリング"/>
+<meta name="twitter:description" content="連休を使って長野県の安曇野市へ遊びに行ってきました。天気予報では午後から雨となっていたのですが到着したら天気がなんとか持ちそうだったので軽く走ることに。"/>
+
+  <meta itemprop="name" content="安曇野をサイクリング">
+<meta itemprop="description" content="連休を使って長野県の安曇野市へ遊びに行ってきました。天気予報では午後から雨となっていたのですが到着したら天気がなんとか持ちそうだったので軽く走ることに。">
+
+
+<meta itemprop="datePublished" content="2018-05-05T07:18:26&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-05T07:18:26&#43;00:00" />
+<meta itemprop="wordCount" content="813">
+
+  <meta itemprop="image" content="https://irohaka.com/images/201805azumino-eye.jpg">
+
+
+
+<meta itemprop="keywords" content="自転車のはなし," />
+
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 <style amp-custom>
@@ -47,19 +73,134 @@
 </head>
 <body>
   <header>
-    <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
-          alt="{{ .Site.Title }}" width="500.19" height="127.8" layout="responsive"  ></amp-img></a></p>
+    <p class="headerp"><a href="https://irohaka.com/" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
+          alt="イロハカの自転車日記"></amp-img></a></p>
   </header>
   <ul class="topmenu">
-    {{ range .Site.Menus.main }}
+    
     <li class="menu_line">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="/">TOPページ</a>
     </li>
-    {{ end }}
+    
+    <li class="menu_line">
+      <a href="/about/">About</a>
+    </li>
+    
   </ul>
   <main>
         <div id="content">
-        {{- block "main" . }}{{- end }}
+<main>
+  <section id="main">
+    <div class="title_line">
+      <h2>安曇野をサイクリング</h2>
+      <p class="date"> 2018年05月05日 </p>
+    </div>
+    <div>
+      
+      <ul id="tag_pickup"><li class="tags"><a href="/amp/tags/%E8%87%AA%E8%BB%A2%E8%BB%8A%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%97">自転車のはなし</a></ul>
+      
+    </div>
+    
+    <figure>
+      <amp-img src="/images/201805azumino-eye.jpg" alt="安曇野をサイクリング" width="1280" height="640" layout="responsive"></amp-img>
+    </figure>
+    
+    <div class="socialshare">
+        <div>
+    <amp-social-share type="twitter"></amp-social-share>
+  <amp-social-share type="facebook"
+    data-param-app_id="254325784911610"></amp-social-share>
+  <amp-social-share type="line"></amp-social-share>
+</div>
+    </div>
+    <article id="content">
+      <p>連休を使って長野県の安曇野市へ遊びに行ってきました。天気予報では午後から雨となっていたのですが到着したら天気がなんとか持ちそうだったので軽く走ることに。</p>
+
+<p>安曇野は割と平坦で走りやすく、何と言っても北アルプスが目の前にあって景色が最高です。（晴れれば）<br />
+信号も少なくて
+大王わさび園へとゆるゆる走って怖いくらい透明な小川を眺めたりして再び安曇野の細い道を走っているうちに雨が降ってきてしまいました。<br />
+仕方がないので自転車を車に積んで長野県に来たら立ち寄りたいスーパー「ツルヤ」に行き、オリジナルドレッシングなど買い物を楽しみました。ここのオリジナル商品は他にはないようなものが売られているのでおもしろいです。ラインナップは軽井沢店よりは少し庶民的だった・・・ような気がします。<br />
+現地で一泊して翌日の天気もイマイチだったので自転車には乗らずにフラフラと適当に帰って来ました。<br />
+<br>
+旅行に行く前はある程度現地の情報を調べることにしていますが、今回は現地で発見したことが多くて楽しい旅行となりました。翌朝は雨上がりの穂高神社へお参りに行き、神社の由来を知って知的好奇心がかなり刺激されました。予定には考えていなかった松本市の開智学校の資料はとても興味深く、帰り道に偶然立ち寄ったお蕎麦屋さんでは山菜の天ぷらやざるそばを大変美味しく頂くことができて驚きと発見の連続でした。<br />
+<br>
+こういった無計画な旅を楽しめるようになったのも位置情報から周辺の欲しい情報だけ検索できるようになったのが大きいと思います。Googleの情報を鵜呑みにはしないけれど、ある程度参考にできるよう精度もあがってきたのではないかと思っています。もっとも「蕎麦」で近辺を検索して評価が高いお店に行ったら中華そばのお店だったというオチもあるので参考程度でいいと思います。</p>
+
+
+
+<amp-img src="https://irohaka.com//images/201805azumino01.jpg"
+    width="1980"
+    height="1485"
+    alt="安曇野"
+    title="田植えのシーズンでした。"
+    layout="responsive"></amp-img>
+    <figcaption><h4>田植えのシーズンでした。</h4></figcaption>
+
+
+
+<amp-img src="https://irohaka.com//images/201805azumino02.jpg"
+    width="1980"
+    height="1485"
+    alt="安曇野大王わさび園"
+    title="大王わさび園の小川"
+    layout="responsive"></amp-img>
+    <figcaption><h4>大王わさび園の小川</h4></figcaption>
+
+<p>少ししか安曇野を走れなかったので、再度来訪して好きなだけ走ってみたいと思います。</p>
+    </article>
+    <article class="contentfooter">
+      
+
+
+<h3>あわせて読みたい</h3>
+<ul>
+	
+	<li class="related"><a href="/amp/tacxneosmart-zwift/">Tacx Neo SmartでZwiftを始めました。</a></li>
+	
+	<li class="related"><a href="/amp/yamato-ginko/">大和の大イチョウ</a></li>
+	
+	<li class="related"><a href="/amp/201703cycling/">サイクリング楽しかった！</a></li>
+	
+	<li class="related"><a href="/amp/upstandforbicycle/">upstandでロードバイクを立たせてみる</a></li>
+	
+</ul>
+
+    </article>
+    <article class="contentfooter">
+      <div class="prevnextlink">
+
+  <div class="nextlink">
+    <a href="https://irohaka.com/amp/shinshiro_cross/">◀︎◀︎&thinsp;古い記事「シンシロクロスに参加してきました」を読む</a>
+  </div>
+
+
+    <div class="prevlink">
+      <a href="https://irohaka.com/amp/somasaka_cycling/"></i>新しい記事「有給を使ってサイクリング」を読む &thinsp;▶︎▶︎</a>
+    </div>
+  
+</div>
+      <hr class="dark">
+    </article>
+  </section>
+  <hr class="dark">
+  <div id="disqus_thread"></div>
+  <script>
+
+    
+
+    
+
+    (function () { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://irohaka-netlify-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>      
+</main>
+
         </div>
     </main>
     <footer>

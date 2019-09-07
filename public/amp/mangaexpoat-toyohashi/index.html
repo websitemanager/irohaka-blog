@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html ⚡ lang="ja">
 <head>
-    {{ .Scratch.Set "output-format" "amp" }}
+    
   <meta charset="UTF-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
   <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  {{ with .OutputFormats.Get "html" }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-  {{ end }}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <link rel="canonical" href="https://irohaka.com/mangaexpoat-toyohashi/" />
+  
+  
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <amp-analytics type="gtag" data-credentials="include">
   <script type="application/json">
@@ -32,13 +32,39 @@
   <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  <title>豊橋市美術博物館の描く！マンガ展に行くべし！｜イロハカの自転車日記</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/schema.html" . }}
+  <meta property="og:title" content="豊橋市美術博物館の描く！マンガ展に行くべし！" />
+<meta property="og:description" content="豊橋美術博物館で4月29日〜6月5日まで開催されている「描く！マンガ展」にゴールデンウィークのお休みを使って行ってきました。手塚治虫をはじめ" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://irohaka.com/amp/mangaexpoat-toyohashi/" />
+
+<meta property="og:image" content="https://irohaka.com/images/kakumanga-eye.jpg" />
+<meta property="article:published_time" content="2016-05-10T14:27:18+00:00" />
+<meta property="article:modified_time" content="2016-05-10T14:27:18+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://irohaka.com/images/kakumanga-eye.jpg"/>
+
+<meta name="twitter:title" content="豊橋市美術博物館の描く！マンガ展に行くべし！"/>
+<meta name="twitter:description" content="豊橋美術博物館で4月29日〜6月5日まで開催されている「描く！マンガ展」にゴールデンウィークのお休みを使って行ってきました。手塚治虫をはじめ"/>
+
+  <meta itemprop="name" content="豊橋市美術博物館の描く！マンガ展に行くべし！">
+<meta itemprop="description" content="豊橋美術博物館で4月29日〜6月5日まで開催されている「描く！マンガ展」にゴールデンウィークのお休みを使って行ってきました。手塚治虫をはじめ">
+
+
+<meta itemprop="datePublished" content="2016-05-10T14:27:18&#43;00:00" />
+<meta itemprop="dateModified" content="2016-05-10T14:27:18&#43;00:00" />
+<meta itemprop="wordCount" content="299">
+
+  <meta itemprop="image" content="https://irohaka.com/images/kakumanga-eye.jpg">
+
+
+
+<meta itemprop="keywords" content="Hellsing,マンガ," />
+
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 <style amp-custom>
@@ -47,19 +73,107 @@
 </head>
 <body>
   <header>
-    <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
-          alt="{{ .Site.Title }}" width="500.19" height="127.8" layout="responsive"  ></amp-img></a></p>
+    <p class="headerp"><a href="https://irohaka.com/" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
+          alt="イロハカの自転車日記"></amp-img></a></p>
   </header>
   <ul class="topmenu">
-    {{ range .Site.Menus.main }}
+    
     <li class="menu_line">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="/">TOPページ</a>
     </li>
-    {{ end }}
+    
+    <li class="menu_line">
+      <a href="/about/">About</a>
+    </li>
+    
   </ul>
   <main>
         <div id="content">
-        {{- block "main" . }}{{- end }}
+<main>
+  <section id="main">
+    <div class="title_line">
+      <h2>豊橋市美術博物館の描く！マンガ展に行くべし！</h2>
+      <p class="date"> 2016年05月10日 </p>
+    </div>
+    <div>
+      
+      <ul id="tag_pickup"><li class="tags"><a href="/amp/tags/hellsing">Hellsing</a><li class="tags"><a href="/amp/tags/%E3%83%9E%E3%83%B3%E3%82%AC">マンガ</a></ul>
+      
+    </div>
+    
+    <figure>
+      <amp-img src="/images/kakumanga-eye.jpg" alt="豊橋市美術博物館の描く！マンガ展に行くべし！" width="1280" height="640" layout="responsive"></amp-img>
+    </figure>
+    
+    <div class="socialshare">
+        <div>
+    <amp-social-share type="twitter"></amp-social-share>
+  <amp-social-share type="facebook"
+    data-param-app_id="254325784911610"></amp-social-share>
+  <amp-social-share type="line"></amp-social-share>
+</div>
+    </div>
+    <article id="content">
+      <p>豊橋美術博物館で4月29日〜6月5日まで開催されている「描く！マンガ展」にゴールデンウィークのお休みを使って行ってきました。手塚治虫をはじめ石ノ森章太郎や赤塚不二夫、さいとうたかをなどの巨匠をはじめ、僕の敬愛する平野耕太（HellsingやDriftersなど）や島本和彦、あずまきよひこなど僕が持っているマンガの作者の生原稿が見られるという機会に触れることができて感無量でした。</p>
+
+<p>実物を間近でみると、線の持つ迫力というのが伝わって暫しの間絵の前で釘づけでした。</p>
+
+<p>毎週月曜日休館だそうなので、見に行かれる方はサイトをチェックして行くべし！
+(展示は終了しました。)</p>
+
+<p><a href="http://www.toyohashi-bihaku.jp/" rel="nofollow" target="_blank">豊橋市美術博物館</a></p>
+
+
+
+<amp-img src="https://irohaka.com//images/kakumanga01.jpg"
+    width="1080"
+    height="1080"
+    alt="描く！マンガ展豊橋美術館"
+    title="描く！マンガ展豊橋美術館"
+    layout="responsive"></amp-img>
+    <figcaption><h4>描く！マンガ展豊橋美術館</h4></figcaption>
+
+    </article>
+    <article class="contentfooter">
+      
+
+
+    </article>
+    <article class="contentfooter">
+      <div class="prevnextlink">
+
+  <div class="nextlink">
+    <a href="https://irohaka.com/amp/tsumago-travel/">◀︎◀︎&thinsp;古い記事「妻籠宿に行ってきました。」を読む</a>
+  </div>
+
+
+    <div class="prevlink">
+      <a href="https://irohaka.com/amp/specialized_roubaixsl4/"></i>新しい記事「Specialized S-works Roubaix SL4」を読む &thinsp;▶︎▶︎</a>
+    </div>
+  
+</div>
+      <hr class="dark">
+    </article>
+  </section>
+  <hr class="dark">
+  <div id="disqus_thread"></div>
+  <script>
+
+    
+
+    
+
+    (function () { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://irohaka-netlify-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>      
+</main>
+
         </div>
     </main>
     <footer>

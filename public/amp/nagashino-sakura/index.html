@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html ⚡ lang="ja">
 <head>
-    {{ .Scratch.Set "output-format" "amp" }}
+    
   <meta charset="UTF-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
   <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  {{ with .OutputFormats.Get "html" }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-  {{ end }}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <link rel="canonical" href="https://irohaka.com/nagashino-sakura/" />
+  
+  
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <amp-analytics type="gtag" data-credentials="include">
   <script type="application/json">
@@ -32,13 +32,39 @@
   <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  <title>長篠の河津桜を見に行ってきました。｜イロハカの自転車日記</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/schema.html" . }}
+  <meta property="og:title" content="長篠の河津桜を見に行ってきました。" />
+<meta property="og:description" content="去年の今頃も同じようなエントリをしたのですが、それから一年経ってしまいました。あっという間のようで結構長い。まだあれから一年しか経っていない" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://irohaka.com/amp/nagashino-sakura/" />
+
+<meta property="og:image" content="https://irohaka.com/images/201903nagashino-eye.jpg" />
+<meta property="article:published_time" content="2019-03-08T08:43:49+00:00" />
+<meta property="article:modified_time" content="2019-03-08T08:43:49+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://irohaka.com/images/201903nagashino-eye.jpg"/>
+
+<meta name="twitter:title" content="長篠の河津桜を見に行ってきました。"/>
+<meta name="twitter:description" content="去年の今頃も同じようなエントリをしたのですが、それから一年経ってしまいました。あっという間のようで結構長い。まだあれから一年しか経っていない"/>
+
+  <meta itemprop="name" content="長篠の河津桜を見に行ってきました。">
+<meta itemprop="description" content="去年の今頃も同じようなエントリをしたのですが、それから一年経ってしまいました。あっという間のようで結構長い。まだあれから一年しか経っていない">
+
+
+<meta itemprop="datePublished" content="2019-03-08T08:43:49&#43;00:00" />
+<meta itemprop="dateModified" content="2019-03-08T08:43:49&#43;00:00" />
+<meta itemprop="wordCount" content="610">
+
+  <meta itemprop="image" content="https://irohaka.com/images/201903nagashino-eye.jpg">
+
+
+
+<meta itemprop="keywords" content="奥三河,旧田口線," />
+
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 <style amp-custom>
@@ -47,19 +73,121 @@
 </head>
 <body>
   <header>
-    <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
-          alt="{{ .Site.Title }}" width="500.19" height="127.8" layout="responsive"  ></amp-img></a></p>
+    <p class="headerp"><a href="https://irohaka.com/" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
+          alt="イロハカの自転車日記"></amp-img></a></p>
   </header>
   <ul class="topmenu">
-    {{ range .Site.Menus.main }}
+    
     <li class="menu_line">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="/">TOPページ</a>
     </li>
-    {{ end }}
+    
+    <li class="menu_line">
+      <a href="/about/">About</a>
+    </li>
+    
   </ul>
   <main>
         <div id="content">
-        {{- block "main" . }}{{- end }}
+<main>
+  <section id="main">
+    <div class="title_line">
+      <h2>長篠の河津桜を見に行ってきました。</h2>
+      <p class="date"> 2019年03月08日 </p>
+    </div>
+    <div>
+      
+      <ul id="tag_pickup"><li class="tags"><a href="/amp/tags/%E5%A5%A5%E4%B8%89%E6%B2%B3">奥三河</a><li class="tags"><a href="/amp/tags/%E6%97%A7%E7%94%B0%E5%8F%A3%E7%B7%9A">旧田口線</a></ul>
+      
+    </div>
+    
+    <figure>
+      <amp-img src="/images/201903nagashino-eye.jpg" alt="長篠の河津桜を見に行ってきました。" width="1280" height="640" layout="responsive"></amp-img>
+    </figure>
+    
+    <div class="socialshare">
+        <div>
+    <amp-social-share type="twitter"></amp-social-share>
+  <amp-social-share type="facebook"
+    data-param-app_id="254325784911610"></amp-social-share>
+  <amp-social-share type="line"></amp-social-share>
+</div>
+    </div>
+    <article id="content">
+      <p>去年の今頃も同じようなエントリをしたのですが、それから一年経ってしまいました。あっという間のようで結構長い。まだあれから一年しか経っていないように感じます。おかげさまで仕事は3年目を迎えて、なんとか今年も引き続き働けています。とはいうものの、週末は食事以外はほぼ睡眠という状態が続いており外出もおっくうになりがちです。</p>
+
+<p>ということでお休みをいただいて長篠の河津桜を見に行ってきたのでした。</p>
+
+<p>ちょうど今週が見頃だったらしく、少し葉桜になっている部分も見かけましたが河津桜の鮮やかなピンク色は春の到来を感じますね。この桜は旧田口鉄道の路線跡に植えられた桜で、トンネルからの桜が「映える」ことで近年人気になったようです。今年は看板で「三脚は遠慮ください」と書かれていたので何かあったのかもしれません。今日は平日だったので人もまばらで特に気になりませんでした。花粉さえなければ気分もいいのですが、あいにく目が痒くてたまらないので撮影もそこそこでマスクと花粉用メガネの重装備でムズムズする前に撤退してきました。本当は桜をみながらゆっくり散歩でもしたら気持ちがいいんでしょうが、仕方ない。</p>
+
+
+
+<amp-img src="https://irohaka.com//images/201903nagashino01.jpg"
+    width="1980"
+    height="1980"
+    alt="河津桜"
+    title="桜の濃いめのピンク色の光がトンネルの中に差し込んでいて本当にきれい。"
+    layout="responsive"></amp-img>
+    <figcaption><h4>桜の濃いめのピンク色の光がトンネルの中に差し込んでいて本当にきれい。</h4></figcaption>
+
+<p>そういえば春だというのに通勤途中に季節が変わっていくのをあまり実感していませんでした。日が長くなってきているのはなんとなく分かっていたんですけどね。</p>
+
+<p>今年もそろそろ頑張ってみますか！</p>
+
+    </article>
+    <article class="contentfooter">
+      
+
+
+<h3>あわせて読みたい</h3>
+<ul>
+	
+	<li class="related"><a href="/amp/rechercher_extaguchi/">失われた田口線を求めて〜設楽のほう</a></li>
+	
+	<li class="related"><a href="/amp/okumikawa_summer2018/">奥三河の夏休み</a></li>
+	
+	<li class="related"><a href="/amp/coffee_break_okumikawa/">紋屋へコーヒーを飲みに</a></li>
+	
+	<li class="related"><a href="/amp/shinshiro_cross/">シンシロクロスに参加してきました</a></li>
+	
+</ul>
+
+    </article>
+    <article class="contentfooter">
+      <div class="prevnextlink">
+
+  <div class="nextlink">
+    <a href="https://irohaka.com/amp/toyokawa_sakura/">◀︎◀︎&thinsp;古い記事「豊川市桜めぐり2019」を読む</a>
+  </div>
+
+
+    <div class="prevlink">
+      <a href="https://irohaka.com/amp/sram_axs/"></i>新しい記事「SRAM AXS™ワイヤレス電動コンポーネント登場」を読む &thinsp;▶︎▶︎</a>
+    </div>
+  
+</div>
+      <hr class="dark">
+    </article>
+  </section>
+  <hr class="dark">
+  <div id="disqus_thread"></div>
+  <script>
+
+    
+
+    
+
+    (function () { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://irohaka-netlify-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>      
+</main>
+
         </div>
     </main>
     <footer>

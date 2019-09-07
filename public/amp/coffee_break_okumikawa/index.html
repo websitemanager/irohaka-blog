@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html ⚡ lang="ja">
 <head>
-    {{ .Scratch.Set "output-format" "amp" }}
+    
   <meta charset="UTF-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
   <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-  {{ with .OutputFormats.Get "html" }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-  {{ end }}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <link rel="canonical" href="https://irohaka.com/coffee_break_okumikawa/" />
+  
+  
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <amp-analytics type="gtag" data-credentials="include">
   <script type="application/json">
@@ -32,13 +32,39 @@
   <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-  <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  <title>紋屋へコーヒーを飲みに｜イロハカの自転車日記</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/schema.html" . }}
+  <meta property="og:title" content="紋屋へコーヒーを飲みに" />
+<meta property="og:description" content="阿寺にある「紋屋」へ今日はじめて行ってきました。もともと家から近い場所に古民家を改築した喫茶を営んでらっしゃったのですが、阿寺に去年移転されました。場所は本当に阿寺MTBのすぐそばで、高台にある隠れ家のようなお店です。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://irohaka.com/amp/coffee_break_okumikawa/" />
+
+<meta property="og:image" content="https://irohaka.com/images/201808monya-eye.jpg" />
+<meta property="article:published_time" content="2018-08-05T09:41:11+00:00" />
+<meta property="article:modified_time" content="2018-08-05T09:41:11+00:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://irohaka.com/images/201808monya-eye.jpg"/>
+
+<meta name="twitter:title" content="紋屋へコーヒーを飲みに"/>
+<meta name="twitter:description" content="阿寺にある「紋屋」へ今日はじめて行ってきました。もともと家から近い場所に古民家を改築した喫茶を営んでらっしゃったのですが、阿寺に去年移転されました。場所は本当に阿寺MTBのすぐそばで、高台にある隠れ家のようなお店です。"/>
+
+  <meta itemprop="name" content="紋屋へコーヒーを飲みに">
+<meta itemprop="description" content="阿寺にある「紋屋」へ今日はじめて行ってきました。もともと家から近い場所に古民家を改築した喫茶を営んでらっしゃったのですが、阿寺に去年移転されました。場所は本当に阿寺MTBのすぐそばで、高台にある隠れ家のようなお店です。">
+
+
+<meta itemprop="datePublished" content="2018-08-05T09:41:11&#43;00:00" />
+<meta itemprop="dateModified" content="2018-08-05T09:41:11&#43;00:00" />
+<meta itemprop="wordCount" content="339">
+
+  <meta itemprop="image" content="https://irohaka.com/images/201808monya-eye.jpg">
+
+
+
+<meta itemprop="keywords" content="奥三河," />
+
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 <style amp-custom>
@@ -47,19 +73,114 @@
 </head>
 <body>
   <header>
-    <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
-          alt="{{ .Site.Title }}" width="500.19" height="127.8" layout="responsive"  ></amp-img></a></p>
+    <p class="headerp"><a href="https://irohaka.com/" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
+          alt="イロハカの自転車日記"></amp-img></a></p>
   </header>
   <ul class="topmenu">
-    {{ range .Site.Menus.main }}
+    
     <li class="menu_line">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="/">TOPページ</a>
     </li>
-    {{ end }}
+    
+    <li class="menu_line">
+      <a href="/about/">About</a>
+    </li>
+    
   </ul>
   <main>
         <div id="content">
-        {{- block "main" . }}{{- end }}
+<main>
+  <section id="main">
+    <div class="title_line">
+      <h2>紋屋へコーヒーを飲みに</h2>
+      <p class="date"> 2018年08月05日 </p>
+    </div>
+    <div>
+      
+      <ul id="tag_pickup"><li class="tags"><a href="/amp/tags/%E5%A5%A5%E4%B8%89%E6%B2%B3">奥三河</a></ul>
+      
+    </div>
+    
+    <figure>
+      <amp-img src="/images/201808monya-eye.jpg" alt="紋屋へコーヒーを飲みに" width="1280" height="640" layout="responsive"></amp-img>
+    </figure>
+    
+    <div class="socialshare">
+        <div>
+    <amp-social-share type="twitter"></amp-social-share>
+  <amp-social-share type="facebook"
+    data-param-app_id="254325784911610"></amp-social-share>
+  <amp-social-share type="line"></amp-social-share>
+</div>
+    </div>
+    <article id="content">
+      <p>阿寺にある「紋屋」へ今日はじめて行ってきました。もともと家から近い場所に古民家を改築した喫茶を営んでらっしゃったのですが、阿寺に去年移転されました。場所は本当に阿寺MTBのすぐそばで、高台にある隠れ家のようなお店です。</p>
+
+<p>こちらは現在宿泊もできるようになっているそうで、ランチだけじゃなくて前と同じくコーヒーを飲みにくることも大丈夫みたい。<br />
+僕はコーヒーと冷やしぜんざいをいただきました。畳の上でのんびりとくつろいでいると気持ちのいい風が吹き抜けていきます。<br />
+すでに地元のサイクリストはランチなどを食べにライドで来ているようで、夏の暑い日なんかは涼しい阿寺で走るのがいいかもしれません。</p>
+
+
+
+<amp-img src="https://irohaka.com//images/201808monya01.jpg"
+    width="1980"
+    height="1485"
+    alt="紋屋"
+    title="阿寺にこんな素敵な場所があったのか…"
+    layout="responsive"></amp-img>
+    <figcaption><h4>阿寺にこんな素敵な場所があったのか…</h4></figcaption>
+
+<p>阿寺の七滝も近くにあるので自転車以外でも遊びに行こうかな・・・。</p>
+    </article>
+    <article class="contentfooter">
+      
+
+
+<h3>あわせて読みたい</h3>
+<ul>
+	
+	<li class="related"><a href="/amp/shinshiro_cross/">シンシロクロスに参加してきました</a></li>
+	
+	<li class="related"><a href="/amp/rechercher_extaguchi/">失われた田口線を求めて〜設楽のほう</a></li>
+	
+</ul>
+
+    </article>
+    <article class="contentfooter">
+      <div class="prevnextlink">
+
+  <div class="nextlink">
+    <a href="https://irohaka.com/amp/okumikawa_summer2018/">◀︎◀︎&thinsp;古い記事「奥三河の夏休み」を読む</a>
+  </div>
+
+
+    <div class="prevlink">
+      <a href="https://irohaka.com/amp/shinshiro_cross/"></i>新しい記事「シンシロクロスに参加してきました」を読む &thinsp;▶︎▶︎</a>
+    </div>
+  
+</div>
+      <hr class="dark">
+    </article>
+  </section>
+  <hr class="dark">
+  <div id="disqus_thread"></div>
+  <script>
+
+    
+
+    
+
+    (function () { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://irohaka-netlify-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>      
+</main>
+
         </div>
     </main>
     <footer>

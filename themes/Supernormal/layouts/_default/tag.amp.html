@@ -48,7 +48,7 @@
 <body>
   <header>
     <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><amp-img class="blogtitle" src="/img/blogtitle.svg"
-          alt="{{ .Site.Title }}" width="500.19" height="127.8" layout="responsive"  ></amp-img></a></p>
+          alt="{{ .Site.Title }}"></amp-img></a></p>
   </header>
   <ul class="topmenu">
     {{ range .Site.Menus.main }}
@@ -58,11 +58,32 @@
     {{ end }}
   </ul>
   <main>
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-    </main>
-    <footer>
+<div id="content">
+  <main>
+    <h3 class="tagpage">「{{ .Title }}」記事一覧</h3>
+    {{ range .Data.Pages }}
+    <ul id="taglist">
+      <li class="tags">
+        <a href="{{ .Permalink }}"/amp/>{{ .Title }}</a>
+        <div class="meta">{{ .Date.Format " 2006年01月02日" }}</div>
+      </li>
+    </ul>
+    {{ end }}
+
+    <hr>
+    <div class="tag-index">
+      <h3>タグ一覧</h3>
+      <ul id="taglist">
+        {{- range $termName, $entries := .Site.Taxonomies.tags }}
+        <li class="tag-meta"><a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}</a>
+          &nbsp;({{ $entries.Count }})</li>
+        {{- end }}
+      </ul>
+    </div>
+  </main>
+</div>
+
+<footer>
     <div class="footer-contents">
         <amp-ad width="100vw" height=320
          type="adsense"

@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTPS_HOST} ^(irohaka\.com)(:80)? [NC]
+RewriteRule ^(.*) https://www.irohaka.com/$1 [R=301,L]
