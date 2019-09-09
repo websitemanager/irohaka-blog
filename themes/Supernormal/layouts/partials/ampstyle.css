@@ -110,16 +110,13 @@ header {
   background-size: cover;
   background-position-x: center;
 }
-img.blogtitle {
-  max-width: 500px;
+amp-img.blogtitle {
+  max-width: 300px;
   border: none;
-  padding-top: 30px;
   background: rgba(30, 30, 50, 0.1);
 }
-p.headerp {
-  margin: auto;
-  max-width: 300px;
-}
+
+
 footer {
   width: 80%;
   max-width: 1080px;
@@ -382,25 +379,7 @@ a.back-to-top {
   text-decoration: none;
   font-weight: 400;
 }
-.socialshare {
-  max-width: 98%;
-  padding: 40px 0 40px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-img.socialicon {
-  align-self: flex-start;
-  max-width: 40px;
-  margin-left: 8px;
-  padding-bottom: 7px;
-  border: none;
-}
-.hatena {
-  padding-left: 8px;
-  align-self: flex-start;
-  padding-top: 1px;
-}
+
 .amazonlink {
   max-width: 98%;
   padding: 0;
@@ -422,85 +401,24 @@ img.amazonimage {
 .amazontitle > small {
   line-height: 8px;
 }
-.amp-social-share {
-  padding: 5px;
+div.socialshare{
+  margin-top:30px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-@media screen and (max-width: 896px) {
-  h1#title {
-    font-size: 1.6rem;
-  }
-  .title_line {
-    flex-direction: column;
-  }
-  h3 {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 1.4rem;
-    font-weight: 300;
-    line-height: 1.7;
-  }
-  header {
-    max-width: 97%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
+amp-social-share {
+  margin-right: 3px;
+  margin-left:3px;
+}
 
-  main {
-    max-width: 98%;
-    margin: auto;
-  }
-  div#content {
-    max-width: 97%;
-  }
-  div.prevnextlink {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 14px;
-    line-height: 1.4rem;
-  }
-  div.prevlink {
-    text-align: right;
-    align-items: right;
-    padding-bottom: 5px;
-    padding-top: 5px;
-  }
-  div.nextlink {
-    text-align: left;
-    align-items: left;
-    padding-bottom: 5px;
-    padding-top: 5px;
-  }
-  div.list-title {
-    flex-direction: column;
-  }
-  time {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  .pagination {
-    width: 100%;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 0;
-    margin: auto;
-    border-radius: 1px;
-  }
-  .pagination > li {
-    display: inline;
-  }
-  .pagination > li > a,
-  .pagination > li > span {
-    position: relative;
-    padding: 2px;
-    margin-left: -1px;
-    line-height: 1.42857143;
-    color: #337ab7;
-    text-decoration: none;
-  }
+@media screen and (min-width: 896px) {
+ main{
+   width:80%;
+ }
+ amp-img.blogtitle {
+  margin:auto;
+  max-width: 500px;
+  border: none;
+  background: rgba(30, 30, 50, 0.1);
+}
 }
