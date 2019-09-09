@@ -111,7 +111,8 @@ header {
   background-position-x: center;
 }
 amp-img.blogtitle {
-  max-width: 300px;
+  max-width: 500px;
+  margin:auto;
   border: none;
   background: rgba(30, 30, 50, 0.1);
 }
@@ -414,6 +415,7 @@ amp-social-share {
 @media screen and (min-width: 896px) {
  main{
    width:80%;
+   margin:auto;
  }
  amp-img.blogtitle {
   margin:auto;
