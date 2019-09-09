@@ -79,6 +79,7 @@ li.tags {
   list-style: none;
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   margin-right: 10px;
 }
 ul.pagination {
