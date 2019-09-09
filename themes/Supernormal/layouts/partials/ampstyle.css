@@ -413,10 +413,6 @@ amp-social-share {
 }
 
 @media screen and (min-width: 896px) {
- main{
-   width:80%;
-   margin:auto;
- }
  amp-img.blogtitle {
   margin:auto;
   max-width: 500px;
