@@ -1,8 +1,8 @@
 
 html {
   max-width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont,'M PLUS 1p', Hiragino Kaku Gothic ProN,
-    ヒラギノ角ゴ ProN W3, メイリオ, Meiryo, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,メイリオ, Meiryo, 'M PLUS 1p', Hiragino Kaku Gothic ProN,
+    ヒラギノ角ゴ ProN W3, sans-serif;
   background: #19191a;
   font-size: 17px;
   font-weight: 400;
