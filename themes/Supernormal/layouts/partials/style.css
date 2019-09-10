@@ -1,7 +1,7 @@
 
 html {
   max-width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic ProN,
+  font-family: -apple-system, BlinkMacSystemFont,'M PLUS 1p', Hiragino Kaku Gothic ProN,
     ヒラギノ角ゴ ProN W3, メイリオ, Meiryo, sans-serif;
   background: #19191a;
   font-size: 17px;
@@ -144,14 +144,14 @@ h2 {
   font-size: 1.5rem;
   font-weight: 500;
   margin-right: 10px;
-  line-height: 1.5;
+  line-height: 1;
 }
 h3 {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   font-size: 1.5rem;
   font-weight: 300;
-  line-height: 1.7;
+  line-height: 1;
 }
 .tag-index {
   margin-top: 20px;
@@ -167,7 +167,7 @@ h4 {
 }
 div.title_line {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row wrap;
   line-height: 1.5rem;
   align-items: baseline;
