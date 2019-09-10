@@ -416,4 +416,9 @@ amp-social-share {
   border: none;
   background: rgba(30, 30, 50, 0.1);
 }
+div#content {
+  width: 89%;
+  margin: auto;
+  padding: 0;
+}
 }
