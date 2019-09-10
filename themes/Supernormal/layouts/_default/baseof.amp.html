@@ -21,8 +21,7 @@
   {{ template "_internal/schema.html" . }}
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
-  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
-    <style amp-custom>
+  <style amp-custom>
     {{ replaceRE " +" " " (replaceRE "\n" "" (partial "ampstyle.css" .)) | safeCSS }}
   </style>
 </head>
