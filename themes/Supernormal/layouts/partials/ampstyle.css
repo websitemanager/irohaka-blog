@@ -417,6 +417,15 @@ amp-social-share {
   margin-left:3px;
 }
 
+amp-social-share[type=hatena]{
+  background-color:#00a4de;
+  background-image: url('# {image_path}"/hatena.svg"');
+  background-position-x:50%;
+  background-position-y: center;
+  background-size:contain;
+
+}
+
 @media screen and (min-width: 896px) {
  amp-img.blogtitle {
   margin:auto;
