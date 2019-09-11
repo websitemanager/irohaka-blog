@@ -419,7 +419,7 @@ amp-social-share {
 
 amp-social-share[type=hatena]{
   background-color:#00a4de;
-  background-image: url('#{image_path("/hatena.svg")}');
+  background-image: url("https://www.irohaka.com/hatena.svg");
   background-position-x:50%;
   background-position-y: center;
   background-size:contain;
