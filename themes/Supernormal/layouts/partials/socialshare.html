@@ -1,10 +1,8 @@
 <div class="sns_button twitter">
     <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}%20%7c%20{{ .Site.Title }}" target="_blank" title="Tweet"><img class="socialicon" src="/img/twitter.png"></a>
   </div>
-  <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v4.0&appId=557395031663448&autoLogAppEvents=1"></script>
-<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><img class="socialicon" src="/img/facebook.png"></a>
-<div class="sns_button hatena">
+  <a href="https://facebook.com/sharer/sharer.php?u={{ .Permalink}}" target="blank" rel="nofollow"><img class="socialicon" src="/img/facebook.png"></a>
+  <div class="sns_button hatena">
     <a href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ .Title }}%20%7c%20{{ .Site.Title }}" target="_blank" rel="nofollow"><img class="socialicon" src="/img/hatena.png"></a>
   </div>
   <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink }}&openExternalBrowser=1" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"><img class="socialicon" src="/img/line.png"></a>
