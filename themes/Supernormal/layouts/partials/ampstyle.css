@@ -114,6 +114,9 @@ amp-img.blogtitle {
   background: rgba(30, 30, 50, 0.1);
 }
 
+amp-img{
+  max-width:1020px;
+}
 
 footer {
   width: 80%;
