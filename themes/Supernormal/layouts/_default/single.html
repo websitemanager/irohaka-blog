@@ -22,9 +22,6 @@
       <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
     </figure>
     {{ end}}
-    <div class="socialshare">
-        {{ partial "socialshare.html" . }}
-    </div>
     <article id="content">
       {{ .Content }}
     </article>
