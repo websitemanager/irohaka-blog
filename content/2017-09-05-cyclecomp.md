@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2017-09-05T04:50:16+00:00
 url: /2017cyclecomp
-images: ["/images/201709giant_neostrack.png"]
-featured_image: "/images/201709giant_neostrack.png"
+images: ["/images/201709giant_neostrack.jpg"]
+featured_image: "/images/201709giant_neostrack.jpg"
 tags: [ "サイクルコンピューター" ]
 ---
 
@@ -33,11 +33,11 @@ tags: [ "サイクルコンピューター" ]
   
 Lezyneと言えば高級で品質の良いバイクツールがメインだと思っていたのですが、お値打ちなGPSサイコンもラインナップしていたのですね。最近登場したものはアップデートされて16,800円（税別）とこちらもお値打ちです。
 
-{{< figure src="/images/201709lezynesupergps.png" alt="Lezyne" title="レザインのSuper GPS">}}
+{{< figure src="/images/201709lezynesupergps.jpg" alt="Lezyne" title="レザインのSuper GPS">}}
 
 機能を割り切って考えればMacro GPSで十分じゃないかと。スマホと連携して大体のことはできちゃいます。
 
-{{< figure src="/images/201709lezyne_macrogps.png" alt="Lezyne" title="レザインのSuper GPS">}}
+{{< figure src="/images/201709lezyne_macrogps.jpg" alt="Lezyne" title="レザインのSuper GPS">}}
 
 やっぱり色々な選択肢が出てきたのは良い事だと思います。記事には高校生のような若者が気軽に買えるようにと書かれていましたが、高校生や若い人も良いものなら対価を支払っても欲しいものは買うことを留意しておいた方が良いと思います。単に安いのではなくて、魅力的な商品力と価格展開は若い人だけではなくて、僕みたいなオジさんにも十分訴求効果はあると思います。
   
