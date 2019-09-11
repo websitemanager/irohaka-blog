@@ -64,12 +64,14 @@ div.meta {
   padding-left: 20px;
 }
 ul#tag_pickup {
+  padding-left:5px;
+  margin:0;
   display: flex;
   flex-direction: row;
 }
 li.tag-meta {
   display: inline;
-  line-height: 1.2;
+  line-height: 1;
   padding-left: 5px;
 }
 li.tags {
@@ -111,8 +113,6 @@ figure.featured_img{
   margin:0;
   padding:30px 0px 30px 0px;
 }
-
-
 
 amp-img.blogtitle {
   max-width: 500px;
@@ -424,7 +424,7 @@ amp-social-share {
   border: none;
   background: rgba(30, 30, 50, 0.1);
 }
-div#content {
+main {
   width: 89%;
   margin: auto;
   padding: 0;
