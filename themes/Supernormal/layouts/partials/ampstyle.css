@@ -415,6 +415,7 @@ div.socialshare{
 amp-social-share {
   margin-right: 3px;
   margin-left:3px;
+  border-radius: 3px;
 }
 
 amp-social-share[type=hatena]{
