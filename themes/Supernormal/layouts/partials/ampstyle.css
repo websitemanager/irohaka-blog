@@ -107,6 +107,11 @@ header {
   background-size: cover;
   background-position-x: center;
 }
+figure.featured_img{
+  margin:0;
+  padding:30px 0px 30px 0px;
+}
+
 amp-img.blogtitle {
   max-width: 500px;
   margin:auto;
