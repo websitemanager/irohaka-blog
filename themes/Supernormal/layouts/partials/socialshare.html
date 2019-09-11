@@ -1,7 +1,11 @@
 <div class="sns_button twitter">
     <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}%20%7c%20{{ .Site.Title }}" target="_blank" title="Tweet"><img class="socialicon" src="/img/twitter.png"></a>
   </div>
-  <a href="https://facebook.com/sharer/sharer.php?u={{ .Permalink}}" target="blank" rel="nofollow"><img class="socialicon" src="/img/facebook.png"></a>
+
+  <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}&t={{ .Title }}" target="_blank" title="Facebook">
+    <img class="socialicon" src="/img/facebook.png">
+  </a>
+  
   <div class="sns_button hatena">
     <a href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ .Title }}%20%7c%20{{ .Site.Title }}" target="_blank" rel="nofollow"><img class="socialicon" src="/img/hatena.png"></a>
   </div>
