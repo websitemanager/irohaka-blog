@@ -123,6 +123,7 @@ amp-img.blogtitle {
 
 amp-img{
   max-width:1020px;
+  margin:auto;
 }
 
 footer {
@@ -318,10 +319,6 @@ p.Summary {
 }
 img {
   max-width: 100%;
-  height: auto;
-  padding: 0.1px;
-  margin-bottom: 0;
-  border: solid 0.8px #777;
 }
 figcaption {
   margin-top: 0;
