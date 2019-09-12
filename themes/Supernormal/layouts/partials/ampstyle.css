@@ -407,25 +407,13 @@ img.amazonimage {
 .amazontitle > small {
   line-height: 8px;
 }
-div.socialshare{
-  margin-top:30px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-amp-social-share {
-  margin-right: 3px;
-  margin-left:3px;
-  border-radius: 3px;
+
+figure.socialshare {
+  display:flex;
+  justify-content: center;
+  padding:20px 0px 40px 0px;
 }
 
-amp-social-share[type=hatena]{
-  background-color:#00a4de;
-  background-image: url("https://www.irohaka.com/hatena.svg");
-  background-position-x:50%;
-  background-position-y: center;
-  background-size:contain;
-
-}
 
 @media screen and (min-width: 896px) {
  amp-img.blogtitle {
