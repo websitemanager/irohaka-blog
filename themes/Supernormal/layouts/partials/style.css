@@ -225,7 +225,7 @@ div.list-title {
   flex-direction: row;
   align-items: baseline;
   line-height: 1;
-  padding-bottom: 7px;
+  padding: 0px;
 }
 ul.topmenu {
   max-width: 300px;
