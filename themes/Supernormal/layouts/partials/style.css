@@ -99,6 +99,16 @@ ul#taglist {
 div.meta {
   padding-left: 20px;
 }
+div.tag_line{
+  display:flex;
+  flex-direction: row;
+}
+div.tag_line p{
+  margin:0;
+  padding:0;
+  align-self: center;
+}
+
 ul#tag_pickup {
   padding-left:5px;
   margin:0;
@@ -377,7 +387,7 @@ p.Summary {
 
 figure.featured_img{
   margin:auto;
-  padding:30px 0px 30px 0px;
+  padding:10px 0px 30px 0px;
 }
 img {
   max-width: 100%;
