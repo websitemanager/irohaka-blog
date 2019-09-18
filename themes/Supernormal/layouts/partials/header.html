@@ -22,8 +22,8 @@
   {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
   {{ end -}}
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  <meta name="description" content="{{ .Summary }}" />
+  {{ with .Params.tags }}<meta name="keywords"  content="{{ . }}">{{ end }}
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
