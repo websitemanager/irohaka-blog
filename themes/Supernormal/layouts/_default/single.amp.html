@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main>
-  <section id="main">
+  <section>
     <h2>{{ .Title }}</h2>
     <p class="date"> {{ .Date.Format "2006年01月02日" }} </p>
     <div class="tag_line">
@@ -22,7 +22,7 @@
     <figure class="socialshare">
       {{ partial "amp.socialshare.html" .  }}
     </figure>
-    <article id="content">
+    <article>
       {{ .Content }}
     </article>
     <article class="contentfooter">

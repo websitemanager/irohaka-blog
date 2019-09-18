@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main>
-  <section id="main">
+  <section>
     <div class="title_line">
       <h2>{{ .Title }}</h2>
       <p class="date"> {{ .Date.Format "2006年01月02日" }} </p>
@@ -32,7 +32,7 @@
       <script async src="https://static.addtoany.com/menu/page.js"></script>
       <!-- AddToAny END -->
     </figure>
-    <article id="content">
+    <article>
       {{ .Content }}
     </article>
     <article class="contentfooter">
