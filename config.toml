@@ -15,8 +15,8 @@ disqusShortname = "irohaka"
     tags = "自転車, ブログ"
 
 [outputs]
-  page = ["HTML", "AMP"]
-  Home = ["HTML", "AMP"]
+  page = ["HTML", "AMP" , "RSS"]
+  Home = ["HTML", "AMP" , "RSS"]
 
 disqusShortname = "irohaka-netlify-com"
 
