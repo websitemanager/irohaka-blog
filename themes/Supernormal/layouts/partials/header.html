@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -8,28 +9,39 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-58799-9');
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
-       (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7014159386436390",
-            enable_page_level_ads: true
-       });
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-7014159386436390",
+      enable_page_level_ads: true
+    });
   </script>
   <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
   {{ range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
   {{ end -}}
-  <meta name="description" content="{{ .Summary }}" />
-  {{ with .Params.tags }}<meta name="keywords"  content="{{ . }}">{{ end }}
+  {{ if .IsHome }}
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+  {{ else }}
+  <meta name="description" content="{{ .Summary }}">
+  {{ end }}
+  {{ if .IsHome }}
+  {{ with .Site.Params.tags }}
+  <meta name="keywords" content="{{ . }}">
+  {{ end }}
+  {{ else }}
+  {{ with .Params.tags }}
+  <meta name="keywords" content="{{ . }}">{{ end }}{{ end }}
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/schema.html" . }}
   <style>
-      {{ replaceRE " +" " " (replaceRE "\n" "" (partial "style.css" .)) | safeCSS }}
+    {{ replaceRE " +" " " (replaceRE "\n" "" (partial "style.css" .)) | safeCSS }}
   </style>
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">

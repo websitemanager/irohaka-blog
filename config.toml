@@ -12,6 +12,7 @@ disqusShortname = "irohaka"
     images = ["img/eyecatch.jpg"]
     description ="イロハカの自転車と旅行と趣味のはなし。"
     amazonJpAffiliate = "irohaka-22"
+    tags = "自転車, ブログ"
 
 [outputs]
   page = ["HTML", "AMP"]
