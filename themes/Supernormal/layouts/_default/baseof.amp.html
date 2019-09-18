@@ -14,8 +14,14 @@
   <link rel="canonical" href="{{ .Permalink }}" />
   {{ end }}
   <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  {{ if .IsHome }}{{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}{{ else }}
+  <meta name="description" content="{{ .Summary }}">{{ end }}
+  {{ if .IsHome }}{{ with .Site.Params.tags }}
+  <meta name="keywords" content="{{ . }}">
+  {{ end }}{{ else }}{{ with .Params.tags }}
+  <meta name="keywords" content="{{ . }}">{{ end }}{{ end }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/schema.html" . }}
