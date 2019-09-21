@@ -36,8 +36,8 @@ WordPressからのデータをエクスポートするプラグインがある�
 <br>
 
 ### 参考にさせていただいたサイト  
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/peaceiris/items/ef38cc2a4b5565d0dd7c" data-iframely-url="//cdn.iframe.ly/M3ZYC6x"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-<br>
+
+👉　 [Hugo で静的なサイト・ブログを構築しよう](https://qiita.com/peaceiris/items/ef38cc2a4b5565d0dd7c) 
 👉　 [Hugo公式](https://gohugo.io/)  
 👉　 [まくまくHugo/Goノート](https://maku77.github.io/hugo/)  
 👉　 [tanaken.me](https://tanaken.me/posts/190217/)  
