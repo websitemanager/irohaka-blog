@@ -24,4 +24,5 @@ featured_image: "/img/eyecatch.jpg"
 最近は再就職して仕事で疲れて週末は寝てしまうことが多いのでイベントにはあまり参加していないのですが、気力が起きたら気の向くままに無理しないで地元を走るのも楽しいです。今後もできるだけ前向きに、無理をしない範囲で楽しみたいと思います。
 <br>
 
-![novara mtb](../images/about.jpg) 
+
+{{< figure src="/images/about.jpg" alt="novara mtb" title="novara mtb" >}} 
