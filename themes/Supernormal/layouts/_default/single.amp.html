@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
   <section>
-    <h2>{{ .Title }}</h2>
+    <h1>{{ .Title }}</h1>
     <p class="date"> {{ .Date.Format "2006年01月02日" }} </p>
     <div class="tag_line">
       {{ with .Params.tags }}
