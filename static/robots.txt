@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap:https://irohaka.com/sitemap.xml
+Sitemap:https://wwww.irohaka.com/sitemap.xml
