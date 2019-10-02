@@ -3,31 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58799-9"></script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WN8PRQ');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Adobe Typekit -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-58799-9');
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-7014159386436390",
-      enable_page_level_ads: true
-    });
-  </script>
- <script>
-  (function(d) {
+    (function(d) {
     var config = {
       kitId: 'wdk4cem',
       scriptTimeout: 3000,
       async: true
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script>
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <!-- End Adobe Typekit -->
   <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
   {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
@@ -35,16 +29,11 @@
   {{ if .IsHome }}
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}">
-  {{ end }}
-  {{ else }}
+  {{ end }}{{ else }}
   <meta name="description" content="{{ .Summary }}">
-  {{ end }}
-  {{ if .IsHome }}
-  {{ with .Site.Params.tags }}
+  {{ end }}{{ if .IsHome }}{{ with .Site.Params.tags }}
   <meta name="keywords" content="{{ . }}">
-  {{ end }}
-  {{ else }}
-  {{ with .Params.tags }}
+  {{ end }}{{ else }}{{ with .Params.tags }}
   <meta name="keywords" content="{{ . }}">{{ end }}{{ end }}
   <meta name="robots" content="max-snippet:50, max-image-preview:large">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -60,6 +49,10 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WN8PRQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><img class="blogtitle" src="/img/blogtitle.svg"
           alt="{{ .Site.Title }}"></a></p>
