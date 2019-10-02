@@ -33,4 +33,5 @@ tags: [ "Cannondale","自転車のはなし" ]
 
 {{< figure src="/images/2018TOPSTONE_APEX1_Cannondale.jpg" alt="Cannondale TOPSTONE" title="Cannondale TOPSTONE APEX1">}}
 <br>
-{{< youtube 0b0MQtOaoQI >}}
+{{< youtube 0b0MQtOaoQI >}}  
+  
