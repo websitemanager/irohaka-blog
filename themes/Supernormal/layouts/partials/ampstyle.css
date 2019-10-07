@@ -394,17 +394,24 @@ footer {
   margin-bottom: 30px;
 }
 div.to-top {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(#e66465, #9198e5);
-  text-align: center;
+  position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 8px;
+    bottom: 48px;
+    background-color: #5caef5;
+    opacity: 0.7;
+    border-radius: 50%;
+    z-index: 10;
 }
 a.back-to-top {
-  color: #555;
-  font-size: 1.2rem;
-  padding: 15px;
-  text-decoration: none;
-  font-weight: 400;
+  color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
 }
 
 .amazonlink {
