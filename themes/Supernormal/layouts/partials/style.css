@@ -36,7 +36,7 @@ template{display:none}
 
 html {
   max-width: 100%;
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+  font-family: a-otf-ud-shin-go-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
   background: #19191a;
   font-size: 17px;
   font-weight: 300;
