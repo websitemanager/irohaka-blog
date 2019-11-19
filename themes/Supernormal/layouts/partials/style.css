@@ -36,10 +36,10 @@ template{display:none}
 
 html {
   max-width: 100%;
-  font-family: a-otf-ud-shin-go-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
+  font-family: fot-udmarugo-large-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
   background: #19191a;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1.8;
   font-style:normal;
   color: #ccc;
@@ -199,7 +199,7 @@ h1 {
 }
 h2 {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: normal;
   margin-right: 10px;
   line-height: 1;
 }
@@ -207,7 +207,7 @@ h3 {
   padding-top: 30px;
   padding-bottom: 1px;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1;
 }
 .tag-index {
@@ -217,7 +217,7 @@ h3 {
 }
 h4 {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0;
   line-height: 0.9rem;
 }
@@ -520,7 +520,7 @@ img.amazonimage {
     padding-top: 30px;
     padding-bottom: 10px;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 1.7;
   }
   header {
