@@ -1,0 +1,8 @@
+{{ $eyecatch_image := findRE "<img.*?src=([^>]*)?>" .Content 1 }}
+{{ if ge (len $eyecatch_image ) 1 }}
+{{ range $eyecatch_image }}
+{{ . | safeHTML }}
+{{ end }}
+{{ else }}
+<img src="../imge/eyecatch.jpg" width="1080px" height="540px" alt="Specialized Roubaix">
+{{ end}}

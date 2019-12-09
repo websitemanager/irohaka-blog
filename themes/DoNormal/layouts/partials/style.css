@@ -40,7 +40,7 @@ html {
   background: #19191a;
   font-size: 17px;
   font-weight: normal;
-  line-height: 1.9;
+  line-height: 1.8;
   font-style:normal;
   color: #ccc;
   text-align: left;
@@ -90,7 +90,7 @@ li.summary {
   font-size: 1rem;
   line-height: 2.5rem;
 }
-p.togpage {
+p.tagpage {
   font-size: 20px;
   line-height: 2;
 }
@@ -201,7 +201,7 @@ h2 {
   font-size: 1.7rem;
   font-weight: normal;
   margin-right: 10px;
-  line-height: 1;
+  line-height: 1.2;
 }
 h3 {
   padding-top: 30px;

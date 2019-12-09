@@ -1,0 +1,63 @@
+{{- $category := .Get "category" -}}
+{{- if (not $category) -}}
+  {{- errorf "amazonにcategoryが未指定です。" }}
+{{- end }}
+
+{{- $key := .Get "key" -}}
+{{- if (not $key) -}}
+  {{- errorf "amazonにkeyが未指定です。" }}
+{{- end }}
+
+{{- $tag := .Site.Params.amazonJpAffiliate }}
+{{- if (not $tag) -}}
+  {{- errorf "サイトパラメータamazonJpAffiliateが未指定です。" }}
+{{- end }}
+
+{{- $book := (index (index $.Site.Data $category) $key) -}}
+{{- if (not $book) -}}
+  {{- errorf "%s.yamlに'%s'がありません。" $category $key }}
+{{- end }}
+
+{{- $title := $book.title -}}
+{{- if (not $title) -}}
+  {{- errorf "%s.yamlの'%s'にtitleがありません。" $category $key }}
+{{- end }}
+
+{{- $asin := $book.asin -}}
+{{- if (not $asin) -}}
+  {{- errorf "%s.yamlの'%s'にasinがありません。" $category $key }}
+{{- end -}}
+
+{{- $publisher := $book.publisher -}}
+{{- if (not $publisher) -}}
+  {{- errorf "%s.yamlの'%s'にpublisherがありません。" $category $key }}
+{{- end -}}
+
+{{- $publishdate := $book.publishdate -}}
+{{- if (not $publishdate) -}}
+  {{- errorf "%s.yamlの'%s'にpublishdateがありません。" $category $key }}
+{{- end -}}
+
+{{- $width := $book.width -}}
+{{- if (not $book.width) -}}
+  {{- errorf "%s.yamlの'%s'にwidthがありません。" $category $key }}
+{{- end -}}
+
+{{- $height := $book.height -}}
+{{- if (not $book.height) -}}
+  {{- errorf "%s.yamlの'%s'にheightがありません。" $category $key }}
+{{- end -}}
+
+<div class="amazonlink">
+  <a target="_blank" href="https://www.amazon.co.jp/gp/product/{{ $asin }}/?tag={{ $tag }}">
+    <amp-img class="amazonimage" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN={{ $asin }}&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag={{ $tag }}" width="{{ $width }}" height="{{ $height }}" alt="{{ $title }}"></amp-img>
+  </a>
+  <div class="amazontitle" >
+    <a target="_blank" href="https://www.amazon.co.jp/gp/product/{{ $asin }}/?tag={{ $tag }}">
+    {{ $title }}
+    </a>
+    <br>
+    <small>{{ $publisher }}</small><br>
+    <small>{{ $publishdate }}</small>
+  </div>
+</div>

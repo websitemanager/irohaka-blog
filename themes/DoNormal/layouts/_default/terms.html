@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+{{ define "main" }}
+<main>
+  <div id="#content">
+    <ul>
+      <p>----- タグが同じ記事一覧 -----</p>
+      {{ $data := .Data }}
+      {{ range $key, $value := .Data.Terms.Alphabetical }}
+      <li>
+        <a
+          href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural | urlize }}/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+        {{ $value.Count }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</main>
+{{ partial "footer.html" . }}
