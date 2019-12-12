@@ -490,20 +490,20 @@ img.amazonimage {
     line-height: 1.7;
   }
   header {
-    max-width: 97%;
+    max-width: 98%;
     padding-top: 16px;
     padding-bottom: 16px;
   }
   body {
-    max-width: 97%;
+    max-width: 100%;
     margin: auto;
   }
   main {
-    max-width: 98%;
+    max-width: 100%;
     margin: auto;
   }
   div#content {
-    max-width: 97%;
+    max-width: 100%;
   }
   div.prevnextlink {
     margin-top: 30px;
@@ -530,9 +530,5 @@ img.amazonimage {
   div.list-title {
     flex-direction: column;
   }
-  time {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  
+   
 }
