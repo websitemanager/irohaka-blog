@@ -4,8 +4,8 @@ author: irohaka
 type: post
 date: 2019-11-11T12:31:32+09:00
 url: /kyushutrip2019
-images: ["images/2019-11-11-01-kyushu-08.jpg"]
-featured_image: "/images/2019-11-11-01-kyushu-08.jpg"
+images: ["images/2019-11-11-01-kyushu-eye.jpg"]
+featured_image: "/images/2019-11-11-01-kyushu-eye.jpg"
 tags: ["旅行"]
 ---
 

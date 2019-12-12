@@ -48,6 +48,33 @@ html {
   text-size-adjust: 100%;
   word-break: normal;
 }
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 5px 5px 5px 0;
+  line-height: 1.7;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+h3 {
+  padding-top: 30px;
+  padding-bottom: 1px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0;
+  line-height: 0.9rem;
+}
+
 a {
   text-decoration: none;
   color: #dfa3cb;
@@ -67,11 +94,13 @@ a.next {
 a.title {
   font-size: 20px;
 }
-div.readmore p {
-  display: inline;
+p.readmore{
+  text-align:right !important;
 }
+
 a.readmore {
   display: inline-block;
+  text-align: right;
   border: solid 1px #db8ec1;
   padding-right: 10px;
   padding-left: 10px;
@@ -148,25 +177,22 @@ ul.pagination li {
   align-content: center;
   padding: 5px;
 }
-main {
-  max-width: 1080px;
-  margin: auto;
-  background: #0f1725;
-}
 body {
-  max-width: 90%;
+  max-width: 1280px;
   background: #0f1725;
   margin: auto;
 }
+
+main {
+  max-width: 1980px;
+  margin: auto;
+  background: #0f1725;
+}
+
 header {
   max-width: 100%;
   max-height: 100%;
-  margin: auto;
-  padding: 50px 30px 70px 30px;
-  background-image: url(/img/nagashinomap.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
+  margin: auto;  
 }
 img.blogtitle {
   max-width: 500px;
@@ -183,44 +209,27 @@ footer {
   margin: 0 auto;
 }
 article.toplist {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  max-width: 300px;
+  margin: 50px 0px 0px 0px;
+  padding:20px;
 }
+
+
 div#content {
-  width: 89%;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
   margin: auto;
   padding: 0;
 }
-h1 {
-  font-size: 1.6rem;
-  font-weight: 300;
-  padding: 5px 5px 5px 0;
-  line-height: 1.7;
-}
-h2 {
-  font-size: 1.7rem;
-  font-weight: normal;
-  margin-right: 10px;
-  line-height: 1.2;
-}
-h3 {
-  padding-top: 30px;
-  padding-bottom: 1px;
-  font-size: 1.5rem;
-  font-weight: normal;
-  line-height: 1.2;
-}
+
+
 .tag-index {
   margin-top: 20px;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-h4 {
-  font-size: 0.9rem;
-  font-weight: normal;
-  margin: 0;
-  line-height: 0.9rem;
-}
+
 div.title_line {
   display: flex;
   justify-content: flex-start;
@@ -270,60 +279,16 @@ li.related {
 .pagenotfound {
   text-align: center;
 }
-section#pagination {
-  display: flex;
-}
-.pagination {
-  display: flex;
-  align-content: center;
-  text-align: center;
-  padding-left: 0;
+div.pagination {
+  padding-top:100px;
   margin: auto;
-  border-radius: 4px;
 }
-.pagination > li {
-  justify-content: center;
-  display: inline;
+
+ul.pagination{
+  margin: 0;
+  padding:0 !important;
 }
-.pagination > li > a,
-.pagination > li > span {
-  position: relative;
-  padding: 6px 12px;
-  margin-left: -1px;
-  line-height: 1.42857143;
-  color: #337ab7;
-  text-decoration: none;
-}
-.pagination > li:first-child > a,
-.pagination > li:first-child > span {
-  margin-left: 0;
-}
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover {
-  z-index: 2;
-  color: #5caef5;
-}
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
-  z-index: 3;
-  color: #fff;
-  cursor: default;
-  background-color: #337ab7;
-}
-.pagination > .disabled > a,
-.pagination > .disabled > a:focus,
-.pagination > .disabled > a:hover,
-.pagination > .disabled > span,
-.pagination > .disabled > span:focus,
-.pagination > .disabled > span:hover {
-  color: #777;
-}
+
 div.prevnextlink {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -421,8 +386,8 @@ table tr {
   border: solid 1px #777;
 }
 time {
-  font-size: 16px;
-  margin-right: 5px;
+  font-size: 12px;
+  margin-bottom: 10px;
   line-height: 1.2;
 }
 .contentfooter {
@@ -568,26 +533,5 @@ img.amazonimage {
     font-size: 14px;
     line-height: 1.5;
   }
-  .pagination {
-    width: 100%;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 0;
-    margin: auto;
-    border-radius: 1px;
-  }
-  .pagination > li {
-    display: inline;
-  }
-  .pagination > li > a,
-  .pagination > li > span {
-    position: relative;
-    padding: 2px;
-    margin-left: -1px;
-    line-height: 1.42857143;
-    color: #337ab7;
-    text-decoration: none;
-  }
+  
 }

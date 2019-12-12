@@ -3,7 +3,7 @@ title = "イロハカの自転車日記"
 
 languageCode = "ja-jp"
 hasCJKLanguage = true
-theme = "Supernormal"
+theme = "DoNormal"
 dateFormat = "2006年01月02日"
 disqusShortname = "irohaka"
 
