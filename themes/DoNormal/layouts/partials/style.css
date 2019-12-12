@@ -475,7 +475,7 @@ img.amazonimage {
 }
 
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 414px) {
   h1#title {
     font-size: 1.6rem;
   }
@@ -495,15 +495,15 @@ img.amazonimage {
     padding-bottom: 16px;
   }
   body {
-    max-width: 100%;
+    max-width: 98%;
     margin: auto;
   }
   main {
-    max-width: 100%;
+    max-width: 97%;
     margin: auto;
   }
   div#content {
-    max-width: 100%;
+    max-width: 97%;
   }
   div.prevnextlink {
     margin-top: 30px;
