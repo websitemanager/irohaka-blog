@@ -10,10 +10,11 @@
          <p>{{ .Summary }}</p>    
          <p class="readmore"><a class="readmore" href="{{ .RelPermalink }}" title="「{{ .Title }}」の続きを読む">続きを読む</a><p>
          </div>
-         </article>
+ </article>       
     {{ end }}
+    
     <div class="pagination">
-    {{ template "_internal/pagination.html" . }}
+        {{ template "_internal/pagination.html" . }}
     </div>
-</div>
 {{ end }}
+

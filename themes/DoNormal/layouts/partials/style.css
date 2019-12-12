@@ -280,6 +280,7 @@ li.related {
   text-align: center;
 }
 div.pagination {
+  flex-basis:100%;
   padding-top:100px;
   margin: auto;
 }
