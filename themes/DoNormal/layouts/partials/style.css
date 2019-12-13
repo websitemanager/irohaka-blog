@@ -189,6 +189,10 @@ main {
   background: #0f1725;
 }
 
+section.blog-content{
+  max-width:1280px;
+}
+
 header {
   max-width: 100%;
   max-height: 100%;
