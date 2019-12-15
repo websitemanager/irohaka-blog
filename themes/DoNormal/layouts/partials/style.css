@@ -33,13 +33,17 @@ details{display:block}
 summary{display:list-item}
 template{display:none}
 [hidden]{display:none}
-
+* {
+     margin: 0px;
+     padding: 0px;
+    }
+  
 html {
   max-width: 100%;
   font-family: fot-udkakugo-large-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
   background: #19191a;
   font-size: 17px;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.8;
   font-style:normal;
   color: #ccc;
@@ -179,6 +183,7 @@ ul.pagination li {
 }
 body {
   max-width: 1280px;
+  padding-top:0;
   background: #0f1725;
   margin: auto;
 }
@@ -190,23 +195,42 @@ main {
 }
 
 section.blog-content{
+  padding-top:120px;
   max-width:1020px;
 }
 
 header {
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;  
+  width: 100%;
+  height: 30px;
+  padding:10px 0px 20px 0px;
+  position: fixed;
+  margin: auto;
+  justify-content: center;
+  background:linear-gradient(rgb(10, 10, 80), rgba(30, 30, 80, 0.6));
+  z-index:100;
 }
 img.blogtitle {
-  max-width: 500px;
-  border: none;
-  padding-top: 30px;
-  background: rgba(30, 30, 50, 0.1);
+  width: 268.5px;
+  height: 39px;
+  margin:auto;
+  border: none; 
 }
 p.headerp {
   text-align: center;
+  
 }
+
+p.description{
+  padding-top:100px;
+  margin:auto;
+  font-weight: 300;
+  font-size:14px;
+  text-align: center;
+  flex-basis: 100%;
+}
+
+
+
 footer {
   width: 80%;
   max-width: 1080px;
@@ -215,15 +239,14 @@ footer {
 article.toplist {
   max-width: 300px;
   margin: 50px 0px 0px 0px;
-  padding:20px;
+  padding:15px;
 }
-
 
 div#content {
   display:flex;
   flex-flow: row wrap;
   justify-content:center;
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -249,12 +272,19 @@ div.list-title {
   line-height: 1;
   padding: 0px;
 }
-ul.topmenu {
-  max-width: 300px;
-  display: flex;
-  padding: 30px 0 30px 0;
-  margin: auto;
+
+div.menuline{
+  max-width: 100%;
+  flex-basis: 100%;
 }
+
+ul.topmenu {
+  display:flex;
+  max-width: 300px;
+  padding: 30px 0 30px 0;
+  margin: auto;}
+
+
 li.menu_line {
   flex: 1;
   border: solid 0.8px #db8ec1;
@@ -417,7 +447,7 @@ footer {
   line-height: 2rem;
   color: #aaa;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 div.to-top {
@@ -479,7 +509,7 @@ img.amazonimage {
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 673px) {
   h1#title {
     font-size: 1.6rem;
   }
@@ -534,5 +564,10 @@ img.amazonimage {
   div.list-title {
     flex-direction: column;
   }
-   
+  article.toplist {
+    max-width: 300px;
+    margin: 50px 0px 0px 0px;
+    padding:10px;
+  }
+
 }

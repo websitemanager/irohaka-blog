@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+ }
+
 html {
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont,sans-serif;
@@ -108,13 +113,36 @@ main {
 }
 body {
   width: 98%;
+  padding-top:0;
   margin:0 auto;
   background: #0f1725;
 }
 header {
-  margin: auto;
-  padding: 30px;
+  position: fixed;
+  margin:auto;
+  width:100%;
+  height: 30px;
+  padding:0px 0px 50px 0px;
+  justify-content: center;
+  background:linear-gradient(rgb(10, 10, 80), rgba(30, 30, 80, 0.6));
+  z-index: 100;
 }
+
+.headerp{
+  position: relative;
+  margin:0 auto;
+  padding:0;
+  text-align: center;
+}
+
+p.description{
+  padding-top:100px;
+  margin:auto;
+  font-weight: 300;
+  font-size:14px;
+  text-align: center;
+}
+
 figure.featured_img{
   margin:0;
   padding:10px 0px 30px 0px;
@@ -123,9 +151,9 @@ figure.featured_img{
 amp-img.blogtitle {
   max-width:200px;
   margin:auto;
+  padding-bottom:30px;
   border: none;
-  background: rgba(30, 30, 50, 0.1);
-}
+ }
 
 amp-img{
   max-width:1280px;
@@ -209,11 +237,11 @@ div.list-title {
 ul.topmenu {
   max-width: 300px;
   display: flex;
-  padding: 30px 0 30px 0;
+  padding: 20px 0 30px 0;
   margin: auto;
 }
 li.menu_line {
-  flex: 1;
+  flex-basis: 50%;
   border: solid 0.8px #db8ec1;
   display: inline-block;
   text-align: center;
@@ -410,7 +438,7 @@ amp-social-share{
 @media screen and (min-width: 896px) {
  amp-img.blogtitle {
   margin:auto;
-  max-width: 500px;
+  max-width: 268.5px;
   border: none;
   background: rgba(30, 30, 50, 0.1);
 }

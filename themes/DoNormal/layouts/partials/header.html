@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="UTF-8">
   <script data-ad-client="ca-pub-7014159386436390" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -10,10 +9,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-58799-9');
 </script>
-
   <!-- Adobe Typekit -->
   <script>
     (function(d) {
@@ -26,6 +23,7 @@
     })(document);
   </script>
   <!-- End Adobe Typekit -->
+
   <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}}｜{{ $.Site.Title }}{{end}}</title>
   {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
@@ -61,11 +59,4 @@
     <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><img class="blogtitle" src="/img/blogtitle.svg"
           alt="{{ .Site.Title }}"></a></p>
   </header>
-  <ul class="topmenu">
-    {{ range .Site.Menus.main }}
-    <li class="menu_line">
-      <a href="{{ .URL }}">{{ .Name }}</a>
-    </li>
-    {{ end }}
-  </ul>
-  <main>
+<main>
