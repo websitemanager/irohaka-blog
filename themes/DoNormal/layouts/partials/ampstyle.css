@@ -216,6 +216,12 @@ h4 {
   margin: 0;
   line-height: 1.7rem;
 }
+
+main {
+  width: 97%;
+  margin: auto;
+  padding: 0;
+}
 div.title_line {
   display: flex;
   justify-content: space-between;
@@ -302,7 +308,8 @@ footer,
 nav {
   text-align: center;
 }
-article #content {
+#content {
+  max-width:98%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -440,7 +447,7 @@ amp-social-share{
   background: rgba(30, 30, 50, 0.1);
 }
 main {
-  width: 100%;
+  width: 97%;
   margin: auto;
   padding: 0;
 }

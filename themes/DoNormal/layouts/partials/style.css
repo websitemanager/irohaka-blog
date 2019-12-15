@@ -57,19 +57,19 @@ h1 {
   font-size: 1.6rem;
   font-weight: 300;
   padding: 5px 5px 5px 0;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 h3 {
   padding-top: 30px;
-  padding-bottom: 1px;
-  font-size: 1.2rem;
+  padding-bottom: 10px;
+  font-size: 1.4rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 h4 {
@@ -195,7 +195,8 @@ main {
 
 section.blog-content{
   padding-top:120px;
-  max-width:1080px;
+  max-width:95%;
+  margin:auto;
 }
 
 header {
