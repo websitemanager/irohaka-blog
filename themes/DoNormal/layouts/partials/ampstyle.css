@@ -179,7 +179,7 @@ article.toplist {
   margin-bottom: 100px;
 }
 div#content {
-  width: 89%;
+  max-width: 1080px;
   margin: auto;
   padding: 0;
 }
