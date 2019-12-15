@@ -6,7 +6,7 @@
 html {
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont,sans-serif;
-  background: #19191a;
+  background: #152135;
   font-size: 17px;
   font-weight: 300;
   font-style: normal;
@@ -107,16 +107,13 @@ ul.pagination li {
   padding: 5px;
 }
 main {
-  width:98%;
   margin: auto;
-  background: #0f1725;
+  
 }
 body {
-  width: 98%;
   padding-top:0;
   margin:0 auto;
-  background: #0f1725;
-}
+ }
 header {
   position: fixed;
   margin:auto;
@@ -443,7 +440,7 @@ amp-social-share{
   background: rgba(30, 30, 50, 0.1);
 }
 main {
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 0;
 }

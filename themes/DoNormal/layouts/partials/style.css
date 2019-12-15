@@ -41,7 +41,7 @@ template{display:none}
 html {
   max-width: 100%;
   font-family: fot-udkakugo-large-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
-  background: #19191a;
+  background: #152135;
   font-size: 17px;
   font-weight: 300;
   line-height: 1.8;
@@ -182,40 +182,42 @@ ul.pagination li {
   padding: 5px;
 }
 body {
-  max-width: 1280px;
+  max-width: 100%;
   padding-top:0;
-  background: #0f1725;
   margin: auto;
 }
 
 main {
-  max-width: 98%;
+  max-width:100%;
   margin: auto;
-  background: #0f1725;
+  
 }
 
 section.blog-content{
   padding-top:120px;
-  max-width:1020px;
+  max-width:1280px;
 }
 
 header {
   width: 100%;
-  height: 30px;
-  padding:10px 0px 20px 0px;
-  position: fixed;
-  margin: auto;
-  justify-content: center;
+  height: 50px;
+  clear: both;
+  margin-top: 0;
+  position:fixed;
+  margin:auto; 
   background:linear-gradient(rgb(10, 10, 80), rgba(30, 30, 80, 0.6));
-  z-index:100;
+  z-index:1;
 }
-img.blogtitle {
-  width: 268.5px;
-  height: 39px;
+
+
+img.blogtitle { 
+  max-width:300px;
   margin:auto;
-  border: none; 
+  padding-bottom:30px;
+  border: none;
 }
 p.headerp {
+  position: relative;
   text-align: center;
   
 }
@@ -243,10 +245,11 @@ article.toplist {
 }
 
 div#content {
+  max-width:1280px;
   display:flex;
   flex-flow: row wrap;
   justify-content:center;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
