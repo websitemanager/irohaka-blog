@@ -1,8 +1,7 @@
-<amp-iframe   
-    {{ with .width }}width="{{ . }}"{{ end }}
-    {{ with .height }}height="{{ . }}"{{ end }}
-    sandbox="allow-scripts allow-same-origin"
-    layout="responsive"
-    frameborder="0"
-    {{ with .src }}src="{{ . }}"{{ end }} >
+<amp-iframe
+ src="{{ .Get "src" }}"
+ max-width="1980px" height="400px"
+ frameborder="0" style="border:0;"
+ sandbox="allow-scripts allow-same-origin allow-popups"
+ layout="responsive" >
 </amp-iframe>
