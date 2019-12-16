@@ -206,15 +206,16 @@ header {
   margin-top: 0;
   position:fixed;
   margin:auto; 
-  background:linear-gradient(rgb(10, 10, 80), rgba(30, 30, 80, 0.6));
+  background:linear-gradient(rgb(10, 10, 80), rgba(30, 30, 80, 0.8));
   z-index:1;
 }
 
 
 img.blogtitle { 
-  max-width:300px;
+  max-width:250px;
   margin:auto;
-  padding-bottom:30px;
+  padding-top:15px;
+  padding-bottom:20px;
   border: none;
 }
 p.headerp {
