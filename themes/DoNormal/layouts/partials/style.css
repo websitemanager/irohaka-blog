@@ -388,6 +388,7 @@ img {
   max-width: 100%;
   height: auto;
   padding: 0.1px;
+  margin-top:10px;
   margin-bottom: 0;
   border: solid 0.8px #777;
 }
