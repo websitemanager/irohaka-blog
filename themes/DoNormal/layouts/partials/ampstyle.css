@@ -431,8 +431,7 @@ amp-social-share{
   margin:auto;
   width: 268.5px;
   height:39px;
-  border: none;
-  background: rgba(30, 30, 50, 0.1);
+  border: none; 
 }
 main {
   width: 97%;
