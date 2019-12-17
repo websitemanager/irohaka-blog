@@ -13,6 +13,9 @@ disqusShortname = "irohaka"
     description ="イロハカの自転車と旅行と趣味のはなしをメインに書いています。"
     amazonJpAffiliate = "irohaka-22"
     tags = "自転車, ブログ"
+    
+[markup.goldmark.renderer]
+  unsafe = true
 
 [outputs]
   page = ["HTML", "AMP" , "RSS"]

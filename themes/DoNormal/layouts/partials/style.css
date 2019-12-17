@@ -391,7 +391,6 @@ img {
   padding: 0.1px;
   margin-top:10px;
   margin-bottom: 0;
-  border: solid 0.8px #777;
 }
 figcaption {
   margin-top: 0;
@@ -441,7 +440,6 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   line-height: 2rem;
-  color: #aaa;
   margin-top: 30px;
   margin-bottom: 0;
 }
@@ -567,3 +565,24 @@ img.amazonimage {
   }
 
 }
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #ccc;
+    color: #333;
+  }
+  a {
+    color: #ee5577;
+  }
+
+  table {
+    border: solid 1px #333;
+  }
+  
+  table td,
+  table th,
+  table tr {
+    border: solid 1px #333;
+  }
+
+ }
