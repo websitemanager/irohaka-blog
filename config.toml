@@ -38,5 +38,5 @@ disqusShortname = "irohaka-netlify-com"
 
 [[menu.main]]
   name = "About"
-  url = "/about/"
+  url = "/pages/about/"
   weight = 2

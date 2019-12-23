@@ -1,0 +1,38 @@
+
+{{ define "main" }}
+<section class="blog-content">
+    <div class="title_line">
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="tag_line">
+      {{ with .Params.tags }}
+      <p>タグ：　</p>
+      <ul id="tag_pickup">
+        {{- range . -}}
+        <li class="tags"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+          {{- end -}}
+      </ul>
+      {{ end }}
+    </div>
+    {{ if .Params.featured_image }}
+    <figure class="featured_img">
+      <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
+    </figure>
+    {{ end}}
+    <figure class="socialshare">
+      <!-- AddToAny BEGIN -->
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_hatena"></a>
+        <a class="a2a_button_line"></a>
+      </div>
+      <script async src="https://static.addtoany.com/menu/page.js"></script>
+      <!-- AddToAny END -->
+    </figure>
+    <article>
+      {{ .Content }}
+    </article>
+</section>
+{{ end }}
