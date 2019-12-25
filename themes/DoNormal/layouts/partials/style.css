@@ -40,7 +40,7 @@ template{display:none}
   
 html {
   max-width: 100%;
-  font-family: fot-udkakugo-large-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
+  font-family: a-otf-ud-shin-go-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
   background: #152135;
   font-size: 17px;
   font-weight: 300;
@@ -66,7 +66,6 @@ h2 {
 }
 h3 {
   padding-top: 30px;
-  padding-bottom: 10px;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.5;
