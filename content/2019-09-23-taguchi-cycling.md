@@ -65,16 +65,25 @@ tags: ["旧田口線","奥三河"]
 
 {{< figure src="/images/20190923-taguchi03.jpg" alt="旧田口線沿いの河津桜" title="旧田口線沿いの河津桜" >}}
 
-こうやって脳内でオリエンテーリングをするのも楽しいのですが、やはり実際に自転車に乗りながら訪ねてみるのが一番好きです。歩くには遠いし自動車では駐車できなかったり通行できない箇所もありそうですが、自転車でのんびりと訪ねてみるのがオススメかも。古地図のリンクを貼っておきますので、ぜひ現在の地図と実際の風景と照らし合わせて奥三河をめぐってください。
+こうやって脳内でオリエンテーリングをするのも楽しいのですが、やはり実際に自転車に乗りながら訪ねてみるのが一番好きです。歩くには遠いし自動車では駐車できなかったり通行できない箇所もありそうですが、自転車でのんびりと訪ねてみるのがオススメかも。古地図のリンクを貼っておきますので、ぜひ現在の地図と実際の風景と照らし合わせて奥三河をめぐってください。  
 
+<br>  
 
 [Gaihōzu：Japanese Imperial Maps](https://stanford.maps.arcgis.com/apps/PublicGallery/index.html?appid=1ed3022fc7884690a2f137bce9dfe4fe)
 
+<br>  
+&nbsp;  
 <br>
-以下地図の著作権などについての記載:
-#### USE AND REPRODUCTION
-Image from the Map Collections courtesy Stanford University Libraries. This item is in the public domain. There are no restrictions on use. If you have questions, please contact Branner Earth Sciences Library & Map Collections at brannerlibrary@stanford.edu.
-#### COPYRIGHT
-This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
-#### LICENSE
-This work is in the public domain per Creative Commons Public Domain Mark 1.0
+--- 以下地図の著作権などについて  ---  
+
+<br>  
+&nbsp;
+
+- USE AND REPRODUCTION  
+Image from the Map Collections courtesy Stanford University Libraries. This item is in the public domain. There are no restrictions on use. If you have questions, please contact Branner Earth Sciences Library & Map Collections at brannerlibrary@stanford.edu.  
+<br>
+- COPYRIGHT  
+This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.  
+<br>
+- LICENSE  
+This work is in the public domain per Creative Commons Public Domain Mark 1.0  
