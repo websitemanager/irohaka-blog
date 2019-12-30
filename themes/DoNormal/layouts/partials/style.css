@@ -206,8 +206,8 @@ section.taglist{
   align-self: center;
 }
 
-h3.tagpage {
-  font-size: 20px;
+h3.tag {
+  font-size: 21px;
   line-height: 2;
   padding-bottom:5px;
 }
@@ -450,9 +450,9 @@ time {
   padding-bottom: 30px;
 }
 hr.dark {
-  flex-basis: 95%;;
-  border: 1px dotted #999;
-  margin-top: 23px 20px;
+  flex-basis: 90%;
+  border: 1px dotted #888;
+  margin: 20px 10px;
 }
 
 .googleadsence {

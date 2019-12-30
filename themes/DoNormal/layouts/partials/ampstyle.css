@@ -352,6 +352,10 @@ time {
   margin-bottom: 50px;
   padding-bottom: 30px;
 }
+hr{
+  border:1px solid #999;
+}
+
 hr.dark {
   height: 0;
   border: 0;
