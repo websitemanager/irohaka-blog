@@ -129,13 +129,13 @@ body {
 }
 
 main {
-  position:relative;
   max-width:100%;
   margin: auto;  
 }
 
 div#content {
   max-width:1280px;
+  margin:auto;
   display:flex;
   flex-flow: row wrap;
   justify-content:center;
