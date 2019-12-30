@@ -6,11 +6,9 @@
         </div>
         <amp-img {{ with .Params.featured_image }} src="{{ . }}" {{ end }} width="1280px" height="640px" layout="responsive" alt="{{ .Title }}" ></amp-img>
          <div class="readmore">
-         <p>{{ .Summary }}</p>    
-         {{ if .Truncated }}
-          <p>.....&nbsp;　<a class="readmore" href="{{ .RelPermalink }}" title="{{ .Title }}" >続きを読む</a></p>
+         {{ .Summary }}
+          <p><a class="readmore" href="{{ .RelPermalink }}" title="{{ .Title }}" >続きを読む</a></p>
          </div>
-         {{ end }}
 </article>
 {{ end }}
 <section id="pagination">
