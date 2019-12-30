@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 <div id="content">
-  <main>
+  <section class="taglist">
     <h3 class="tagpage">「{{ .Title }}」記事一覧</h3>
     {{ range .Data.Pages }}
     <ul id="taglist">
@@ -10,8 +10,8 @@
       </li>
     </ul>
     {{ end }}
-
-    <hr>
+    </section>
+    <hr class="dark">
     <div class="tag-index">
       <h3>タグ一覧</h3>
       <ul id="taglist">
@@ -21,11 +21,7 @@
         {{- end }}
       </ul>
     </div>
-  </main>
-</div>
-
+  
+  </div>
+</main>
 {{ partial "footer.html" . }}
-
-</body>
-
-</html>

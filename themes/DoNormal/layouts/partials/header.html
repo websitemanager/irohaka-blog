@@ -46,6 +46,9 @@
   <style>
     {{ replaceRE " +" " " (replaceRE "\n" "" (partial "style.css" .)) | safeCSS }}
   </style>
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/zdo_drawer_menu.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ .Site.BaseURL }}js/zdo_drawer_menu.js"></script>
   <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" href="/icon-192x192.png">
 </head>
@@ -56,7 +59,44 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
-    <p class="headerp"><a href="{{ .Site.BaseURL }}" 　><img class="blogtitle" src="/img/blogtitle.svg"
+    <div class="zdo_drawer_menu left">
+      <div class="zdo_drawer_bg"></div>
+      <button type="button" class="zdo_drawer_button">
+        <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+        <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+        <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+        <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+        <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
+      </button>
+      <nav class="zdo_drawer_nav_wrapper">
+        <ul class="zdo_drawer_nav">
+          <li>
+            <a href="{{ .Site.BaseURL }}">
+              TOPページ
+            </a>
+          </li>
+          <li>
+            <a href="{{ .Site.BaseURL }}pages/about/">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="{{ .Site.BaseURL }}tags/自転車のはなし/">
+              自転車のはなし
+            </a>
+          </li>
+          <li>
+            <a href="{{ .Site.BaseURL }}tags/旅行/">
+              旅行のはなし
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+    <div class="header-center" ><p><a href="{{ .Site.BaseURL }}" ><img class="blogtitle" src="/img/blogtitle.svg"
           alt="{{ .Site.Title }}"></a></p>
+    </div>
+    <div class="header-right"></div>
   </header>
 <main>

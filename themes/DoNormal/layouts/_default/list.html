@@ -2,15 +2,6 @@
 {{ with .Site.Params.description }}
 <p class="description">{{ . }}</p>
 {{ end }}
-<div class="menuline">
-<ul class="topmenu">
-  {{ range .Site.Menus.main }}
-  <li class="menu_line">
-    <a href="{{ .URL }}">{{ .Name }}</a>
-  </li>
-  {{ end }}
-</ul>
-</div>
 {{ range (.Paginator 9).Pages }}
 <article class="toplist">
         <img {{ with .Params.featured_image}} src="{{ . }}" {{ end }} width="300px" height="150px" alt="{{ .Title }}">
