@@ -5,7 +5,9 @@
 <section class="indexpage">
 {{ range (.Paginator 9).Pages }}
 <article class="toplist">
-        <img {{ with .Params.featured_image }} src="{{ . }}" {{ end }}  width="300px" height="150px" alt="{{ .Title }}">
+        <figure>
+            <img {{ with .Params.featured_image }} src="{{ . }}" {{ end }}  width="300px" height="150px" alt="{{ .Title }}">
+        </figure>
         <div class="list-title">
         <h2><a href="{{ .RelPermalink }}" title="{{ .Title }}" >{{ .Title }}</a></h2>
         </div>

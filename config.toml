@@ -40,3 +40,6 @@ disqusShortname = "irohaka-netlify-com"
   name = "About"
   url = "/pages/about/"
   weight = 2
+
+  # let hugo automatically resize and crop your images to the correct sizes
+    resizeImages = true
