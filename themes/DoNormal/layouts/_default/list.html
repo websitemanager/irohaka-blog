@@ -5,7 +5,7 @@
 <section class="indexpage">
 {{ range (.Paginator 9).Pages }}
 <article class="toplist">
-        <img {{ with .Params.featured_image}} src="{{ . }}" {{ end }} width="300px" height="150px" alt="{{ .Title }}">
+        <img {{ with .Params.featured_image }} src="{{ . }}" {{ end }}  width="300px" height="150px" alt="{{ .Title }}">
         <div class="list-title">
         <h2><a href="{{ .RelPermalink }}" title="{{ .Title }}" >{{ .Title }}</a></h2>
         </div>
@@ -14,8 +14,8 @@
          <p>{{ .Summary }}</p>    
          <p class="readmore"><a class="readmore" href="{{ .RelPermalink }}" title="「{{ .Title }}」の続きを読む">続きを読む</a><p>
          </div>
- </article>       
-    {{ end }}
+ </article> 
+{{ end }}
 </section>   
     <div class="pagination">
         {{ template "_internal/pagination.html" . }}

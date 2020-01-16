@@ -3,8 +3,6 @@ title: "About Me"
 author: irohaka
 type: pages
 date: 2015-08-01T12:43:03+09:00
-images: ["/img/eyecatch.jpg"]
-featured_image: "/img/eyecatch.jpg"
 ---
 
 ブログを見ていただきありがとうございます。イロハカです。
