@@ -1,9 +1,0 @@
-{{ $src := .Get "src" }}
-{{ $config := imageConfig (printf "content/%s" $src) }}
-<amp-img src="{{ .Site.BaseURL | absLangURL }}{{$src}}"
-    width="{{$config.Width}}"
-    height="{{$config.Height}}"
-    alt="{{ .Get "alt" }}"
-    title="{{ .Get "title" }}"
-    layout="responsive"></amp-img>
-    <figcaption><h4>{{ .Get "title"}}</h4></figcaption>

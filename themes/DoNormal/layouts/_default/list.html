@@ -6,7 +6,13 @@
 {{ range (.Paginator 9).Pages }}
 <article class="toplist">
         <figure>
-            <img {{ with .Params.featured_image }} src="{{ . }}" {{ end }}  width="300px" height="150px" alt="{{ .Title }}">
+            {{ $head_img := .Resources.GetMatch "images/featured.jpg" }}
+            {{ if $head_img }}
+            {{ $small := $head_img.Fit "300x150 q80" }}
+            <img src="{{ $small.RelPermalink }}" width="300px" height="150px" alt="{{ .Title }}">
+            {{ else }}
+             <img src="/images/eyecache.jpg" width="300px" height="150px" alt="{{ .Title }}">
+             {{ end }}
         </figure>
         <div class="list-title">
         <h2><a href="{{ .RelPermalink }}" title="{{ .Title }}" >{{ .Title }}</a></h2>

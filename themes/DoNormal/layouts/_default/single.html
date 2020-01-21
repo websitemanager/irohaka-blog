@@ -14,11 +14,13 @@
       </ul>
       {{ end }}
     </div>
-    {{ if .Params.featured_image }}
+    
+  
     <figure class="featured_img">
-      <img src="{{ .Params.featured_image | relURL}}" alt="{{ .Title}}">
+      <img src="images/featured.jpg" alt="{{ .Title}}" width="1280" height="640"></img>
     </figure>
-    {{ end}}
+    
+  
     <figure class="socialshare">
       <!-- AddToAny BEGIN -->
       <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
