@@ -29,6 +29,7 @@ tags: [ "Ultegra","自転車のはなし" ]
 **注意！　　料金が間違っていても責任は一切取りませんのであしからず。**
 
 &nbsp;
+{{< table >}} 
 ### 8000系アルテグラ　機械式  
 <table><caption>アルテグラ機械式キャリパーブレーキ仕様</caption>
 <tr><td>ST-R8000</td><td>機械式STIレバー</td><td align="right">34,638円</td></tr>
@@ -40,8 +41,10 @@ tags: [ "Ultegra","自転車のはなし" ]
 <tr><td>CN-HG701-11</td><td>チェーン</td><td align="right">4,758円</td></tr>
 <tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">104,768円(税抜)</th></tr>
 </table>
-  
-&nbsp;
+{{< /table >}}   
+
+
+{{< table >}} 
 <table><caption>アルテグラ機械式油圧ディスクブレーキ仕様</caption> 
 <tr><td>ST-R8020</td> <td>機械式STIレバー（ディスクブレーキ</td><td align="right">55,321円</td></tr>
 <tr><td>FD-R8000</td><td>機械式フロントディレイラー</td><td align="right">5,621円</td></tr>
@@ -53,7 +56,7 @@ tags: [ "Ultegra","自転車のはなし" ]
 <tr><td>CS-R8000</td><td>カセットスプロケット（11-25Ｔ、11-28Ｔ、12-25T）</td><td align="right">8,123円</td></tr>
 <tr><td>CN-HG701-11</td><td>チェーン</td><td align="right">4,758円</td></tr><tr>
 <th style="text-align:left" colspan="2">合計</td><th style="text-align:right">134,655円(税抜)</th></tr> </table>   
-
+{{< /table >}} 
 &nbsp;
 <br>
 
@@ -68,7 +71,7 @@ tags: [ "Ultegra","自転車のはなし" ]
 
 <br>
 
-  
+{{< table >}}  
 <table>
 <caption>電動アルテグラキャリパーブレーキ仕様</caption> 
 <tr><td>ST-R8050</td><td>電動STIレバー（ディスクブレーキ）</td><td align="right">33,387円</td></tr>
@@ -85,8 +88,9 @@ tags: [ "Ultegra","自転車のはなし" ]
 <tr><td>CS-R8000</td><td>カセットスプロケット（11-25Ｔ、11-28Ｔ、12-25T）</td><td align="right">8,123円</td></tr>
 <tr><td>CN-HG701-11</td><td>チェーン</td><td align="right">4,758円</td></tr>
 <tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">185,747円(税抜)</th></tr></table>
-  
-  
+{{< /table >}} 
+
+{{< table >}}
 <table>
 <caption>電動アルテグラディスクブレーキ仕様</caption> 
 <tr><td>ST-R8070</td><td>電動STIレバー</td><td align="right">54,964円</td></tr>
@@ -105,7 +109,7 @@ tags: [ "Ultegra","自転車のはなし" ]
 <tr><td>CS-R8000</td><td>カセットスプロケット（11-25Ｔ、11-28Ｔ、12-25T）</td><td align="right">8,123円</td></tr>
 <tr><td>CN-HG701-11</td><td>チェーン</td><td align="right">4,758円</td></tr><tr>
 <tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">231,157円(税抜)</th></tr></table>
-      
+{{< /table >}}    
 
 うーん、値上げと消費税アップで随分高くなった気がします。それでも他のコンポーネントと比べるとお値打ち感があるのはすごい。計算間違えや足らないパーツがあるだけかもしれませんが・・・。とりあえず、税込で考えるとキャリパーブレーキ式が20万円くらい、ディスクブレーキ式が25万円という感じで考えようと思います。
 <br>

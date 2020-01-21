@@ -16,6 +16,7 @@ SRAMから先日チョイ見せされたRED eTapの12速バージョンが発表
 
 インターマックスではRED eTap AXSをセット販売で価格を設定しているようです。
 
+{{< table >}} 
 <table>
   <tr>
     <td>
@@ -51,6 +52,7 @@ SRAMから先日チョイ見せされたRED eTapの12速バージョンが発表
     </td>
   </tr>
 </table>
+{{< /table >}} 
 
 [SRAM RED eTAP AXS | INTERMAX](http://www.intermax.co.jp/products/sram/products/red_etap_axs.html)
 

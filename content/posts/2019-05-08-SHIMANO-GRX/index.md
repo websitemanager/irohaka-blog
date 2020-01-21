@@ -26,6 +26,7 @@ SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノは�
 &nbsp; <br>
   
 <br>
+{{< table >}} 
 <table><caption>GRX機械式(RX600)　-　2x10速</caption>
   <tr><td>ST-RX400</td><td> 機械式シフター　左右セット</td><td style="text-align:right">32,387円</td></tr>
   <tr><td>ST-RX400</td><td>フロントディレイラー</td><td style="text-align:right">3,353円</td></tr>
@@ -38,12 +39,15 @@ SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノは�
   </tr><tr><td>CN-HG600-11</td><td>チェーン</td><td style="text-align:right">3,641円</td></tr>
   <tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">82,626円(税抜)</th></tr>
 </table>
+{{< /table >}} 
 ブレーキローターやカセットのグレードを下げればもう少しお値打ちになると思いますが、かなりお値打ちですね！
 ひょっとしたら2020年モデルの完成車にもう少しパーツを工夫したアンサンブルでRX400を搭載したグラベルバイクが登場するかもしれません。
 <br>
 
 ### SHIMANO GRX 機械式　11速の場合
 ここからはメインの11速の組み合わせで考えてみました。なお、シフターは別々に買うことも可能ですので、1ｘ11などの組み合わせではスイッチのないシフターを買うこともできるようになっています。すごい！ 
+
+{{< table >}} 
 <table>
 <caption>GRX機械式　-　1x11速</caption>
   <tr><td>ST-RX810</td><td>機械式シフター　左右セット</td><td style="text-align:right">53,627円</td></tr>
@@ -56,7 +60,9 @@ SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノは�
   <tr><td>CN-HG600-11</td><td>チェーン</td><td style="text-align:right">3,641円</td></tr>
   <tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">120,709円(税抜)</th></tr>
 </table>
-<br>　　
+{{< /table >}} 
+
+{{< table >}} 　　
 <table>
 <caption>GRX機械式　-　2x11速</caption>
 <tr><td>ST-RX810</td><td>機械式シフター　左右セット</td><td style="text-align:right">53,627円</td></tr>
@@ -70,11 +76,15 @@ SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノは�
 <tr><td>CN-HG600-11</td><td>チェーン</td><td style="text-align:right">3,641円</td></tr>
 <tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">127,400円(税抜)</th></tr>
 </table>
+{{< /table >}} 
+
 <br>
 前述したように選択肢によっては上記の値段よりも安くなります。ここではとりあえず1ｘ11、2ｘ11の組み合わせで妄想をしております。 
 
 ### SHIMANO GRX Di2の場合
-次はDi2の場合のお値段です。例によって電動ユニットのお値段が高いのでシフター・ディレイラーだけで計算しないように気をつけました。 　　
+次はDi2の場合のお値段です。例によって電動ユニットのお値段が高いのでシフター・ディレイラーだけで計算しないように気をつけました。 　
+
+{{< table >}} 　
 <table>
 <caption>GRX Di2　-　1x11速</caption>
 <tr><td>ST-RX815</td><td>電動シフター左右セット</td><td style="text-align:right">53,477円</td></tr>
@@ -92,7 +102,10 @@ SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノは�
 <tr><td>CS-M7000</td><td>カセット　11-42T(1x11用）</td><td style="text-align:right">7,405円</td></tr>
 <tr><td>CN-HG600-11</td><td>チェーン</td><td style="text-align:right">3,641円</td></tr><tr><th style="text-align:left" colspan="2">合計</th><th style="text-align:right">187,348円(税抜)</th></tr>
 </table>
-<br>
+{{< /table >}} 
+
+
+{{< table >}} 
 <table>
 <caption>GRX Di2　-　2x11速</caption>
 <tr><td>ST-RX815</td><td>電動シフター左右セット</td><td style="text-align:right">53,477円</td></tr>
@@ -114,6 +127,7 @@ SRAMがワイヤレスでAXSシリーズを発表しましたが、シマノは�
     <th style="text-align:right">208,343円(税抜)</th>
   </tr>
 </table>
+{{< /table >}} 
 
 ### やっぱりお値打ち・・・？
 やはり電動は22〜23万円あたりが相場ですかね・・・。それでもSRAM FORCE AXS（REDじゃなくて）より随分と価格差があります。うーん🤔🤔🤔

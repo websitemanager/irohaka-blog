@@ -1,10 +1,19 @@
 {{ define "main" }}
 {{ range (.Paginator 5).Pages }}
 <article class="toplist">
+    
         <div class="list-title">
             <h2><a href="{{ .RelPermalink }}" title="{{ .Title  }}" >{{ .Title }}</a></h2><time>{{.Date.Format "2006年01月02日"}}</time>
         </div>
-        <amp-img {{ with .Params.featured_image }} src="{{ . }}" {{ end }} width="1280px" height="640px" layout="responsive" alt="{{ .Title }}" ></amp-img>
+        <figure>
+            {{ $head_img := .Resources.GetMatch "images/featured.jpg" }}
+            {{ if $head_img }}
+            {{ $image := $head_img.Fit "1080x540 q80" }}
+            <amp-img src="{{ $image.RelPermalink }}" width="1080px" height="540px" alt="{{ .Title }}"></amp-img>
+            {{ else }}
+             <amp-img src="/images/eyecache.jpg" width="1080px" height="540px" alt="{{ .Title }}"></amp-img>
+             {{ end }}
+        </figure>
          <div class="readmore">
          {{ .Summary }}
           <p><a class="readmore" href="{{ .RelPermalink }}" title="{{ .Title }}" >続きを読む</a></p>
