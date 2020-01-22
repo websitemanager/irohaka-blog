@@ -3,7 +3,7 @@
 <p class="description">{{ . }}</p>
 {{ end }}
 <section class="indexpage">
-{{ range (.Paginator 9).Pages }}
+{{ range (.Paginator 9).Pages.ByParam "post" }}
 <article class="toplist">
         <figure>
             {{ $head_img := .Resources.GetMatch "images/featured.jpg" }}
