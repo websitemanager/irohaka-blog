@@ -9,9 +9,9 @@
             {{ $head_img := .Resources.GetMatch "images/featured.jpg" }}
             {{ if $head_img }}
             {{ $image := $head_img.Fit "1080x540 q80" }}
-            <amp-img src="{{ $image.RelPermalink }}" width="1080px" height="540px" alt="{{ .Title }}"></amp-img>
+            <amp-img src="{{ $image.RelPermalink }}" width="1080px" height="540px" alt="{{ .Title }}" layout="responsive"></amp-img>
             {{ else }}
-             <amp-img src="/images/eyecache.jpg" width="1080px" height="540px" alt="{{ .Title }}"></amp-img>
+             <amp-img src="/images/eyecache.jpg" width="1080px" height="540px" alt="{{ .Title }}" ayout="responsive"></amp-img>
              {{ end }}
         </figure>
          <div class="readmore">
