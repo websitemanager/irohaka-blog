@@ -14,14 +14,14 @@ tags: [ "Rapha" ]
 
 ![夏はRaphaのライトウェイトジャージが快適です。](images/201609rapha-jersey.jpg)  
 
-&nbsp; <br>
+
 
 ![Rapha Climber Shoes。すごく軽いです。"](images/201609rapha_climbers_shoes.jpg)  
 
  
 Raphaは小物もよくできているような気がします。ライド中にスマホと少しのお金を入れておくポーチや、海外に行く時必要なパスポートや書類を入れておけるTransfer Walletは愛用しています。デザインはシンプルながら、使うとそのシンプルなデザインが機能的にも美しく、かつ長く使えるのはすごいと思います。すこし高めのお値段でも納得できると思っています。
 
-&nbsp; <br>
+
 
 ![Transfer Wallet"](images/201609rapha-wallet.jpg)  
 
