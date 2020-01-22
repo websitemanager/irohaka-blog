@@ -1,7 +1,7 @@
 {{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
-{{ $small := $image.Resize "480x" }}
-{{ $medium := $image.Resize "768x" }}
-{{ $big := $image.Resize "1024x" }}
+{{ $small := $image.Resize "580x" }}
+{{ $medium := $image.Resize "890x" }}
+{{ $big := $image.Resize "1280x" }}
 {{ $alt := .PlainText | safeHTML }}
 {{ $caption := "" }}
 {{ with .Title }}
