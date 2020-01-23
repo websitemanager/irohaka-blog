@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+url: /pages/about
 author: irohaka
 date: 2015-08-01T12:43:03+09:00
 ---
