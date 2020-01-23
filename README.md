@@ -1,3 +1,1 @@
-# theme_Supernormal
-Supernormal theme for hugo
-
+# irohaka's blog
