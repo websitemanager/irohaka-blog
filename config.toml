@@ -16,8 +16,8 @@ disqusShortname = "irohaka"
     
 
 [outputs]
-  page = ["HTML" , "RSS"]
-  Home = ["HTML" , "RSS"]
+  page = ["HTML" , "AMP" , "RSS"]
+  Home = ["HTML" , "AMP" , "RSS"]
 
 disqusShortname = "irohaka-netlify-com"
 
