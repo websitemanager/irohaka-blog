@@ -14,10 +14,10 @@ tags: [ "Rapha" ]
 
 この10年のあいだにジャージのデザインや色合いも変化してシンプルでエディ・メルクスがかつて活躍していたころのを連想させるクラシックかつ機能性は最新のRaphaのサイクルアパレルは、いまや多くの人から受け入れられるようになりました。
 
-![夏はRaphaのライトウェイトジャージが快適です。](images/201609rapha-jersey.jpg)  
+![夏はRaphaのライトウェイトジャージが快適です。](images/201609rapha-jersey.jpg)
 
 
-![Rapha Climber Shoes。すごく軽いです。"](images/201609rapha_climbers_shoes.jpg)  
+![Rapha Climber Shoes。すごく軽いです。](images/s-works-roubaix-sl4-r-sys-edited.jpg)
 
  
 Raphaは小物もよくできているような気がします。ライド中にスマホと少しのお金を入れておくポーチや、海外に行く時必要なパスポートや書類を入れておけるTransfer Walletは愛用しています。デザインはシンプルながら、使うとそのシンプルなデザインが機能的にも美しく、かつ長く使えるのはすごいと思います。すこし高めのお値段でも納得できると思っています。
