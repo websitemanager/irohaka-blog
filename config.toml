@@ -34,28 +34,7 @@ disqusShortname = "irohaka-netlify-com"
   url = "/pages/about/"
   weight = 2
 
-  # let hugo automatically resize and crop your images to the correct sizes
-    resizeImages = true
-
 [markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = ""
-    fractions = true
-    hrefTargetBlank = true
-    latexDashes = true
-    nofollowLinks = true
-    extensionsmask = ["autolink"]
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
-  
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
@@ -65,29 +44,11 @@ disqusShortname = "irohaka-netlify-com"
       table = true
       taskList = true
       typographer = true
-
     [markup.goldmark.parser]
       attribute = true
       autoHeadingID = true
       autoHeadingIDType = "github"
-    
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = false
       xHTML = false
-
-   [markup.highlight]
-     codeFences = true
-     guessSyntax = false
-     hl_Lines = ""
-     lineNoStart = 1
-     lineNos = false
-     lineNumbersInTable = true
-     noClasses = true
-     style = "monokai"
-     tabWidth = 4
-
-   [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2

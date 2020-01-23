@@ -27,7 +27,7 @@ S-works Roubaix SL4は長距離走っても身体が凄く疲れるという事�
 
 ![ROVALホイール](images/s-sworksroubaixsl4_2016.jpg)  
 
-![Mavic R-sys](images/s-sworksroubaixsl4_2016.jpg)
+![Mavic R-sys](images/s-works-roubaix-sl4-mavic-r-sys_edited.jpg)
 
 
 
