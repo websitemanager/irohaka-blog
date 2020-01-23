@@ -10,6 +10,7 @@ tags: [ "specialized","Roubaix" ]
 ---
 
 いろいろと自分のロードバイクも変遷してきましたが、今のスペシャライズドのルーベで落ち着いた感じがします。
+<!--more-->
   
 スペックは、
 
@@ -24,9 +25,7 @@ S-works Roubaix SL4は長距離走っても身体が凄く疲れるという事�
 
 そんな訳で自慢の愛車となり、長く乗り続けていきたいと思っています。
 
-
 ![ROVALホイール](images/s-sworksroubaixsl4_2016.jpg)  
-
 
 ![Mavic R-sys](images/s-sworksroubaixsl4_2016.jpg)
 
