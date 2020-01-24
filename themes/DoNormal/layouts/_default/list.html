@@ -3,7 +3,8 @@
 <p class="description">{{ . }}</p>
 {{ end }}
 <section class="indexpage">
-{{ range (.Paginator 9).Pages.ByParam "post" }}
+    {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "posts") }}
+    {{ range $paginator.Pages }}
 <article class="toplist">
         <figure>
             {{ $head_img := .Resources.GetMatch "images/featured.jpg" }}
