@@ -6,7 +6,7 @@ date: 2019-02-09T08:34:38
 url: /SRAM_AXS
 images: ["images/featured.jpg"]
 featured_image: "images/featured.jpg"
-tags: [ "eTap","自転車のはなし" ]
+tags: [ "自転車のはなし" , "コンポーネント"]
 ---
 
 SRAMから先日チョイ見せされたRED eTapの12速バージョンが発表されたと思っていたのですが、これは全く考えを改めないといけないと思いました。

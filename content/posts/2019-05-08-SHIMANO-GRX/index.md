@@ -5,7 +5,7 @@ author: irohaka
 date: 2019-05-08T12:21:44+00:00
 images: ["images/featured.jpg"]
 featured_image: "images/featured.jpg"
-tags : [ "自転車のはなし" ]
+tags : [ "自転車のはなし" , "コンポーネント" ]
 ---
 シマノからいよいよグラベルバイク向けのコンポーネント「GRX」が登場しました。<!--more-->
 ### SHIMANO初、グラベルバイク用コンポーネント「GRX」

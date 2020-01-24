@@ -6,7 +6,7 @@ date: 2019-09-02T09:45:28+09:00
 url: /howmuchtotalyR8000
 images: ["images/featured.jpg"]
 featured_image: "images/featured.jpg"
-tags: [ "Ultegra","自転車のはなし" ]
+tags: [ "自転車のはなし" , "コンポーネント" ]
 ---
 
 このエントリーは2017年6月9日に公開されましたが、2019年の内容に加筆・修正しました。
