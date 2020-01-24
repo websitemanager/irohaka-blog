@@ -9,7 +9,7 @@ disqusShortname = "irohaka"
 
 [Params]
     author = "IROHAKA"
-    images = ["img/eyecache.jpg"]
+    images = ["images/featured.jpg"]
     description ="イロハカの自転車と旅行と趣味のはなしをメインに書いています。"
     amazonJpAffiliate = "irohaka-22"
     tags = "自転車, ブログ"
