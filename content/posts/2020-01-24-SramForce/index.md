@@ -4,7 +4,7 @@ author: irohaka
 type: post
 date: 2020-01-22T13:13:10+09:00
 url: /sramforceaxs
-images: ["images/featured.jpg"]
+images: ["/images/featured.jpg"]
 featured_image: "images/featured.jpg"
 tags: ["コンポーネント"]
 ---

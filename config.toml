@@ -24,15 +24,6 @@ disqusShortname = "irohaka-netlify-com"
 [taxonomies]
     tag = "tags"
 
-[[menu.main]]
-  name = "TOPページ"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "About"
-  url = "/pages/about/"
-  weight = 2
 
 [markup]
   [markup.goldmark]
