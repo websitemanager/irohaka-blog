@@ -2,7 +2,6 @@
 title: "About Me"
 url: /about
 author: irohaka
-date: 2015-08-01T12:43:03+09:00
 ---
 
 ブログを見ていただきありがとうございます。イロハカです。
