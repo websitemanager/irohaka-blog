@@ -56,6 +56,7 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
+    <div class="header_left">
     <div class="zdo_drawer_menu left">
       <div class="zdo_drawer_bg"></div>
       <button type="button" class="zdo_drawer_button">
@@ -91,9 +92,36 @@
         </ul>
       </nav>
     </div>
+  </div>
     <div class="header-center" ><p><a href="{{ .Site.BaseURL }}" ><img class="blogtitle" src="/img/blogtitle.svg"
           alt="{{ .Site.Title }}"></a></p>
     </div>
-    <div class="header-right"></div>
+    <div class="header-right">
+      <input id="btnchk" type="checkbox">
+      <label for="Dark"></label>
+      <div class="input-label">Dark</div>
+      <script>
+        const btn = document.querySelector("#btnchk");
+        btn.addEventListener("change", () => {
+        if (btn.checked == true) {
+         // darkmode
+        document.body.classList.remove("light-theme");
+        document.body.classList.add("dark-theme");
+        document.table.classList.remove("light-theme");
+        document.table.classList.add("dark-theme");
+        document.a.classList.remove("light-theme");
+         document.a.classList.add("dark-theme");
+       } else {
+         // lightmode
+         document.body.classList.remove("dark-theme");
+         document.body.classList.add("light-theme");
+         document.table.classList.remove("dark-theme");
+         document.table.classList.add("light-theme");
+         document.a.classList.remove("dark-theme");
+         document.a.classList.add("light-theme");
+         }
+      });
+      </script>
+    </div>
   </header>
 <main>

@@ -38,7 +38,7 @@ template{display:none}
 html {
   max-width: 100%;
   font-family: a-otf-ud-shin-go-pr6n,'ヒラギノ角ゴシック','Meiryo',sans-serif;
-  background: #152135;
+  background: #2c2c2c;
   font-size: 17px;
   font-weight: 300;
   line-height: 1.8;
@@ -48,6 +48,7 @@ html {
   font-feature-settings: "pwid";
   text-size-adjust: 100%;
   word-break: normal;
+  transition: .5s;
 }
 
 h1 {
@@ -65,7 +66,7 @@ h3 {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 h4 {
@@ -77,11 +78,11 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #dfa3cb;
+  color: #ee5577;
 }
 a:hover {
   text-decoration: none;
-  color: #f0c0f5;
+  color: #ec335b;
 }
 a.previous {
   font-size: 1.2rem;
@@ -101,7 +102,7 @@ p.readmore{
 a.readmore {
   display: inline-block;
   text-align: right;
-  border: solid 1px #db8ec1;
+  border: solid 1px;
   margin-top:5px;
   padding-right: 10px;
   padding-left: 10px;
@@ -176,12 +177,12 @@ header {
   clear: both;
   margin-top: 0;
   margin:auto; 
-  background:linear-gradient(rgb(11, 11, 41), rgba(11, 11, 41, 0.9));
+  background:linear-gradient(rgb(11, 11, 11), rgba(11, 11, 11, 0.9));
   z-index:1;
 }
 
 img.blogtitle { 
-  width:280px;
+  width:250px;
   margin:auto;
   padding-top:25px;
   padding-bottom:20px;
@@ -198,6 +199,30 @@ div.header-right {
 }
 
 /********  end*header  **********/
+
+div.header_left{
+  width: 40px;
+}
+
+.header-right{
+  margin-right: 20px;
+  top:10px;
+  width: 20px;
+  align-self: center;
+}
+
+
+input[type="checkbox"] {
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.input-label{
+  font-size:6px;
+  text-align: center;
+  color:#aaa;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -321,26 +346,6 @@ div.list-title {
   padding: 0px;
 }
 
-div.menuline{
-  max-width: 100%;
-  flex-basis: 100%;
-}
-
-ul.topmenu {
-  display:flex;
-  max-width: 300px;
-  padding: 30px 0 30px 0;
-  margin: auto;}
-
-
-li.menu_line {
-  flex: 1;
-  border: solid 0.8px #db8ec1;
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
-  margin: 5px;
-}
 li {
   margin-bottom: 16px;
 }
@@ -439,7 +444,7 @@ table {
   margin-bottom: 15px;
   padding: 5px;
   border-collapse: collapse;
-  border: solid 1px #aaa;
+  border: solid 1px #777;
 }
 table caption {
   text-align: left;
@@ -637,3 +642,29 @@ section.taglist{
   }
 
  }
+
+ body.light-theme {
+  background: #ccc;
+  color: #333;
+ }
+
+  table,
+  table td,
+  table th,
+  table tr.light-theme{
+    border: solid 1px #777;
+  }
+
+
+body.dark-theme {
+  background: #2c2c2c;
+  color: #ccc;
+}
+
+
+table,
+  table td,
+  table th,
+  table tr.dark-theme{
+    border: solid 1px #777;
+  }

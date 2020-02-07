@@ -183,4 +183,34 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     right: auto;
     left: 20px;
   }
+  
+  .zdo_drawer_button {
+    margin-left:-5px;
+    display: block;
+    padding: 0;
+    margin-top:5px;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    background: none;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .zdo_drawer_button .zdo_drawer_bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    transition: all 0.2s;
+    transform-origin: 0% 0%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+  }
+  .zdo_drawer_text {
+    display: none;
+  }
 }
