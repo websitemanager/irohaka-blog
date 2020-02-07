@@ -541,12 +541,11 @@ img.amazonimage {
 .amazontitle > small {
   line-height: 8px;
 }
-section #disqus {
-  flex-basis: 100%;
-  align-self:center;
-  padding:30px;
 
-  
+section#disqus {
+  flex-basis: 100%;
+  margin-right:20px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 673px) {
@@ -578,12 +577,6 @@ section #disqus {
   main {
     max-width: 97%;
     margin: auto;
-  }
-
-  section #disqus {
-    flex-basis: 100%;
-    align-self: center;
-    paddig:0px 20px;
   }
 
   div.prevnextlink {
