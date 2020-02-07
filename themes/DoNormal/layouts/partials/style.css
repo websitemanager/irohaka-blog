@@ -542,8 +542,10 @@ img.amazonimage {
   line-height: 8px;
 }
 section #disqus {
-  flex-basis: 95%;
+  flex-basis: 100%;
   align-self:center;
+  padding:30px;
+
   
 }
 
@@ -579,8 +581,9 @@ section #disqus {
   }
 
   section #disqus {
-    flex-basis: 98%;
+    flex-basis: 100%;
     align-self: center;
+    paddig:0px 20px;
   }
 
   div.prevnextlink {
