@@ -38,8 +38,8 @@ tags: ["お出かけ"]
 ![長篠河津桜](images/2020-0303-03.jpg)
 
 [「長篠河津桜並木へお越しの皆さまへ」 - 新城市観光協会](https://shinshirokankou.com/event/nagashinokawazu.html)
-　  
-
+　　   
+　　  
 {{< iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.8215930273354!2d137.57649681531728!3d34.936011078086715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b373b025c0c29%3A0xe009fae73d5deb43!2z5rKz5rSl44Gu5qGc5Lim5pyo!5e0!3m2!1sja!2sjp!4v1583225946595!5m2!1sja!2sjp" >}}
 　
 　  
