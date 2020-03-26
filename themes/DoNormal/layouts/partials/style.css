@@ -140,10 +140,15 @@ template {
 
 html {
   max-width: 100%;
-  font-family: a-otf-ud-shin-go-pr6n, "ヒラギノ角ゴシック", "Meiryo", sans-serif;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+
   background: #2c2c2c;
   font-size: 17px;
-  font-weight: 300;
   line-height: 1.8;
   font-style: normal;
   color: #ccc;
@@ -155,26 +160,25 @@ html {
 }
 
 h1 {
-  font-size: 1.6rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 500;
   padding: 5px 5px 5px 0;
   line-height: 1.8;
 }
 h2 {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 500;
   line-height: 1.6;
 }
 h3 {
   padding-top: 30px;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.2rem;
   line-height: 1.7;
 }
 
 h4 {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0;
   line-height: 0.9rem;
 }
@@ -304,13 +308,6 @@ div.header-right {
 
 div.header_left {
   width: 40px;
-}
-
-.header-right {
-  margin-right: 20px;
-  top: 10px;
-  width: 20px;
-  align-self: center;
 }
 
 input[type="checkbox"] {
@@ -578,24 +575,22 @@ footer {
   margin-bottom: 0;
 }
 
-div.to-top {
-  position: relative;
-  margin-top: 30px;
-  width: 60px;
-  height: 60px;
-  left: 70%;
+#page_top {
+  position: fixed;
   bottom: 30px;
-  background-color: #5caef5;
-  border-radius: 50%;
+  right: 20px;
 }
-a.back-to-top {
+#page_top a {
+  background-color: rgb(16, 118, 177);
   color: #fff;
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 15px;
+  border-radius: 30px;
+}
+#page_top a:hover {
+  background-color: rgb(12, 93, 139);
+  text-decoration: none;
 }
 
 .socialshare {
