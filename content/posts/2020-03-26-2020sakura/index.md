@@ -3,7 +3,7 @@ title: "桜をもとめ東へ西へ"
 author: irohaka
 type: post
 date: 2020-03-26T16:33:00+09:00
-url: /2020さくら
+url: /2020sakura
 images: ["/images/featured.jpg"]
 featured_image: "images/featured.jpg"
 tags: [ "サイクリング" ]
